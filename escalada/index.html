@@ -59,6 +59,16 @@
         <article><strong id="metric-40">50</strong><span>boulders a 40°</span></article>
       </div>
 
+      <article class="chart-panel rock-progress" aria-labelledby="rock-title">
+        <div class="panel-heading"><div><p class="section-kicker">Roca con cuerda · actualizado el 15/10/2026</p><h2 id="rock-title">Últimos encadenes.</h2></div></div>
+        <div class="table-wrap">
+          <table><thead><tr><th>Fecha</th><th>Vía</th><th>Zona</th><th>Grado</th><th>Estilo</th><th>Intentos</th></tr></thead><tbody id="rock-ascents"></tbody></table>
+        </div>
+        <p class="diagnosis-note">Fuente: <a href="https://www.8a.nu/user/juanfran-jimenez/sportclimbing" target="_blank" rel="noopener noreferrer">tu registro de 8a.nu</a>. Los intentos no registrados se muestran como «—».</p>
+        <p class="diagnosis-note" id="strength-test-status"></p>
+        <p class="diagnosis-note">Histórico MoonBoard disponible hasta el 17/09/2026. Pendiente incorporar las sesiones posteriores del móvil.</p>
+      </article>
+
       <div class="summary-grid">
         <article class="chart-panel">
           <div class="panel-heading">
@@ -283,6 +293,7 @@
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="assets/data.js"></script>
+  <script src="assets/rock-data.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

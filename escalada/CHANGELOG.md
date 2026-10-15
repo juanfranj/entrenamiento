@@ -1,5 +1,13 @@
 # Historial de cambios
 
+## 15/10/2026
+
+- Publicación del proyecto organizado por disciplinas en GitHub Pages.
+- Ascensiones de cuerda verificadas en 8a.nu: Námaste (7c) y Moya Boom (7b+, segundo intento).
+- Test de fuerza con sensor marcado como pendiente, sin mediciones.
+- Datos de cuerda disponibles en el panel, en la exportación JSON y en una hoja complementaria del Excel.
+- Script de regeneración de datos incorporado. MoonBoard conserva su corte del 17/09/2026 hasta consultar las sesiones posteriores.
+
 ## 1.1.0 — 17 de septiembre de 2026
 
 - Convertida la hoja de ruta en un selector interactivo de cinco bloques.
@@ -16,4 +24,3 @@
 - Añadidos resumen, historial, filtros y registro manual.
 - Creado el bloque 2 con dos días de MoonBoard y un día de cuerda.
 - Añadida la dosis puente de continuidad para semanas 2 y 4.
-

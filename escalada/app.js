@@ -175,6 +175,12 @@
     catch { return []; }
   }
 
+  function renderRockAscents() {
+    const ascents = [...(window.ROCK_DATA?.ascents || [])].sort((a, b) => b.date.localeCompare(a.date));
+    $("#rock-ascents").innerHTML = ascents.map((ascent) => `<tr><td>${fmtDate(ascent.date)}</td><td><strong>${escapeHtml(ascent.name)}</strong></td><td>${escapeHtml(ascent.crag)}</td><td>${escapeHtml(ascent.grade)}</td><td>${escapeHtml(ascent.style)}</td><td>${ascent.tries ?? "—"}</td></tr>`).join("");
+    $("#strength-test-status").textContent = window.ROCK_DATA?.strength_test?.notes || "Sin datos del test de fuerza con sensor.";
+  }
+
   function saveManualSessions(items) {
     localStorage.setItem(storageKey, JSON.stringify(items));
     renderManualSessions();
@@ -212,7 +218,7 @@
   }
 
   $("#export-all").addEventListener("click", () => {
-    downloadJson({ exported_at: new Date().toISOString(), moonboard: window.MOON_DATA, manual_sessions: getManualSessions() }, `proyecto-8a-${new Date().toISOString().slice(0,10)}.json`);
+    downloadJson({ exported_at: new Date().toISOString(), moonboard: window.MOON_DATA, rock: window.ROCK_DATA, manual_sessions: getManualSessions() }, `proyecto-8a-${new Date().toISOString().slice(0,10)}.json`);
     showToast("Copia exportada");
   });
 
@@ -237,5 +243,6 @@
   renderSessions();
   setupBoulderFilters();
   renderManualSessions();
+  renderRockAscents();
   $("#session-form").elements.date.valueAsDate = new Date();
 })();

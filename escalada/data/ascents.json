@@ -1,0 +1,31 @@
+{
+  "source": "https://www.8a.nu/user/juanfran-jimenez/sportclimbing",
+  "verified_on": "2026-10-15",
+  "ascents": [
+    {
+      "date": "2026-10-14",
+      "name": "Námaste",
+      "grade": "7c",
+      "crag": "Archidona",
+      "style": "Redpoint",
+      "tries": null,
+      "notes": "Proyecto pendiente encadenado. Salida recta exigente; el límite fue la salida, más que el dinámico.",
+      "source": "8a.nu y confirmación del usuario"
+    },
+    {
+      "date": "2026-09-23",
+      "name": "Moya Boom",
+      "grade": "7b+",
+      "crag": "Mijas",
+      "style": "Segundo intento",
+      "tries": 2,
+      "notes": "Fecha del registro de 8a.nu. El usuario la recordó aproximadamente como hace dos semanas.",
+      "source": "8a.nu y confirmación del usuario"
+    }
+  ],
+  "strength_test": {
+    "status": "pending",
+    "updated_on": "2026-10-15",
+    "notes": "Test de fuerza con sensor todavía no realizado, confirmado por el usuario. Sin mediciones disponibles."
+  }
+}

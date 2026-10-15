@@ -1,5 +1,11 @@
 # Diccionario de datos
 
+## `ascents.json`
+
+Fuente de las ascensiones recientes de cuerda, verificada en el perfil de 8a.nu. `date` es la fecha de ascensión registrada, `name` la vía, `grade` el grado de deportiva, `crag` la zona y `style` el estilo. `tries` es un número o `null` cuando no está disponible. `notes` recoge contexto sin inferir intentos ni mediciones.
+
+`strength_test.status` indica `pending` mientras no se haya realizado el test con sensor. `updated_on` registra la fecha de confirmación del estado, no la fecha de un test realizado.
+
 ## `sessions.json`
 
 La raíz contiene `sessions`, una lista de sesiones importadas del Logbook de MoonBoard.

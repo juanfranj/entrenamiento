@@ -2,6 +2,11 @@
 
 Los proyectos se organizan por tipo de entrenamiento, cada uno en su propia carpeta.
 
+- [Aplicación en GitHub Pages](https://juanfranj.github.io/entrenamiento/)
+- [Repositorio en GitHub](https://github.com/juanfranj/entrenamiento)
+
+Cada cambio subido a la rama `main` se publica automáticamente en GitHub Pages.
+
 ## Escalada
 
 - [Abrir el panel de entrenamiento](escalada/index.html)

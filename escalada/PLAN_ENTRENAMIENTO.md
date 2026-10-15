@@ -2,6 +2,13 @@
 
 Objetivo principal: mejorar el rendimiento en escalada deportiva con cuerda, manteniendo dos sesiones semanales de MoonBoard y una sesión de roca durante la fase actual.
 
+## Seguimiento al 15/10/2026
+
+- Námaste, 7c, Archidona: proyecto encadenado el 14/10/2026, confirmado en 8a.nu.
+- Moya Boom, 7b+, Mijas: encadenada al segundo intento el 23/09/2026, según 8a.nu.
+- Test de fuerza con sensor: pendiente. No hay mediciones disponibles.
+- Histórico MoonBoard: disponible hasta el 17/09/2026. Pendiente consultar las sesiones posteriores en el móvil antes de actualizar las métricas y revisar el bloque actual.
+
 ## Hoja de ruta completa
 
 - Bloque 1 — Base: adaptación al MoonBoard, volumen a 25° y entrada progresiva a 40°. Terminado.
