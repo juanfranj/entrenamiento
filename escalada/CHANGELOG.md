@@ -1,5 +1,16 @@
 # Historial de cambios
 
+## 2.0.0 — 15/10/2026
+
+- Rediseño completo del cuaderno de entrenamiento para escritorio y móvil.
+- Importadas por USB 7 sesiones y 120 problemas nuevos de MoonBoard; total: 16 sesiones, 261 problemas, 196 completados y 355 intentos.
+- Calendario mensual con 15 sesiones del bloque 2, continuidad en semanas 2 y 4 y descarga en la quinta.
+- Sesiones reales visibles en el calendario, historial unificado, filtros y problemas de cada sesión.
+- Diario enlazado a la programación, edición de resultados, importación que conserva registros y exportación completa.
+- Métricas por ángulo y criterios de progresión sin inventar mediciones de sensor ni esfuerzo percibido.
+- Excel actualizado; fórmulas, tabla y formato condicional extendidos a las 16 sesiones.
+
+
 ## 15/10/2026
 
 - Publicación del proyecto organizado por disciplinas en GitHub Pages.

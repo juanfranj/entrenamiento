@@ -4,11 +4,11 @@ Panel local de seguimiento del entrenamiento de escalada de Juanfran. Integra el
 
 ## Estado del proyecto
 
-- Versión: 1.2.0.
+- Versión: 2.0.0.
 - Bloque terminado: 1 — Base.
 - Bloque actual: 2 — Fuerza.
-- Datos importados: 9 sesiones, 141 problemas y 191 intentos registrados.
-- MoonBoard actualizado hasta el 17/09/2026; sesiones posteriores pendientes de consultar en el móvil.
+- Datos importados: 16 sesiones, 261 problemas y 355 intentos registrados.
+- MoonBoard consultado por USB el 15/10/2026, actualizado hasta el 13/10/2026. Las 7 sesiones nuevas conservan todos sus problemas e intentos.
 - Cuerda verificada en 8a.nu el 15/10/2026: Námaste (7c, Archidona, 14/10) y Moya Boom (7b+, Mijas, segundo intento, 23/09).
 - Test de fuerza con sensor pendiente, sin mediciones.
 - Funcionamiento: aplicación web estática y local; no necesita instalación ni conexión a internet.
@@ -16,18 +16,25 @@ Panel local de seguimiento del entrenamiento de escalada de Juanfran. Integra el
 ## Uso
 
 1. Abrir `index.html` en un navegador moderno.
-2. Usar la barra superior para cambiar entre Resumen, Plan actual, Sesiones, Boulders y Registrar.
+2. Usar la barra superior para cambiar entre Vista general, Calendario, Plan de entrenamiento, Sesiones, Resultados, Biblioteca MoonBoard y Registrar.
 3. En Plan actual, seleccionar cualquiera de los cinco bloques para consultar su detalle. La selección sirve para explorar; el bloque 2 permanece identificado como el bloque activo del programa.
 4. En Registrar, añadir sesiones que no procedan de MoonBoard.
 5. Usar Exportar copia con regularidad para guardar en JSON los registros manuales del navegador.
 
 ## Funciones principales
 
+- Calendario mensual del plan con sesiones reales y programadas.
+- Detalle de cada dosis, continuidad en semanas 2 y 4 y descarga en la quinta.
+- Registro de resultados enlazado a cada sesión del calendario.
+- Historial unificado con filtros por disciplina y fecha.
+- Resultados por ángulo y criterios de progresión basados en datos.
+
+
 - Resumen de volumen, tasa de encadenamiento y distribución por ángulo.
 - Diagnóstico de la última sesión importada.
 - Hoja de ruta interactiva de cinco bloques, con criterios de entrada y salida.
 - Historial detallado de sesiones.
-- Buscador y filtros sobre los 141 problemas registrados.
+- Buscador y filtros sobre los 261 problemas registrados.
 - Registro manual de roca, Tindeq y otras sesiones.
 - Exportación e importación de copias de seguridad.
 - Diseño adaptable a ordenador y móvil, navegación por teclado y estados accesibles.
@@ -42,6 +49,9 @@ Panel local de seguimiento del entrenamiento de escalada de Juanfran. Integra el
 | `assets/data.js` | Datos empaquetados para que el panel funcione al abrirse como archivo local. | Generado |
 | `assets/rock-data.js` | Ascensiones de cuerda y estado del test, empaquetados para el panel. | Generado |
 | `data/ascents.json` | Ascensiones de cuerda verificadas y estado del test de fuerza. | Fuente principal |
+| `data/plan.json` | Programación del bloque existente, dosis y fechas. | Fuente principal |
+| `build-calendar.mjs` | Genera el calendario ICS desde la programación. | Manual |
+| `assets/plan-data.js` | Plan empaquetado para el navegador. | Generado |
 | `build-data.mjs` | Regenera los datos empaquetados y el CSV desde las fuentes JSON. | Manual |
 | `data/sessions.json` | Fuente estructurada del histórico importado. | Fuente principal |
 | `data/boulders_moonboard.csv` | Exportación tabular de todos los problemas. | Generado |
@@ -68,7 +78,8 @@ El botón Importar copia restaura únicamente las sesiones manuales. No modifica
 2. Ejecutar `node build-data.mjs` desde la carpeta de desarrollo.
 3. Comprobar que `assets/data.js`, `data/sessions.json` y `data/boulders_moonboard.csv` se han regenerado.
 4. Validar que el número de sesiones, problemas e intentos coincide con la fuente.
-5. Copiar la versión validada a la carpeta personal de entrega.
+5. Si cambian fechas o dosis, ejecutar `node build-calendar.mjs` para regenerar el ICS.
+6. Copiar la versión validada a la carpeta personal de entrega.
 
 `assets/data.js` y el CSV no deben editarse a mano: se regeneran desde el JSON para evitar divergencias.
 
@@ -94,3 +105,9 @@ Antes de cada entrega se comprueba:
 ## Alcance y seguridad
 
 El plan organiza la carga y facilita el seguimiento, pero no sustituye la valoración de un entrenador o profesional sanitario. Ante dolor focal, pérdida persistente de fuerza, inflamación o sospecha de lesión, reduce la carga y solicita una evaluación cualificada.
+
+## Criterios de lectura
+
+El porcentaje de encadenamiento incluye entradas del Logbook y puede incluir repeticiones. No equivale a problemas únicos ni a una medida de fuerza. Los resultados en cuerda y MoonBoard usan escalas diferentes y se muestran por separado. RPE, dolor, duración y calidad de continuidad quedan sin dato cuando no se han registrado.
+
+Los resultados enlazados al calendario se guardan en la misma clave local del diario. Importar una copia combina registros por identificador y no borra los ya existentes. El calendario no se marca realizado automáticamente al pasar la fecha.

@@ -3,8 +3,10 @@ import { readFile, writeFile } from "node:fs/promises";
 const root = new URL("./", import.meta.url);
 const moonboard = JSON.parse(await readFile(new URL("data/sessions.json", root), "utf8"));
 const rock = JSON.parse(await readFile(new URL("data/ascents.json", root), "utf8"));
+const plan = JSON.parse(await readFile(new URL("data/plan.json", root), "utf8"));
 await writeFile(new URL("assets/data.js", root), `window.MOON_DATA = ${JSON.stringify(moonboard)};\n`);
 await writeFile(new URL("assets/rock-data.js", root), `window.ROCK_DATA = ${JSON.stringify(rock)};\n`);
+await writeFile(new URL("assets/plan-data.js", root), `window.TRAINING_PLAN = ${JSON.stringify(plan)};\n`);
 
 const columns = ["fecha", "orden", "nombre", "setter", "angulo", "grado_font", "grado_v", "resultado", "completado", "intentos", "repeticiones_globales"];
 const csvCell = (value) => {

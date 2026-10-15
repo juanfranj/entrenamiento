@@ -7,7 +7,25 @@ Objetivo principal: mejorar el rendimiento en escalada deportiva con cuerda, man
 - Námaste, 7c, Archidona: proyecto encadenado el 14/10/2026, confirmado en 8a.nu.
 - Moya Boom, 7b+, Mijas: encadenada al segundo intento el 23/09/2026, según 8a.nu.
 - Test de fuerza con sensor: pendiente. No hay mediciones disponibles.
-- Histórico MoonBoard: disponible hasta el 17/09/2026. Pendiente consultar las sesiones posteriores en el móvil antes de actualizar las métricas y revisar el bloque actual.
+- Histórico MoonBoard actualizado por USB hasta el 13/10/2026: 16 sesiones, 261 problemas, 196 completados y 355 intentos.
+- Últimas exposiciones a 6C a 40°: 06/10, 1 de 2; 01/10, 1 de 4. No confirman todavía el criterio de cambio de bloque. No se interpreta el menor grado de la última sesión como pérdida de fuerza: el Logbook no registra su intención ni el RPE.
+
+
+## Programación del bloque actual
+
+Se calendariza el bloque 2 existente del 19/10 al 22/11/2026: A los martes, B los jueves y C los domingos. Los eventos son de día completo porque no se ha fijado un horario. La revisión de disponibilidad no devolvió guardias en este periodo.
+
+Las cuatro primeras semanas mantienen la carga del plan y la quinta reduce el volumen al 50–60%. La dosis puente aparece en las semanas 2 y 4. La primera sesión sirve para revisar el nivel actual antes de mantener la dosis. Estas fechas organizan el trabajo futuro; no dan por completado ningún ciclo anterior ni fuerzan un cambio de bloque.
+
+| Semana | Objetivo | A · 40° | B · 25° | C · cuerda |
+| --- | --- | --- | --- | --- |
+| 1 | Calibrar | 20/10 | 22/10 | 25/10 |
+| 2 | Construir + dosis puente | 27/10 | 29/10 | 01/11 |
+| 3 | Consolidar | 03/11 | 05/11 | 08/11 |
+| 4 | Comprobar + dosis puente | 10/11 | 12/11 | 15/11 |
+| 5 | Descarga | 17/11 | 19/11 | 22/11 |
+
+La versión estructurada está en `data/plan.json`; el archivo `data/entrenemiento.ics` permite importar las 15 sesiones. La web distingue actividad registrada, programación futura y resultados enlazados por el usuario.
 
 ## Hoja de ruta completa
 

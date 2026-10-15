@@ -10,6 +10,7 @@
   const sessionsDesc = [...sessionsAsc].reverse();
   const boulders = sessionsDesc.flatMap((session) => session.problems.map((problem) => ({ ...problem, date: session.date })));
   const gradeOrder = ["5+", "6A", "6A+", "6B", "6B+", "6C", "6C+", "7A", "7A+", "7B"];
+  const plan = window.TRAINING_PLAN;
   const storageKey = "proyecto8a-manual-sessions-v1";
 
   const $ = (selector, root = document) => root.querySelector(selector);
@@ -26,13 +27,14 @@
   }
 
   function activateSection(id, updateHash = true) {
+    if (!document.getElementById(id)?.classList.contains("page-section")) return;
     $$(".page-section").forEach((section) => section.classList.toggle("active", section.id === id));
     $$(".nav-button").forEach((button) => {
       const active = button.dataset.nav === id;
       button.classList.toggle("active", active);
-      button.setAttribute("aria-selected", String(active));
+      button.setAttribute("aria-current", active ? "page" : "false");
     });
-    if (updateHash) history.replaceState(null, "", `#${id}`);
+    if (updateHash) history.pushState(null, "", `#${id}`);
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
@@ -40,6 +42,8 @@
     event.preventDefault();
     activateSection(control.dataset.nav);
   }));
+
+  window.addEventListener("popstate", () => activateSection(location.hash.slice(1) || "resumen", false));
 
   const requested = location.hash.slice(1);
   if (requested && document.getElementById(requested)) activateSection(requested, false);
@@ -91,6 +95,7 @@
   activateBlock(2);
 
   function renderMetrics() {
+    $("#metric-period").textContent = `Hasta ${fmtDate(sessionsDesc[0]?.date || "2026-09-17")}`;
     const completed = boulders.filter((problem) => problem.completed).length;
     $("#metric-sessions").textContent = sessionsAsc.length;
     $("#metric-problems").textContent = boulders.length;
@@ -100,7 +105,8 @@
 
   function renderVolumeChart() {
     const chart = $("#volume-chart");
-    const max = Math.max(...sessionsAsc.map((session) => session.problems.length));
+    chart.style.gridTemplateColumns = `repeat(${Math.max(sessionsAsc.length, 1)}, minmax(0, 1fr))`;
+    const max = Math.max(1, ...sessionsAsc.map((session) => session.problems.length));
     chart.innerHTML = sessionsAsc.map((session) => {
       const count25 = session.problems.filter((problem) => problem.angle === 25).length;
       const count40 = session.problems.filter((problem) => problem.angle === 40).length;
@@ -110,12 +116,14 @@
 
   function renderLatestBreakdown() {
     const latest = sessionsDesc[0];
+    if (!latest) return;
+    $("#latest-date").textContent = fmtDate(latest.date);
     const hard = latest.problems.filter((problem) => problem.angle === 40);
     const grades = ["6B+", "6C", "6C+"];
     $("#latest-breakdown").innerHTML = grades.map((grade) => {
       const attempts = hard.filter((problem) => problem.font_grade === grade);
       const done = attempts.filter((problem) => problem.completed).length;
-      return `<div class="breakdown-row"><strong>${grade}</strong><div class="breakdown-meter"><i style="width:${pct(done, attempts.length)}%"></i></div><span>${done}/${attempts.length} completados</span></div>`;
+      return `<div class="breakdown-row"><strong>${grade}</strong><div class="breakdown-meter"><i style="width:${pct(done, attempts.length)}%"></i></div><span>${attempts.length ? `${done}/${attempts.length} completados` : "Sin registros"}</span></div>`;
     }).join("");
   }
 
@@ -126,7 +134,7 @@
     const padY = 18;
     const rates = sessionsAsc.map((session) => session.completed_reported / session.problems_reported);
     const points = rates.map((rate, index) => {
-      const x = padX + index * ((width - padX * 2) / (rates.length - 1));
+      const x = padX + index * ((width - padX * 2) / Math.max(1, rates.length - 1));
       const y = padY + (1 - rate) * (height - padY * 2);
       return { x, y, rate, date: sessionsAsc[index].date };
     });
@@ -140,13 +148,37 @@
   }
 
   function renderSessions() {
-    $("#session-list").innerHTML = sessionsDesc.map((session) => {
-      const count25 = session.problems.filter((problem) => problem.angle === 25).length;
-      const count40 = session.problems.filter((problem) => problem.angle === 40).length;
-      const topDone = session.problems.filter((problem) => problem.completed).sort((a, b) => gradeOrder.indexOf(b.font_grade) - gradeOrder.indexOf(a.font_grade))[0]?.font_grade || "—";
-      const maxTried = session.problems.sort((a, b) => gradeOrder.indexOf(b.font_grade) - gradeOrder.indexOf(a.font_grade))[0]?.font_grade || "—";
-      return `<details class="session-entry"><summary><span class="session-date">${fmtDate(session.date)}</span><div class="session-score"><strong>${session.completed_reported}/${session.problems_reported}</strong><span>completados · ${session.tries_reported} intentos</span></div><div class="angle-split" title="${count25} a 25° / ${count40} a 40°"><i style="width:${pct(count25, session.problems.length)}%"></i><i style="width:${pct(count40, session.problems.length)}%"></i></div></summary><div class="session-detail"><dl><dt>25° / 40°</dt><dd>${count25} / ${count40}</dd><dt>Máximo encadenado</dt><dd>${topDone}</dd><dt>Máximo probado</dt><dd>${maxTried}</dd><dt>Eficiencia</dt><dd>${pct(session.completed_reported, session.problems_reported)}%</dd></dl></div></details>`;
-    }).join("");
+    const kind = $("#history-type").value;
+    const from = $("#history-from").value;
+    const to = $("#history-to").value;
+    const records = [
+      ...sessionsDesc.map((session) => ({ kind: "moon", date: session.date, session })),
+      ...(window.ROCK_DATA?.ascents || []).map((ascent) => ({ kind: "rock", date: ascent.date, ascent })),
+      ...getManualSessions().map((item) => ({ kind: "manual", date: item.date, item })),
+    ].filter((record) => (kind === "all" || record.kind === kind) && (!from || record.date >= from) && (!to || record.date <= to)).sort((a, b) => b.date.localeCompare(a.date));
+    $("#history-count").textContent = `${records.length} registros`;
+    $("#session-list").innerHTML = records.map((record) => {
+      let title, summary, detail;
+      if (record.kind === "moon") {
+        const session = record.session;
+        const hard = session.problems.filter((problem) => problem.angle === 40).length;
+        title = "MoonBoard · Logbook";
+        summary = `${session.completed_reported}/${session.problems_reported} completados · ${session.tries_reported} intentos · ${hard} registros a 40°`;
+        const problemRows = session.problems.map((problem) => `<tr><td>${escapeHtml(problem.name)}</td><td>${problem.angle}°</td><td>${escapeHtml(problem.font_grade)}</td><td>${escapeHtml(problem.result)}</td><td>${problem.tries ?? "—"}</td></tr>`).join("");
+        detail = `<p>Fuente: Logbook de MoonBoard. La sesión puede incluir calentamiento a 25° y trabajo a 40°. No se clasifica automáticamente como una sesión de fuerza del plan.</p><div class="table-wrap"><table><thead><tr><th>Problema</th><th>Ángulo</th><th>Grado</th><th>Resultado</th><th>Intentos</th></tr></thead><tbody>${problemRows}</tbody></table></div>`;
+      } else if (record.kind === "rock") {
+        const ascent = record.ascent;
+        title = `${ascent.name} · ${ascent.grade}`;
+        summary = `${ascent.crag} · Cuerda · ${ascent.style}${ascent.tries == null ? "" : ` · ${ascent.tries} intentos`}`;
+        detail = `<p>${escapeHtml(ascent.notes)}</p><p>Fuente: ${escapeHtml(ascent.source)}. Duración y RPE no registrados.</p>`;
+      } else {
+        const item = record.item;
+        title = item.type;
+        summary = [item.maxGrade ? `Máximo ${item.maxGrade}` : "", item.duration ? `${item.duration} min` : "", item.rpe ? `RPE ${item.rpe}` : "", item.planId ? "Vinculada al plan" : "Diario personal"].filter(Boolean).join(" · ");
+        detail = `<p>${escapeHtml(item.notes || "Sin notas")}</p><p>Completados: ${escapeHtml(item.completed || "—")} · Intentos: ${escapeHtml(item.attempts || "—")} · Dolor: ${item.pain === "" || item.pain == null ? "sin registrar" : `${escapeHtml(item.pain)}/10`}</p>`;
+      }
+      return `<details class="session-entry"><summary><time class="session-date" datetime="${record.date}">${fmtDate(record.date)}</time><div class="session-score"><strong>${escapeHtml(title)}</strong><span>${escapeHtml(summary)}</span></div></summary><div class="session-detail">${detail}</div></details>`;
+    }).join("") || '<div class="empty-state">No hay sesiones en este periodo.</div>';
   }
 
   function setupBoulderFilters() {
@@ -171,7 +203,7 @@
   }
 
   function getManualSessions() {
-    try { return JSON.parse(localStorage.getItem(storageKey) || "[]"); }
+    try { const data = JSON.parse(localStorage.getItem(storageKey) || "[]"); return Array.isArray(data) ? data : []; }
     catch { return []; }
   }
 
@@ -184,6 +216,10 @@
   function saveManualSessions(items) {
     localStorage.setItem(storageKey, JSON.stringify(items));
     renderManualSessions();
+    renderSessions();
+    renderCalendar();
+    renderResults();
+    renderUpcoming();
   }
 
   function renderManualSessions() {
@@ -193,17 +229,26 @@
       target.innerHTML = '<div class="empty-state"><p>Aún no hay sesiones manuales.<br>Añade roca, Tindeq o sesiones que no estén en MoonBoard.</p></div>';
       return;
     }
-    target.innerHTML = items.map((item) => `<article class="manual-entry"><time datetime="${item.date}">${fmtDate(item.date)}</time><div><strong>${escapeHtml(item.type)}</strong><p>${item.maxGrade ? `Máximo ${escapeHtml(item.maxGrade)} · ` : ""}${item.rpe ? `RPE ${item.rpe} · ` : ""}${item.pain !== "" ? `dolor ${item.pain}/10` : ""}${item.notes ? `<br>${escapeHtml(item.notes)}` : ""}</p></div><button class="remove-entry" data-remove="${item.id}" type="button" aria-label="Eliminar sesión">Eliminar</button></article>`).join("");
+    target.innerHTML = items.map((item) => `<article class="manual-entry"><time datetime="${item.date}">${fmtDate(item.date)}</time><div><strong>${escapeHtml(item.type)}</strong><p>${item.maxGrade ? `Máximo ${escapeHtml(item.maxGrade)} · ` : ""}${item.rpe ? `RPE ${escapeHtml(item.rpe)} · ` : ""}${item.pain !== "" && item.pain != null ? `dolor ${escapeHtml(item.pain)}/10` : ""}${item.notes ? `<br>${escapeHtml(item.notes)}` : ""}</p></div><button class="remove-entry" data-remove="${escapeHtml(item.id)}" type="button" aria-label="Eliminar sesión">Eliminar</button></article>`).join("");
     $$('[data-remove]').forEach((button) => button.addEventListener("click", () => saveManualSessions(getManualSessions().filter((item) => item.id !== button.dataset.remove))));
   }
 
   $("#session-form").addEventListener("submit", (event) => {
     event.preventDefault();
     const data = Object.fromEntries(new FormData(event.currentTarget).entries());
-    data.id = `${Date.now()}`;
-    saveManualSessions([...getManualSessions(), data]);
+    data.planId = data.plannedSession || "";
+    delete data.plannedSession;
+    const completed = data.completed === "" ? null : Number(data.completed);
+    const attempts = data.attempts === "" ? null : Number(data.attempts);
+    if (completed != null && attempts != null && completed > attempts) {
+      showToast("Los completados no pueden superar los intentos.");
+      return;
+    }
+    const previous = data.planId ? getManualSessions().find((item) => item.planId === data.planId) : null;
+    data.id = previous?.id || `${Date.now()}`;
+    saveManualSessions([...getManualSessions().filter((item) => item.id !== data.id), data]);
     event.currentTarget.reset();
-    event.currentTarget.elements.date.valueAsDate = new Date();
+    event.currentTarget.elements.date.value = today;
     showToast("Sesión guardada en este navegador");
   });
 
@@ -218,7 +263,7 @@
   }
 
   $("#export-all").addEventListener("click", () => {
-    downloadJson({ exported_at: new Date().toISOString(), moonboard: window.MOON_DATA, rock: window.ROCK_DATA, manual_sessions: getManualSessions() }, `proyecto-8a-${new Date().toISOString().slice(0,10)}.json`);
+    downloadJson({ exported_at: new Date().toISOString(), moonboard: window.MOON_DATA, rock: window.ROCK_DATA, plan: window.TRAINING_PLAN, manual_sessions: getManualSessions() }, `proyecto-8a-${new Date().toISOString().slice(0,10)}.json`);
     showToast("Copia exportada");
   });
 
@@ -228,13 +273,163 @@
     try {
       const payload = JSON.parse(await file.text());
       if (!Array.isArray(payload.manual_sessions)) throw new Error("Formato no reconocido");
-      saveManualSessions(payload.manual_sessions);
+      const safe = payload.manual_sessions.every((item) => item && typeof item.id === "string" && /^\d{4}-\d{2}-\d{2}$/.test(item.date) && typeof item.type === "string" && (!item.notes || typeof item.notes === "string"));
+      if (!safe) throw new Error("Registros no válidos");
+      const merged = new Map(getManualSessions().map((item) => [item.id, item]));
+      payload.manual_sessions.forEach((item) => merged.set(item.id, item));
+      saveManualSessions([...merged.values()]);
       showToast("Copia importada");
     } catch {
       showToast("No se pudo importar esa copia");
     }
     event.target.value = "";
   });
+
+  // Calendario: usa las dosis del plan maestro y conserva resultados reales aparte.
+  const today = new Intl.DateTimeFormat("sv-SE", { timeZone: "Europe/Madrid" }).format(new Date());
+  let calendarMonth = `${today.slice(0, 7)}-01`;
+  let selectedDate = plan.events.find((event) => event.date >= today)?.date || plan.start_date;
+  const dateObject = (key) => new Date(`${key}T12:00:00Z`);
+  const addDays = (key, days) => { const date = dateObject(key); date.setUTCDate(date.getUTCDate() + days); return date.toISOString().slice(0, 10); };
+  const longDate = (key) => new Intl.DateTimeFormat("es-ES", { weekday: "long", day: "numeric", month: "long", timeZone: "Europe/Madrid" }).format(dateObject(key));
+  const eventResult = (event) => getManualSessions().find((item) => item.planId === event.id);
+  const eventState = (event) => eventResult(event) ? "Registrada" : event.date < today ? "Sin registrar" : "Planificada";
+
+  function prescription(event) {
+    const base = plan.templates[event.code];
+    const result = { ...base, steps: [...base.steps] };
+    if (event.bridge) {
+      result.title = "Técnica + dosis puente";
+      result.dose = "3 rondas de 2 problemas a 25° · 6A–6A+";
+      result.rest = "15–30 s de transición; 4–5 min entre rondas";
+      result.steps = ["Calentamiento progresivo.", "Completar 3 rondas de 2 problemas diferentes seguidos, entre 6A y 6A+ a 25°.", "Limitar el volumen normal restante a 8–12 problemas.", "Mantener técnica y margen. No convertir la continuidad en intentos máximos."];
+    }
+    if (event.deload) {
+      result.title = `${base.title} · descarga`;
+      result.dose = "50–60% del volumen habitual, conservando algo de intensidad";
+      result.steps = ["Mantener el calentamiento progresivo.", "Reducir el volumen total al 50–60% del habitual; no añadir la dosis puente.", "Conservar algo de intensidad con descansos completos.", "Registrar respuesta y revisar los criterios antes de pasar al bloque 3."];
+    }
+    return result;
+  }
+
+  function renderUpcoming() {
+    const upcoming = plan.events.filter((event) => event.date >= today && !eventResult(event)).slice(0, 3);
+    const next = upcoming[0];
+    if (next) {
+      const dose = prescription(next);
+      $("#next-session").innerHTML = `<span class="eyebrow">PRÓXIMA SESIÓN PROGRAMADA</span><div class="session-date-label">${longDate(next.date)} · Semana ${next.week}</div><h2>${escapeHtml(dose.title)}.</h2><p>${escapeHtml(dose.intent)}</p><div class="next-meta"><span>${escapeHtml(dose.type)}</span><span>${next.deload ? "Descarga" : next.bridge ? "Continuidad" : "Bloque 2"}</span></div><button class="primary-button" data-open-event="${next.id}">Consultar la sesión →</button>`;
+    } else {
+      $("#next-session").innerHTML = '<span class="eyebrow">PROGRAMACIÓN CERRADA</span><h2>Revisar antes de avanzar.</h2><p>Consulta los resultados del ciclo y los criterios del plan antes de programar el siguiente bloque.</p><button class="primary-button" data-nav="resultados">Ver resultados →</button>';
+    }
+    $("#upcoming-list").innerHTML = upcoming.map((event) => {
+      const dose = prescription(event);
+      return `<button class="upcoming-card ${event.code}" data-open-event="${event.id}"><div><span class="type-code">${event.code} · ${dose.angle ? `${dose.angle}°` : "CUERDA"}</span><time datetime="${event.date}">${fmtDate(event.date)}</time></div><strong>${escapeHtml(dose.title)}</strong><p>${escapeHtml(dose.dose)}</p><small>Semana ${event.week} →</small></button>`;
+    }).join("") || '<div class="empty-state">No quedan sesiones futuras en este ciclo.</div>';
+  }
+
+  function historyForDate(key) {
+    return [
+      ...sessionsDesc.filter((session) => session.date === key).map((session) => ({ title: "MoonBoard", text: `${session.completed_reported}/${session.problems_reported} completados · ${session.tries_reported} intentos. Fuente: Logbook.` })),
+      ...(window.ROCK_DATA?.ascents || []).filter((ascent) => ascent.date === key).map((ascent) => ({ title: `${ascent.name} · ${ascent.grade}`, text: `${ascent.crag} · ${ascent.style}. Fuente: 8a.nu.` })),
+      ...getManualSessions().filter((item) => item.date === key).map((item) => ({ title: item.type, text: item.notes || "Diario personal." })),
+    ];
+  }
+
+  function renderCalendar() {
+    $("#calendar-month").textContent = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric", timeZone: "Europe/Madrid" }).format(dateObject(calendarMonth));
+    const first = dateObject(calendarMonth);
+    const mondayOffset = (first.getUTCDay() + 6) % 7;
+    const start = addDays(calendarMonth, -mondayOffset);
+    $("#calendar-grid").innerHTML = Array.from({ length: 42 }, (_, index) => {
+      const key = addDays(start, index);
+      const event = plan.events.find((item) => item.date === key);
+      const dose = event ? prescription(event) : null;
+      const recorded = historyForDate(key);
+      const status = event ? eventState(event) : recorded.length ? "Actividad registrada" : "Sin sesión programada";
+      const classNames = ["calendar-day", key.slice(0, 7) !== calendarMonth.slice(0, 7) ? "outside" : "", key === today ? "today" : "", key === selectedDate ? "selected" : ""].filter(Boolean).join(" ");
+      return `<button class="${classNames}" data-calendar-date="${key}" aria-label="${escapeHtml(`${longDate(key)}: ${event ? `${event.code} · ${dose.title}, ${status}` : recorded.length ? recorded.map((item) => item.title).join(", ") + ", registrada" : status}`)}" aria-pressed="${key === selectedDate}"${key === today ? ' aria-current="date"' : ""}><span>${Number(key.slice(8))}</span>${event ? `<strong class="event-dot ${event.code} ${event.deload ? "deload" : ""} ${eventResult(event) ? "done" : ""}">${event.code} · ${event.deload ? "Descarga" : dose.angle ? `${dose.angle}°` : "Roca"}</strong>` : ""}${recorded.length ? `<strong class="event-dot history">✓ ${recorded[0].title === "MoonBoard" ? "Moon" : "Registro"}</strong>` : ""}</button>`;
+    }).join("");
+    renderDayDetail();
+  }
+
+  function renderDayDetail() {
+    const event = plan.events.find((item) => item.date === selectedDate);
+    if (!event && historyForDate(selectedDate).length) {
+      const recorded = historyForDate(selectedDate);
+      $("#day-detail").innerHTML = `<span class="eyebrow">${escapeHtml(longDate(selectedDate))}</span><h2>Actividad registrada.</h2><span class="status-pill done">${recorded.length} registro(s)</span>${recorded.map((item) => `<h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.text)}</p>`).join("")}<button class="primary-button" data-show-history="${selectedDate}">Ver detalle de la sesión</button>`;
+      return;
+    }
+    if (!event) {
+      $("#day-detail").innerHTML = `<span class="eyebrow">${escapeHtml(longDate(selectedDate))}</span><h2>Sin sesión programada.</h2><p>El plan reserva este día entre sesiones. Consulta el calendario o registra una actividad si has entrenado.</p><button class="primary-button" data-log-date="${selectedDate}">Registrar actividad</button>`;
+      return;
+    }
+    const dose = prescription(event);
+    const existing = eventResult(event);
+    $("#day-detail").innerHTML = `<span class="eyebrow">${escapeHtml(longDate(event.date))} · S${event.week}</span><h2>${escapeHtml(dose.title)}</h2><span class="status-pill ${existing ? "done" : ""}">${eventState(event)}</span><p>${escapeHtml(event.focus)}</p><div class="dose-box"><span>${escapeHtml(dose.type)}</span><strong>${escapeHtml(dose.dose)}</strong><small>${escapeHtml(dose.rest)}</small></div><ol>${dose.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol><p>${escapeHtml(dose.record)}</p>${event.week === 1 && event.code === "A" ? '<p><strong>Primera sesión:</strong> revisar el nivel actual antes de mantener la dosis. La fecha no implica haber completado el bloque anterior.</p>' : ""}<button class="primary-button" data-log-event="${event.id}">${existing ? "Editar resultado" : "Registrar resultado"}</button>`;
+  }
+
+  function renderResults() {
+    $("#total-tries").textContent = sessionsAsc.reduce((sum, session) => sum + session.tries_reported, 0);
+    const elapsed = plan.events.filter((event) => event.date <= today);
+    const completed = elapsed.filter(eventResult).length;
+    $("#plan-adherence").textContent = elapsed.length ? `${completed}/${elapsed.length}` : "—";
+    $("#adherence-note").textContent = elapsed.length ? "Sesiones vencidas con resultado enlazado" : `El ciclo comienza el ${fmtDate(plan.start_date)}`;
+    $("#angle-results").innerHTML = [25, 40].map((angle) => {
+      const entries = boulders.filter((problem) => problem.angle === angle);
+      const done = entries.filter((problem) => problem.completed).length;
+      return `<div class="angle-result"><div><strong>${angle}°</strong><br><small>${entries.length} registros</small></div><div><strong>${pct(done, entries.length)}%</strong><br><small>${done} completados / ${entries.length}</small></div></div>`;
+    }).join("");
+    const exposures = sessionsDesc.map((session) => ({ date: session.date, entries: session.problems.filter((problem) => problem.angle === 40 && problem.font_grade === "6C") })).filter((session) => session.entries.length).slice(0, 2);
+    const evidence = exposures.map((session) => `${fmtDate(session.date)}: ${session.entries.filter((problem) => problem.completed).length}/${session.entries.length}`).join("; ");
+    $("#gate-status").textContent = `Últimas exposiciones a 6C a 40°: ${evidence || "sin datos"}. No confirman todavía el criterio de dos sesiones de fuerza con ≈ 70% de éxito. La calidad de la dosis puente sigue sin registrar.`;
+  }
+
+  function selectPlannedSession(id) {
+    const event = plan.events.find((item) => item.id === id);
+    const form = $("#session-form");
+    if (!event) { form.elements.planId.value = ""; return; }
+    const existing = eventResult(event);
+    form.reset();
+    form.elements.plannedSession.value = id;
+    form.elements.planId.value = id;
+    form.elements.date.value = event.date;
+    form.elements.type.value = plan.templates[event.code].type;
+    if (existing) ["date", "type", "duration", "rpe", "maxGrade", "pain", "completed", "attempts", "notes"].forEach((key) => { form.elements[key].value = existing[key] ?? ""; });
+  }
+
+  document.addEventListener("click", (event) => {
+    const open = event.target.closest("[data-open-event]");
+    const day = event.target.closest("[data-calendar-date]");
+    const log = event.target.closest("[data-log-event]");
+    const free = event.target.closest("[data-log-date]");
+    const nav = event.target.closest("[data-nav]");
+    const historyDate = event.target.closest("[data-show-history]");
+    if (open) {
+      const target = plan.events.find((item) => item.id === open.dataset.openEvent);
+      selectedDate = target.date;
+      calendarMonth = `${target.date.slice(0, 7)}-01`;
+      renderCalendar(); activateSection("calendario");
+    } else if (day) { selectedDate = day.dataset.calendarDate; renderCalendar(); }
+    else if (log) { selectPlannedSession(log.dataset.logEvent); activateSection("registro"); }
+    else if (free) { $("#session-form").reset(); $("#session-form").elements.date.value = free.dataset.logDate; activateSection("registro"); }
+    else if (historyDate) { $("#history-from").value = historyDate.dataset.showHistory; $("#history-to").value = historyDate.dataset.showHistory; $("#history-type").value = "all"; renderSessions(); activateSection("sesiones"); }
+    else if (nav && nav.closest("#next-session")) activateSection(nav.dataset.nav);
+  });
+  $("#planned-session").innerHTML += plan.events.map((event) => `<option value="${event.id}">${fmtDate(event.date)} · S${event.week} · ${plan.templates[event.code].type}</option>`).join("");
+  $("#planned-session").addEventListener("change", (event) => selectPlannedSession(event.target.value));
+  ["#history-type", "#history-from", "#history-to"].forEach((selector) => $(selector).addEventListener("input", renderSessions));
+  $("#calendar-prev").addEventListener("click", () => moveMonth(-1));
+  $("#calendar-next").addEventListener("click", () => moveMonth(1));
+  function moveMonth(step) { const date = dateObject(calendarMonth); date.setUTCMonth(date.getUTCMonth() + step); calendarMonth = date.toISOString().slice(0, 10); renderCalendar(); }
+  $("#calendar-today").addEventListener("click", () => { selectedDate = today; calendarMonth = `${today.slice(0, 7)}-01`; renderCalendar(); });
+  $("#today-label").textContent = longDate(today);
+  $("#cycle-dates").textContent = `${fmtDate(plan.start_date)} — ${fmtDate(plan.end_date)} · 15 sesiones · 5 semanas`;
+  $("#schedule-note").textContent = plan.scheduling_note;
+  $("#calendar-weeks").innerHTML = plan.weeks.map((week) => `<article class="${week.deload ? "deload" : ""}"><span>SEMANA ${week.number}</span><strong>${escapeHtml(week.title)}</strong><p>${escapeHtml(week.focus)}</p></article>`).join("");
+  if (plan.google_calendar.status === "created" && plan.google_calendar.url) { $("#google-calendar-link").hidden = false; $("#google-calendar-link").href = plan.google_calendar.url; }
+  $("#calendar-sync-state").textContent = plan.google_calendar.status === "created" ? "Programado en Google Calendar" : "Google Calendar: pendiente de completar";
+  const lastDate = sessionsDesc[0]?.date;
+  $("#data-notice").innerHTML = `<strong>MoonBoard: datos hasta ${lastDate ? fmtDate(lastDate) : "sin fecha"}.</strong> ${window.MOON_DATA.import_status === "complete" ? "Histórico actualizado desde el Logbook por USB." : "Pendiente incorporar las sesiones posteriores del móvil. Las métricas reflejan únicamente el histórico importado."}`;
 
   renderMetrics();
   renderVolumeChart();
@@ -244,5 +439,8 @@
   setupBoulderFilters();
   renderManualSessions();
   renderRockAscents();
-  $("#session-form").elements.date.valueAsDate = new Date();
+  renderUpcoming();
+  renderCalendar();
+  renderResults();
+  $("#session-form").elements.date.value = today;
 })();

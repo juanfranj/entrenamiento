@@ -62,3 +62,11 @@ Se guardan en la clave `proyecto8a-manual-sessions-v1` de `localStorage`.
 - El porcentaje completado describe una sesión, pero no corrige la dificultad ni el estilo de los problemas.
 - Los ángulos de 25° y 40° se analizan por separado cuando se evalúa fuerza o volumen.
 - Las equivalencias entre grados son orientativas; para progresar se usan tendencias de varias sesiones, no un único resultado.
+
+## Programación y resultados
+
+`data/plan.json` conserva el bloque 2 y contiene `templates` (dosis A/B/C), `weeks` (las cinco semanas), `events` (identificador, fecha, semana, sesión, continuidad y descarga) y el estado de creación del calendario de Google. Las fechas no prueban que se haya realizado la sesión.
+
+Los registros manuales pueden incluir `planId`, que vincula un resultado con una sesión programada. Guardar de nuevo esa sesión actualiza su resultado enlazado. La adherencia cuenta resultados enlazados frente a las sesiones cuya fecha ya ha llegado; no usa visitas a la web ni presupone cumplidos los días pasados.
+
+`verified_on` indica la fecha de lectura del Logbook. `import_status=complete` indica que se contrastaron las 16 sesiones y sus 261 problemas con el total mostrado por la aplicación. Los nombres, grados, resultados e intentos de las 7 sesiones nuevas se extrajeron de la pantalla por USB y se contrastaron con sus totales. `repeats` sigue siendo el número global mostrado por MoonBoard.
