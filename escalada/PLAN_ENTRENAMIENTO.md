@@ -11,21 +11,34 @@ Objetivo principal: mejorar el rendimiento en escalada deportiva con cuerda, man
 - Últimas exposiciones a 6C a 40°: 06/10, 1 de 2; 01/10, 1 de 4. No confirman todavía el criterio de cambio de bloque. No se interpreta el menor grado de la última sesión como pérdida de fuerza: el Logbook no registra su intención ni el RPE.
 
 
-## Programación del bloque actual
+## Calendario vivo desde la primera sesión
 
-Se calendariza el bloque 2 existente del 19/10 al 22/11/2026: A los martes, B los jueves y C los domingos. Los eventos son de día completo porque no se ha fijado un horario. La revisión de disponibilidad no devolvió guardias en este periodo.
+El recorrido comienza el **17/08/2026**, fecha de la primera sesión MoonBoard registrada. No se reinicia el bloque 2 en octubre. El cierre del bloque 1 se reconstruye a partir de las primeras nueve sesiones, hasta el 17/09, y de que el plan ya lo marcaba terminado. La fecha de entrada al bloque 2 se sitúa el 18/09; es una reconstrucción, no una fecha de transición registrada por MoonBoard.
 
-Las cuatro primeras semanas mantienen la carga del plan y la quinta reduce el volumen al 50–60%. La dosis puente aparece en las semanas 2 y 4. La primera sesión sirve para revisar el nivel actual antes de mantener la dosis. Estas fechas organizan el trabajo futuro; no dan por completado ningún ciclo anterior ni fuerzan un cambio de bloque.
+| Bloque | Periodo del calendario web | Estado |
+| --- | --- | --- |
+| 1 · Base y adaptación | 17/08–17/09/2026 | Histórico inicial |
+| 2 · Fuerza y transferencia | 18/09–22/10/2026 | Actual; cronología reconstruida |
+| 3 · Puente hacia cuerda | 23/10–19/11/2026 | Previsión de 4 semanas, ajustable |
+| 4 · Resistencia de potencia | 20/11–17/12/2026 | Previsión de 4 semanas, ajustable |
+| 5 · Específico de vía | 18/12/2026–14/01/2027 | Previsión de 4 semanas, ajustable al proyecto |
 
-| Semana | Objetivo | A · 40° | B · 25° | C · cuerda |
-| --- | --- | --- | --- | --- |
-| 1 | Calibrar | 20/10 | 22/10 | 25/10 |
-| 2 | Construir + dosis puente | 27/10 | 29/10 | 01/11 |
-| 3 | Consolidar | 03/11 | 05/11 | 08/11 |
-| 4 | Comprobar + dosis puente | 10/11 | 12/11 | 15/11 |
-| 5 | Descarga | 17/11 | 19/11 | 22/11 |
+Al 15/10 esta cronología sitúa el bloque 2 en su **semana 4 de 5**. La descarga prevista es del 16 al 22/10, al 50–60% del volumen habitual. Las fechas futuras son una propuesta de organización: el bloque actual permanece en el 2 hasta revisar los resultados y decidir si se amplía o se confirma el paso al 3. Ninguna fecha implica automáticamente cumplir objetivos.
 
-La versión estructurada está en `data/plan.json`; el archivo `data/entrenemiento.ics` permite importar las 15 sesiones. La web distingue actividad registrada, programación futura y resultados enlazados por el usuario.
+La web muestra todos los bloques, sus periodos, sus colores y la semana del día seleccionado. Google Calendar contiene únicamente las sesiones, no eventos que abarquen la duración de un bloque. Martes A, jueves B y domingo C siguen siendo la distribución propuesta, sin horas fijadas. El histórico real no se transforma en sesiones prescritas inventadas.
+
+## Revisión del bloque 2 al 15/10/2026
+
+Se revisaron las siete sesiones nuevas del 19/09 al 13/10: 120 entradas y 164 intentos registrados. Los porcentajes cuentan entradas, incluidas repeticiones.
+
+- **6B+ a 40°:** 18/23 entradas completadas (78%); el 13/10 fueron 4/4.
+- **6C a 40°:** 4/12 entradas completadas (33%); 3 de 8 problemas distintos. Las últimas exposiciones fueron el 01/10, 1/4, y el 06/10, 1/2: no confirman dos sesiones alrededor del 70%.
+- **6C+ a 40°:** 0/1 en el periodo nuevo. Sí constan encadenes anteriores el 27/08 y el 17/09; falta consistencia reciente, no capacidad demostrada para hacer alguno.
+- **Dosis puente:** no puede verificarse con el Logbook; faltan enlaces, pausas y calidad técnica de las rondas.
+
+La decisión es **mantener abierto el bloque 2 y revisar**, sin concluir pérdida de fuerza ni reiniciar el ciclo. Námaste 7c demuestra rendimiento en cuerda, pero no sustituye los criterios específicos. El test de sensor está pendiente y no se añade como requisito de paso.
+
+En la próxima revisión se contrastarán el 6C a 40° y la dosis puente para decidir juntos si se amplía el bloque 2 o se confirma el 3. El plan es un documento vivo.
 
 ## Hoja de ruta completa
 

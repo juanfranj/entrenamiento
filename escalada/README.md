@@ -114,7 +114,7 @@ Los resultados enlazados al calendario se guardan en la misma clave local del di
 
 ## Uso diario y Google Calendar
 
-El calendario de Google «entrenemiento» contiene las 15 sesiones del 20 de octubre al 22 de noviembre de 2026, creadas y verificadas el 15 de octubre. Martes: MoonBoard 40°; jueves: MoonBoard 25°; domingos: cuerda. Son eventos de día completo, con las instrucciones y descansos en su descripción; la quinta semana es de descarga.
+El calendario de Google «entrenemiento» contiene solo las sesiones; no contiene eventos que abarquen los periodos de los bloques. La cronología completa de los cinco bloques aparece únicamente en la web. Las sesiones son de día completo, con dosis, descansos y enlaces al día correspondiente del cuaderno. El calendario personal no debe figurar como invitado.
 
 Antes de entrenar, abre la fecha en Calendario y consulta la sesión. Al terminar, pulsa Registrar resultado y guarda lo que has hecho, con las sensaciones que conozcas. Consulta Sesiones para el historial y Resultados para revisar la evolución por ángulo.
 
@@ -124,4 +124,8 @@ El diario personal se guarda en cada navegador. Usa Exportar copia como respaldo
 
 El calendario muestra por separado el bloque actual del plan y el bloque al que pertenece el día seleccionado. El fondo completo de cada casilla identifica el bloque, incluidos los días de recuperación; la descarga lleva rayado y la semana seleccionada queda destacada. «Ver bloque» abre la fase correspondiente del plan. En móvil, tocar una fecha muestra su detalle debajo del calendario.
 
-Los periodos están definidos en `data/plan.json`, campo `blocks`: el bloque 1 cubre el histórico inicial del 17/08 al 17/09; el bloque 2, el ciclo programado del 19/10 al 22/11. Las fechas intermedias no tienen una asignación de bloque documentada. Los bloques 3–5 permanecen sin fechas hasta programarlos. Los títulos de Google Calendar y del ICS identifican bloque, semana y sesión; los eventos del bloque 2 comparten color verde.
+Los periodos están definidos en `data/plan.json`, campo `blocks`. El recorrido empieza con la primera sesión MoonBoard del 17/08/2026. El bloque 1 llega al 17/09; el bloque 2 se reconstruye desde el 18/09 durante cinco semanas. Los bloques 3–5 se calendarizan como previsión ajustable de cuatro semanas cada uno. `block` mantiene el bloque actual de forma explícita: no cambia automáticamente al pasar las fechas.
+
+Cada bloque contiene sus propias dosis A/B/C y semanas. El histórico hasta la revisión se conserva como actividad real; las sesiones prescritas se programan desde la revisión, sin inventar entrenamientos pasados. `review.assessment` guarda la revisión fechada del bloque 2. Al revisar nuevos resultados, se actualizan el bloque actual, las fechas, las sesiones y su copia en Google Calendar, conservando los registros reales.
+
+El archivo ICS contiene solo sesiones. Los identificadores de eventos de Google se conservan fuera de la carpeta publicada para actualizar los existentes sin crear duplicados. Al crear sesiones con el conector en el calendario secundario, usar `self_attendance: "omit"`, sin invitados, y verificar que no aparezcan en el principal. `attendees: []` por sí solo puede añadir la cuenta personal como asistente.

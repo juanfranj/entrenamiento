@@ -1,5 +1,14 @@
 # Historial de cambios
 
+## 2.2.0 — 15/10/2026
+
+- Reconstruido el recorrido desde la primera sesión MoonBoard del 17/08: cinco bloques consecutivos, colores, semanas y navegación por bloque.
+- Bloque 2 situado desde septiembre, semana 4 al 15/10; fechas reconstruidas y bloques futuros marcados como previsión ajustable. El bloque actual permanece en el 2 hasta revisión.
+- Dosis propias para los bloques 3–5, incluida la sesión opcional del bloque 5; resultados reales conservados sin inventar sesiones históricas.
+- Publicada la revisión de las siete sesiones nuevas: objetivos del bloque 2 todavía sin confirmar, con evidencia por grado y ángulo.
+- Google Calendar e ICS con 40 sesiones; periodos completos de los bloques únicamente en la web. Retiradas las invitaciones que duplicaban los eventos en el calendario personal y verificada su limpieza.
+- Enlaces de Google Calendar a la fecha de la web y conservación de los enlaces de resultados anteriores.
+
 ## 2.1.0 — 15/10/2026
 
 - El calendario identifica el bloque de la fecha seleccionada, su semana y el periodo correspondiente; permite abrir directamente ese bloque del plan.

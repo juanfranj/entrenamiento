@@ -65,7 +65,7 @@ Se guardan en la clave `proyecto8a-manual-sessions-v1` de `localStorage`.
 
 ## Programación y resultados
 
-`data/plan.json` conserva el bloque 2 y contiene `templates` (dosis A/B/C), `weeks` (las cinco semanas), `events` (identificador, fecha, semana, sesión, continuidad y descarga) y el estado de creación del calendario de Google. Las fechas no prueban que se haya realizado la sesión.
+`data/plan.json` contiene `blocks` (los cinco periodos, su base documental, color, dosis y semanas), `block` (bloque actual confirmado), `events` (sesiones futuras con fecha, bloque, semana, continuidad, descarga y estado provisional), `legacy_event_ids` (conservación de enlaces anteriores), `review.assessment` (revisión fechada) y el estado del calendario de Google. Las fechas previstas no prueban realización ni cambian el bloque actual automáticamente. Google Calendar e ICS incluyen solo las sesiones; los periodos se muestran en la web.
 
 Los registros manuales pueden incluir `planId`, que vincula un resultado con una sesión programada. Guardar de nuevo esa sesión actualiza su resultado enlazado. La adherencia cuenta resultados enlazados frente a las sesiones cuya fecha ya ha llegado; no usa visitas a la web ni presupone cumplidos los días pasados.
 
