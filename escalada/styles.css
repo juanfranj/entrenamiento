@@ -96,3 +96,4 @@ footer { width: min(1320px, calc(100% - 36px)); margin: 0 auto; padding: 28px 0 
 @media (max-width: 430px) { main,footer { width: min(100% - 20px,1320px); }.status-panel { padding: 26px 22px; }.grade-track { grid-template-columns: repeat(2,1fr); gap: 20px 0; border-top: 0; }.grade { border-top: 2px solid #aebdc5; }.filters { grid-template-columns: 1fr; }.sync-state { display: none; } }
 @media (prefers-reduced-motion: reduce) { *,*::before,*::after { scroll-behavior: auto !important; transition: none !important; } }
 .rock-progress { margin-bottom: 24px; }
+.rock-progress .diagnosis-note { color: var(--paper-2); }
