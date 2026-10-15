@@ -225,11 +225,13 @@
     }
   ],
   "google_calendar": {
-    "status": "pending",
-    "url": null
+    "status": "created",
+    "url": "https://calendar.google.com/calendar/u/0/r?cid=60f7e51e90d69302772b3cd67cca82afb6a3a017d97ff6084d71ed3d9cba2cb9%40group.calendar.google.com",
+    "created_date": "2026-10-15",
+    "event_count": 15
   },
   "review": {
-    "entry": "Bloque 2 conservado como última fase registrada. Pendiente contrastar las sesiones recientes de MoonBoard.",
+    "entry": "Bloque 2 conservado tras revisar el Logbook hasta el 13 de octubre: las últimas dos exposiciones a 6C a 40° no alcanzan todavía el criterio de progresión.",
     "next_gate": "6C a 40° cerca del 70% de éxito durante dos sesiones de fuerza y dosis puente sin caída técnica marcada.",
     "later_gate": "6C+ consistente o 7A máximo a 40° para priorizar resistencia de potencia."
   }

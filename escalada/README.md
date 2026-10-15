@@ -111,3 +111,13 @@ El plan organiza la carga y facilita el seguimiento, pero no sustituye la valora
 El porcentaje de encadenamiento incluye entradas del Logbook y puede incluir repeticiones. No equivale a problemas únicos ni a una medida de fuerza. Los resultados en cuerda y MoonBoard usan escalas diferentes y se muestran por separado. RPE, dolor, duración y calidad de continuidad quedan sin dato cuando no se han registrado.
 
 Los resultados enlazados al calendario se guardan en la misma clave local del diario. Importar una copia combina registros por identificador y no borra los ya existentes. El calendario no se marca realizado automáticamente al pasar la fecha.
+
+## Uso diario y Google Calendar
+
+El calendario de Google «entrenemiento» contiene las 15 sesiones del 20 de octubre al 22 de noviembre de 2026, creadas y verificadas el 15 de octubre. Martes: MoonBoard 40°; jueves: MoonBoard 25°; domingos: cuerda. Son eventos de día completo, con las instrucciones y descansos en su descripción; la quinta semana es de descarga.
+
+Antes de entrenar, abre la fecha en Calendario y consulta la sesión. Al terminar, pulsa Registrar resultado y guarda lo que has hecho, con las sensaciones que conozcas. Consulta Sesiones para el historial y Resultados para revisar la evolución por ángulo.
+
+Google Calendar contiene una copia de la programación. No hay sincronización automática en ninguna dirección: mover un evento allí no modifica el plan de la web, y registrar un resultado en la web no modifica el evento de Google. Para cambiar el plan en ambos sitios, pide la actualización conjunta. MoonBoard y 8a.nu tampoco se importan automáticamente.
+
+El diario personal se guarda en cada navegador. Usa Exportar copia como respaldo e Importar copia para llevarlo a otro dispositivo; no hay sincronización del diario entre móvil y ordenador.

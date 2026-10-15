@@ -1,5 +1,11 @@
 # Historial de cambios
 
+## 2.0.1 — 15/10/2026
+
+- Creado el calendario de Google «entrenemiento» y verificadas sus 15 sesiones, con dosis, descansos, semanas puente y descarga.
+- Activado el acceso a Google Calendar desde el panel y documentado el uso diario y los límites de sincronización.
+- Actualizada la revisión del bloque 2 tras contrastar las sesiones recientes de MoonBoard.
+
 ## 2.0.0 — 15/10/2026
 
 - Rediseño completo del cuaderno de entrenamiento para escritorio y móvil.
