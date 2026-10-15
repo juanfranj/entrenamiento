@@ -95,7 +95,8 @@
       "code": "A",
       "focus": "Elegir cartera de 6C y registrar calidad real.",
       "deload": false,
-      "bridge": false
+      "bridge": false,
+      "block": 2
     },
     {
       "id": "b2-20261019-w1-b",
@@ -104,7 +105,8 @@
       "code": "B",
       "focus": "Elegir cartera de 6C y registrar calidad real.",
       "deload": false,
-      "bridge": false
+      "bridge": false,
+      "block": 2
     },
     {
       "id": "b2-20261019-w1-c",
@@ -113,7 +115,8 @@
       "code": "C",
       "focus": "Elegir cartera de 6C y registrar calidad real.",
       "deload": false,
-      "bridge": false
+      "bridge": false,
+      "block": 2
     },
     {
       "id": "b2-20261019-w2-a",
@@ -122,7 +125,8 @@
       "code": "A",
       "focus": "Añadir exposición a 6C+ y la primera dosis puente.",
       "deload": false,
-      "bridge": false
+      "bridge": false,
+      "block": 2
     },
     {
       "id": "b2-20261019-w2-b",
@@ -131,7 +135,8 @@
       "code": "B",
       "focus": "Añadir exposición a 6C+ y la primera dosis puente.",
       "deload": false,
-      "bridge": true
+      "bridge": true,
+      "block": 2
     },
     {
       "id": "b2-20261019-w2-c",
@@ -140,7 +145,8 @@
       "code": "C",
       "focus": "Añadir exposición a 6C+ y la primera dosis puente.",
       "deload": false,
-      "bridge": false
+      "bridge": false,
+      "block": 2
     },
     {
       "id": "b2-20261019-w3-a",
@@ -149,7 +155,8 @@
       "code": "A",
       "focus": "Repetir 6C en los estilos débiles.",
       "deload": false,
-      "bridge": false
+      "bridge": false,
+      "block": 2
     },
     {
       "id": "b2-20261019-w3-b",
@@ -158,7 +165,8 @@
       "code": "B",
       "focus": "Repetir 6C en los estilos débiles.",
       "deload": false,
-      "bridge": false
+      "bridge": false,
+      "block": 2
     },
     {
       "id": "b2-20261019-w3-c",
@@ -167,7 +175,8 @@
       "code": "C",
       "focus": "Repetir 6C en los estilos débiles.",
       "deload": false,
-      "bridge": false
+      "bridge": false,
+      "block": 2
     },
     {
       "id": "b2-20261019-w4-a",
@@ -176,7 +185,8 @@
       "code": "A",
       "focus": "Comprobar el máximo en fresco, sin volumen extra.",
       "deload": false,
-      "bridge": false
+      "bridge": false,
+      "block": 2
     },
     {
       "id": "b2-20261019-w4-b",
@@ -185,7 +195,8 @@
       "code": "B",
       "focus": "Comprobar el máximo en fresco, sin volumen extra.",
       "deload": false,
-      "bridge": true
+      "bridge": true,
+      "block": 2
     },
     {
       "id": "b2-20261019-w4-c",
@@ -194,7 +205,8 @@
       "code": "C",
       "focus": "Comprobar el máximo en fresco, sin volumen extra.",
       "deload": false,
-      "bridge": false
+      "bridge": false,
+      "block": 2
     },
     {
       "id": "b2-20261019-w5-a",
@@ -203,7 +215,8 @@
       "code": "A",
       "focus": "50–60% del volumen habitual. Conservar algo de intensidad.",
       "deload": true,
-      "bridge": false
+      "bridge": false,
+      "block": 2
     },
     {
       "id": "b2-20261019-w5-b",
@@ -212,7 +225,8 @@
       "code": "B",
       "focus": "50–60% del volumen habitual. Conservar algo de intensidad.",
       "deload": true,
-      "bridge": false
+      "bridge": false,
+      "block": 2
     },
     {
       "id": "b2-20261019-w5-c",
@@ -221,7 +235,8 @@
       "code": "C",
       "focus": "50–60% del volumen habitual. Conservar algo de intensidad.",
       "deload": true,
-      "bridge": false
+      "bridge": false,
+      "block": 2
     }
   ],
   "google_calendar": {
@@ -234,5 +249,23 @@
     "entry": "Bloque 2 conservado tras revisar el Logbook hasta el 13 de octubre: las últimas dos exposiciones a 6C a 40° no alcanzan todavía el criterio de progresión.",
     "next_gate": "6C a 40° cerca del 70% de éxito durante dos sesiones de fuerza y dosis puente sin caída técnica marcada.",
     "later_gate": "6C+ consistente o 7A máximo a 40° para priorizar resistencia de potencia."
-  }
+  },
+  "blocks": [
+    {
+      "number": 1,
+      "name": "Base y adaptación",
+      "start_date": "2026-08-17",
+      "end_date": "2026-09-17",
+      "kind": "history",
+      "color_id": "9"
+    },
+    {
+      "number": 2,
+      "name": "Fuerza y transferencia a cuerda",
+      "start_date": "2026-10-19",
+      "end_date": "2026-11-22",
+      "kind": "scheduled",
+      "color_id": "10"
+    }
+  ]
 }

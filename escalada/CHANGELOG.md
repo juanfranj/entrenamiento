@@ -1,5 +1,12 @@
 # Historial de cambios
 
+## 2.1.0 — 15/10/2026
+
+- El calendario identifica el bloque de la fecha seleccionada, su semana y el periodo correspondiente; permite abrir directamente ese bloque del plan.
+- Fondo de la casilla completa por bloque, incluidos los descansos; rayado para la semana de descarga y borde para el día seleccionado.
+- Bloque 1 visible en el periodo del histórico inicial; fechas sin bloque conocido indicadas expresamente y bloques 3–5 sin fechas inventadas.
+- Eventos de Google Calendar e ICS con bloque, semana y código A/B/C en el título; color común para el bloque 2.
+
 ## 2.0.1 — 15/10/2026
 
 - Creado el calendario de Google «entrenemiento» y verificadas sus 15 sesiones, con dosis, descansos, semanas puente y descarga.

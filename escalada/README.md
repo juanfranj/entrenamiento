@@ -121,3 +121,7 @@ Antes de entrenar, abre la fecha en Calendario y consulta la sesión. Al termina
 Google Calendar contiene una copia de la programación. No hay sincronización automática en ninguna dirección: mover un evento allí no modifica el plan de la web, y registrar un resultado en la web no modifica el evento de Google. Para cambiar el plan en ambos sitios, pide la actualización conjunta. MoonBoard y 8a.nu tampoco se importan automáticamente.
 
 El diario personal se guarda en cada navegador. Usa Exportar copia como respaldo e Importar copia para llevarlo a otro dispositivo; no hay sincronización del diario entre móvil y ordenador.
+
+El calendario muestra por separado el bloque actual del plan y el bloque al que pertenece el día seleccionado. El fondo completo de cada casilla identifica el bloque, incluidos los días de recuperación; la descarga lleva rayado y la semana seleccionada queda destacada. «Ver bloque» abre la fase correspondiente del plan. En móvil, tocar una fecha muestra su detalle debajo del calendario.
+
+Los periodos están definidos en `data/plan.json`, campo `blocks`: el bloque 1 cubre el histórico inicial del 17/08 al 17/09; el bloque 2, el ciclo programado del 19/10 al 22/11. Las fechas intermedias no tienen una asignación de bloque documentada. Los bloques 3–5 permanecen sin fechas hasta programarlos. Los títulos de Google Calendar y del ICS identifican bloque, semana y sesión; los eventos del bloque 2 comparten color verde.

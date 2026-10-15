@@ -294,6 +294,23 @@
   const longDate = (key) => new Intl.DateTimeFormat("es-ES", { weekday: "long", day: "numeric", month: "long", timeZone: "Europe/Madrid" }).format(dateObject(key));
   const eventResult = (event) => getManualSessions().find((item) => item.planId === event.id);
   const eventState = (event) => eventResult(event) ? "Registrada" : event.date < today ? "Sin registrar" : "Planificada";
+  const blockForDate = (date) => plan.blocks.find((block) => date >= block.start_date && date <= block.end_date);
+  const weekForDate = (date, block) => Math.floor((dateObject(date) - dateObject(block.start_date)) / 604800000) + 1;
+
+  function renderSelectedBlock() {
+    const block = blockForDate(selectedDate);
+    const week = block?.kind === "scheduled" ? plan.weeks.find((item) => item.number === weekForDate(selectedDate, block)) : null;
+    $("#selected-block-context").className = `selected-block-context ${block ? `block-${block.number}` : ""}`;
+    $("#selected-block-context").innerHTML = `<div><span class="eyebrow">DÍA SELECCIONADO · ${escapeHtml(longDate(selectedDate))}</span><h2>${block ? `Bloque ${block.number} · ${escapeHtml(block.name)}` : "Sin bloque asignado"}</h2><p>${block ? `${fmtDate(block.start_date)} — ${fmtDate(block.end_date)} · ${week ? `Semana ${week.number} de ${plan.weeks.length} · ${escapeHtml(week.title)}${week.deload ? " · Descarga" : ""}` : "Histórico del bloque completado"}` : "Esta fecha queda fuera de los bloques con fechas conocidas. El bloque actual del plan sigue siendo el 2."}</p></div>${block ? `<button class="quiet-button" data-view-block="${block.number}">Ver bloque ${block.number} →</button>` : ""}`;
+    if (block) activateBlock(block.number);
+    $("#calendar-weeks").hidden = !week;
+    $$("#calendar-weeks article").forEach((card, index) => {
+      const active = week?.number === index + 1;
+      card.classList.toggle("selected-week", active);
+      if (active) card.setAttribute("aria-current", "step");
+      else card.removeAttribute("aria-current");
+    });
+  }
 
   function prescription(event) {
     const base = plan.templates[event.code];
@@ -336,36 +353,42 @@
   }
 
   function renderCalendar() {
+    renderSelectedBlock();
     $("#calendar-month").textContent = new Intl.DateTimeFormat("es-ES", { month: "long", year: "numeric", timeZone: "Europe/Madrid" }).format(dateObject(calendarMonth));
     const first = dateObject(calendarMonth);
     const mondayOffset = (first.getUTCDay() + 6) % 7;
     const start = addDays(calendarMonth, -mondayOffset);
     $("#calendar-grid").innerHTML = Array.from({ length: 42 }, (_, index) => {
       const key = addDays(start, index);
+      const block = blockForDate(key);
+      const week = block?.kind === "scheduled" ? plan.weeks.find((item) => item.number === weekForDate(key, block)) : null;
       const event = plan.events.find((item) => item.date === key);
       const dose = event ? prescription(event) : null;
       const recorded = historyForDate(key);
       const status = event ? eventState(event) : recorded.length ? "Actividad registrada" : "Sin sesión programada";
-      const classNames = ["calendar-day", key.slice(0, 7) !== calendarMonth.slice(0, 7) ? "outside" : "", key === today ? "today" : "", key === selectedDate ? "selected" : ""].filter(Boolean).join(" ");
-      return `<button class="${classNames}" data-calendar-date="${key}" aria-label="${escapeHtml(`${longDate(key)}: ${event ? `${event.code} · ${dose.title}, ${status}` : recorded.length ? recorded.map((item) => item.title).join(", ") + ", registrada" : status}`)}" aria-pressed="${key === selectedDate}"${key === today ? ' aria-current="date"' : ""}><span>${Number(key.slice(8))}</span>${event ? `<strong class="event-dot ${event.code} ${event.deload ? "deload" : ""} ${eventResult(event) ? "done" : ""}">${event.code} · ${event.deload ? "Descarga" : dose.angle ? `${dose.angle}°` : "Roca"}</strong>` : ""}${recorded.length ? `<strong class="event-dot history">✓ ${recorded[0].title === "MoonBoard" ? "Moon" : "Registro"}</strong>` : ""}</button>`;
+      const classNames = ["calendar-day", block ? `block-${block.number}` : "", week?.deload ? "block-deload" : "", key.slice(0, 7) !== calendarMonth.slice(0, 7) ? "outside" : "", key === today ? "today" : "", key === selectedDate ? "selected" : ""].filter(Boolean).join(" ");
+      return `<button class="${classNames}" data-calendar-date="${key}" aria-label="${escapeHtml(`${longDate(key)}: ${block ? `Bloque ${block.number}, ${week ? `semana ${week.number}${week.deload ? ", descarga" : ""}, ` : ""}` : "Sin bloque asignado, "}${event ? `${event.code} · ${dose.title}, ${status}` : recorded.length ? recorded.map((item) => item.title).join(", ") + ", registrada" : status}`)}" aria-pressed="${key === selectedDate}"${key === today ? ' aria-current="date"' : ""}><span>${Number(key.slice(8))}</span>${block ? `<small class="cell-block">B${block.number}${week?.deload ? " · ↓" : ""}</small>` : ""}${event ? `<strong class="event-dot ${event.code} ${event.deload ? "deload" : ""} ${eventResult(event) ? "done" : ""}">${event.code} · ${event.deload ? "Descarga" : dose.angle ? `${dose.angle}°` : "Roca"}</strong>` : ""}${recorded.length ? `<strong class="event-dot history">✓ ${recorded[0].title === "MoonBoard" ? "Moon" : "Registro"}</strong>` : ""}</button>`;
     }).join("");
     renderDayDetail();
   }
 
   function renderDayDetail() {
+    const block = blockForDate(selectedDate);
+    const week = block?.kind === "scheduled" ? weekForDate(selectedDate, block) : null;
+    const blockLabel = `<p class="day-block-label ${block ? `block-${block.number}` : ""}">${block ? `Bloque ${block.number} · ${escapeHtml(block.name)}${week ? ` · Semana ${week}` : " · Histórico"}` : "Sin bloque asignado"}</p>`;
     const event = plan.events.find((item) => item.date === selectedDate);
     if (!event && historyForDate(selectedDate).length) {
       const recorded = historyForDate(selectedDate);
-      $("#day-detail").innerHTML = `<span class="eyebrow">${escapeHtml(longDate(selectedDate))}</span><h2>Actividad registrada.</h2><span class="status-pill done">${recorded.length} registro(s)</span>${recorded.map((item) => `<h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.text)}</p>`).join("")}<button class="primary-button" data-show-history="${selectedDate}">Ver detalle de la sesión</button>`;
+      $("#day-detail").innerHTML = `${blockLabel}<span class="eyebrow">${escapeHtml(longDate(selectedDate))}</span><h2>Actividad registrada.</h2><span class="status-pill done">${recorded.length} registro(s)</span>${recorded.map((item) => `<h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.text)}</p>`).join("")}<button class="primary-button" data-show-history="${selectedDate}">Ver detalle de la sesión</button>`;
       return;
     }
     if (!event) {
-      $("#day-detail").innerHTML = `<span class="eyebrow">${escapeHtml(longDate(selectedDate))}</span><h2>Sin sesión programada.</h2><p>El plan reserva este día entre sesiones. Consulta el calendario o registra una actividad si has entrenado.</p><button class="primary-button" data-log-date="${selectedDate}">Registrar actividad</button>`;
+      $("#day-detail").innerHTML = `${blockLabel}<span class="eyebrow">${escapeHtml(longDate(selectedDate))}</span><h2>${block?.kind === "scheduled" ? "Descanso / recuperación." : "Sin sesión programada."}</h2><p>${block?.kind === "scheduled" ? "Día de recuperación dentro de este bloque. No hay sesión prescrita." : "No hay una sesión prescrita para esta fecha."} Puedes registrar una actividad si has entrenado.</p><button class="primary-button" data-log-date="${selectedDate}">Registrar actividad</button>`;
       return;
     }
     const dose = prescription(event);
     const existing = eventResult(event);
-    $("#day-detail").innerHTML = `<span class="eyebrow">${escapeHtml(longDate(event.date))} · S${event.week}</span><h2>${escapeHtml(dose.title)}</h2><span class="status-pill ${existing ? "done" : ""}">${eventState(event)}</span><p>${escapeHtml(event.focus)}</p><div class="dose-box"><span>${escapeHtml(dose.type)}</span><strong>${escapeHtml(dose.dose)}</strong><small>${escapeHtml(dose.rest)}</small></div><ol>${dose.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol><p>${escapeHtml(dose.record)}</p>${event.week === 1 && event.code === "A" ? '<p><strong>Primera sesión:</strong> revisar el nivel actual antes de mantener la dosis. La fecha no implica haber completado el bloque anterior.</p>' : ""}<button class="primary-button" data-log-event="${event.id}">${existing ? "Editar resultado" : "Registrar resultado"}</button>`;
+    $("#day-detail").innerHTML = `${blockLabel}<span class="eyebrow">${escapeHtml(longDate(event.date))} · S${event.week}</span><h2>${escapeHtml(dose.title)}</h2><span class="status-pill ${existing ? "done" : ""}">${eventState(event)}</span><p>${escapeHtml(event.focus)}</p><div class="dose-box"><span>${escapeHtml(dose.type)}</span><strong>${escapeHtml(dose.dose)}</strong><small>${escapeHtml(dose.rest)}</small></div><ol>${dose.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol><p>${escapeHtml(dose.record)}</p>${event.week === 1 && event.code === "A" ? '<p><strong>Primera sesión:</strong> revisar el nivel actual antes de mantener la dosis. La fecha no implica haber completado el bloque anterior.</p>' : ""}<button class="primary-button" data-log-event="${event.id}">${existing ? "Editar resultado" : "Registrar resultado"}</button>`;
   }
 
   function renderResults() {
@@ -403,13 +426,20 @@
     const log = event.target.closest("[data-log-event]");
     const free = event.target.closest("[data-log-date]");
     const nav = event.target.closest("[data-nav]");
+    const viewBlock = event.target.closest("[data-view-block]");
     const historyDate = event.target.closest("[data-show-history]");
     if (open) {
       const target = plan.events.find((item) => item.id === open.dataset.openEvent);
       selectedDate = target.date;
       calendarMonth = `${target.date.slice(0, 7)}-01`;
       renderCalendar(); activateSection("calendario");
-    } else if (day) { selectedDate = day.dataset.calendarDate; renderCalendar(); }
+    } else if (day) {
+      selectedDate = day.dataset.calendarDate;
+      renderCalendar();
+      $(`[data-calendar-date="${selectedDate}"]`).focus({ preventScroll: true });
+      if (window.matchMedia("(max-width: 1200px)").matches) $("#day-detail").scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    else if (viewBlock) { activateBlock(viewBlock.dataset.viewBlock); activateSection("plan"); }
     else if (log) { selectPlannedSession(log.dataset.logEvent); activateSection("registro"); }
     else if (free) { $("#session-form").reset(); $("#session-form").elements.date.value = free.dataset.logDate; activateSection("registro"); }
     else if (historyDate) { $("#history-from").value = historyDate.dataset.showHistory; $("#history-to").value = historyDate.dataset.showHistory; $("#history-type").value = "all"; renderSessions(); activateSection("sesiones"); }
@@ -420,10 +450,11 @@
   ["#history-type", "#history-from", "#history-to"].forEach((selector) => $(selector).addEventListener("input", renderSessions));
   $("#calendar-prev").addEventListener("click", () => moveMonth(-1));
   $("#calendar-next").addEventListener("click", () => moveMonth(1));
-  function moveMonth(step) { const date = dateObject(calendarMonth); date.setUTCMonth(date.getUTCMonth() + step); calendarMonth = date.toISOString().slice(0, 10); renderCalendar(); }
+  function moveMonth(step) { const date = dateObject(calendarMonth); date.setUTCMonth(date.getUTCMonth() + step); calendarMonth = date.toISOString().slice(0, 10); selectedDate = calendarMonth; renderCalendar(); }
   $("#calendar-today").addEventListener("click", () => { selectedDate = today; calendarMonth = `${today.slice(0, 7)}-01`; renderCalendar(); });
   $("#today-label").textContent = longDate(today);
   $("#cycle-dates").textContent = `${fmtDate(plan.start_date)} — ${fmtDate(plan.end_date)} · 15 sesiones · 5 semanas`;
+  $("#current-block-label").textContent = `Bloque actual del plan: ${plan.block} · Fuerza`;
   $("#schedule-note").textContent = plan.scheduling_note;
   $("#calendar-weeks").innerHTML = plan.weeks.map((week) => `<article class="${week.deload ? "deload" : ""}"><span>SEMANA ${week.number}</span><strong>${escapeHtml(week.title)}</strong><p>${escapeHtml(week.focus)}</p></article>`).join("");
   if (plan.google_calendar.status === "created" && plan.google_calendar.url) { $("#google-calendar-link").hidden = false; $("#google-calendar-link").href = plan.google_calendar.url; }

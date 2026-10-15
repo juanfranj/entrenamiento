@@ -14,3 +14,25 @@
 @media print{.sidebar,.topbar,.header-actions,footer,.toast{display:none}.workspace{margin:0}.page-section{display:block!important;break-before:page}main{padding:0}.table-wrap{max-height:none}.calendar-layout{grid-template-columns:1fr}body{background:#fff}}
 
 .calendar-day .event-dot.history{background:#e8eae3;border-color:#87917e;color:#4f5f4c}
+
+/* El fondo completo representa el bloque; A/B/C siguen identificando la sesión. */
+.block-1{--block-fill:#dce6f5;--block-ink:#284b79;--block-line:#8da9d0}
+.block-2{--block-fill:#d7e8d3;--block-ink:#294f31;--block-line:#88ac7e}
+.block-3{--block-fill:#eee0ca;--block-ink:#755123;--block-line:#c6a773}
+.block-4{--block-fill:#f0dacf;--block-ink:#7c4531;--block-line:#c58b74}
+.block-5{--block-fill:#e5dced;--block-ink:#634579;--block-line:#aa90bf}
+.calendar-day[class*="block-"]{background-color:var(--block-fill);color:var(--block-ink);border-color:var(--block-line)}
+.calendar-day.block-deload{background-image:repeating-linear-gradient(135deg,transparent,transparent 7px,#ffffff55 7px,#ffffff55 11px)}
+.calendar-day[class*="block-"].outside{opacity:.78}
+.calendar-day[class*="block-"].selected,.calendar-day.selected{box-shadow:inset 0 0 0 3px var(--block-ink,var(--ink))}
+.calendar-day[class*="block-"].selected{background-color:var(--block-fill);opacity:1}
+.calendar-day:hover{filter:brightness(.96)}
+.calendar-day .cell-block{font-size:9px;font-weight:800;line-height:1;letter-spacing:.3px}
+.block-swatch{display:inline-block;width:14px;height:14px;background:var(--block-fill);border:1px solid var(--block-line);border-radius:3px}
+.selected-block-context{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 22px;margin:0 0 18px;border:1px solid var(--block-line,var(--line));border-left-width:5px;border-radius:8px;background:var(--block-fill,#f1f3ec);color:var(--block-ink,var(--ink))}
+.selected-block-context .eyebrow{color:inherit;font-size:8px}
+.selected-block-context h2{font-family:Georgia,serif;font-weight:400;font-size:25px;line-height:1.2;margin:6px 0 9px}
+.selected-block-context p{font-size:11px;line-height:1.7;margin:0}
+.day-block-label{padding:10px;border-radius:5px;background:var(--block-fill,#f1f3ec);color:var(--block-ink,var(--ink))!important;font-weight:700;margin:0 0 17px!important}
+.calendar-weeks .selected-week{border:2px solid #294f31;background:#d7e8d3;padding:12px}
+@media(max-width:580px){.selected-block-context{display:block;padding:18px}.selected-block-context h2{font-size:23px}.selected-block-context .quiet-button{margin-top:12px}.calendar-day .cell-block{font-size:8px}.calendar-day{min-height:108px}}
