@@ -1,0 +1,288 @@
+<!doctype html>
+<!-- Proyecto 8a v1.1.0 · Panel local, sin dependencias externas. -->
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Seguimiento personal de entrenamiento de escalada y progresión hacia 8a.">
+  <title>Proyecto 8a | Seguimiento de escalada</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='13' fill='%23111920'/%3E%3Cpath d='M12 51 29 12l8 18 6-10 9 31Z' fill='%23f0a21a'/%3E%3Ccircle cx='31' cy='32' r='4' fill='%23e8f1f5'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#resumen" data-nav="resumen" aria-label="Ir al resumen">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span><small>Seguimiento personal</small><strong>Proyecto 8a</strong></span>
+    </a>
+    <div class="header-actions">
+      <span class="sync-state"><i></i>MoonBoard actualizado 17/09/2026</span>
+      <button class="quiet-button" id="export-all" type="button">Exportar copia</button>
+    </div>
+  </header>
+
+  <nav class="section-nav" aria-label="Secciones del seguimiento">
+    <button class="nav-button active" data-nav="resumen" aria-selected="true">Resumen</button>
+    <button class="nav-button" data-nav="plan" aria-selected="false">Plan actual</button>
+    <button class="nav-button" data-nav="sesiones" aria-selected="false">Sesiones</button>
+    <button class="nav-button" data-nav="boulders" aria-selected="false">Boulders</button>
+    <button class="nav-button" data-nav="registro" aria-selected="false">Registrar</button>
+  </nav>
+
+  <main>
+    <section class="page-section active" id="resumen" aria-labelledby="estado-title">
+      <div class="overview">
+        <div class="status-panel">
+          <p class="section-kicker">Estado actual</p>
+          <h1 id="estado-title">El 6C ya es grado de trabajo.</h1>
+          <p>La fuerza a 40° está creciendo. El siguiente bloque busca convertir los encadenes de 6C en consistencia y ampliar la exposición a 6C+ antes de dar prioridad a la resistencia de potencia.</p>
+          <div class="grade-track" aria-label="Progresión de grado">
+            <div class="grade reached"><strong>6B+</strong><span>consolidado</span></div>
+            <div class="grade current"><strong>6C</strong><span>trabajo actual</span></div>
+            <div class="grade"><strong>6C+</strong><span>exposición</span></div>
+            <div class="grade"><strong>7A</strong><span>cambio de fase</span></div>
+          </div>
+        </div>
+        <div class="wall-graphic" aria-hidden="true">
+          <div class="wall-grid"></div>
+          <div class="route-line"></div>
+          <div class="hold h1"></div><div class="hold h2"></div><div class="hold h3"></div>
+          <div class="hold h4"></div><div class="hold h5"></div><div class="hold h6"></div>
+          <div class="angle-mark">40°</div>
+        </div>
+      </div>
+
+      <div class="metrics" aria-label="Resumen del mes">
+        <article><strong id="metric-sessions">9</strong><span>sesiones MoonBoard</span></article>
+        <article><strong id="metric-problems">141</strong><span>boulders registrados</span></article>
+        <article><strong id="metric-completion">76,6%</strong><span>completados</span></article>
+        <article><strong id="metric-40">50</strong><span>boulders a 40°</span></article>
+      </div>
+
+      <div class="summary-grid">
+        <article class="chart-panel">
+          <div class="panel-heading">
+            <div><p class="section-kicker">Carga real</p><h2>Volumen por sesión</h2></div>
+            <div class="legend"><span class="dot angle25"></span>25° <span class="dot angle40"></span>40°</div>
+          </div>
+          <div id="volume-chart" class="volume-chart" aria-label="Gráfico de volumen por sesión"></div>
+        </article>
+
+        <aside class="diagnosis-panel">
+          <p class="section-kicker">Lectura de la última sesión</p>
+          <h2>Mucho volumen duro. Ahora toca afinar la calidad.</h2>
+          <div id="latest-breakdown" class="breakdown"></div>
+          <p class="diagnosis-note">La sesión del 17/09 concentró 17 problemas a 40°. Para una sesión puramente de fuerza, el próximo bloque limitará el volumen duro y protegerá la calidad de cada intento.</p>
+        </aside>
+      </div>
+
+      <div class="milestone-band">
+        <div><span>Hito de cambio de fase</span><strong>6C+ consistente / 7A máximo a 40°</strong></div>
+        <div class="milestone-line"><i style="width:62%"></i><b>fase 1</b></div>
+        <p>Cuando ese hito llegue, el día de 25° evolucionará hacia resistencia de potencia y la roca tendrá más peso específico.</p>
+      </div>
+    </section>
+
+    <section class="page-section" id="plan" aria-labelledby="plan-title">
+      <div class="page-heading">
+        <div><p class="section-kicker" id="plan-phase-kicker">Bloque 2 · cinco semanas</p><h1 id="plan-title">Consolidar 6C, abrir 6C+.</h1></div>
+        <div class="phase-chip" id="plan-phase-chip"><span></span>4 semanas de carga + 1 descarga</div>
+      </div>
+
+      <div class="macro-roadmap" role="tablist" aria-label="Seleccionar bloque de entrenamiento">
+        <button class="roadmap-card completed" type="button" role="tab" data-block="1" aria-selected="false" aria-controls="block-panel-1"><span>Bloque 1</span><strong>Base</strong><p>Adaptación al MoonBoard, volumen a 25° y entrada progresiva a 40°.</p><b>Terminado</b><em>Ver bloque</em></button>
+        <button class="roadmap-card current selected" type="button" role="tab" data-block="2" aria-selected="true" aria-controls="block-panel-2"><span>Bloque 2</span><strong>Fuerza</strong><p>Consolidar 6C, abrir 6C+ y probar una dosis pequeña de continuidad.</p><b>Actual</b><em>Viendo</em></button>
+        <button class="roadmap-card" type="button" role="tab" data-block="3" aria-selected="false" aria-controls="block-panel-3"><span>Bloque 3</span><strong>Puente</strong><p>Repeticiones del mismo bloque y secuencias de 2–3 problemas.</p><em>Ver bloque</em></button>
+        <button class="roadmap-card" type="button" role="tab" data-block="4" aria-selected="false" aria-controls="block-panel-4"><span>Bloque 4</span><strong>Power endurance</strong><p>Series de 3–5 problemas para acumular 20–35 movimientos.</p><em>Ver bloque</em></button>
+        <button class="roadmap-card" type="button" role="tab" data-block="5" aria-selected="false" aria-controls="block-panel-5"><span>Bloque 5</span><strong>Específico de vía</strong><p>Roca prioritaria, proyectos y mantenimiento de fuerza a 40°.</p><em>Ver bloque</em></button>
+      </div>
+
+      <div class="block-panel" id="block-panel-1" data-block-panel="1" role="tabpanel" hidden>
+        <div class="block-status completed-status">
+          <div><p class="section-kicker">Bloque cerrado</p><h2>La base ya está construida</h2><p>Este bloque sirvió para adaptar dedos, piel y técnica al MoonBoard antes de pedir intensidad alta. Tus registros muestran exposición suficiente a ambos ángulos y ya señalas comodidad en 6C.</p></div>
+          <div class="block-evidence"><article><strong>9</strong><span>sesiones importadas</span></article><article><strong>141</strong><span>problemas registrados</span></article><article><strong>50</strong><span>problemas a 40°</span></article></div>
+        </div>
+        <div class="block-columns">
+          <article><span>Objetivo que cumplía</span><h3>Adaptación y calidad</h3><p>Volumen técnico a 25°, entrada gradual a 40° y aprendizaje de descansos largos para conservar potencia.</p></article>
+          <article><span>Qué conservamos</span><h3>Calentamiento y técnica</h3><p>Los problemas fáciles, los pies precisos y el corte de sesión cuando cae la potencia siguen presentes en todos los bloques.</p></article>
+          <article><span>Por qué avanzamos</span><h3>El 6C ya no es excepcional</h3><p>La siguiente limitación útil es consolidar fuerza a 40° y empezar a sostenerla durante más movimientos.</p></article>
+        </div>
+        <p class="block-gate"><strong>Estado:</strong> terminado. No necesitas repetirlo completo; una semana de descarga puede recuperar parte de su volumen fácil.</p>
+      </div>
+
+      <div class="block-panel active" id="block-panel-2" data-block-panel="2" role="tabpanel">
+      <aside class="bridge-session">
+        <div><p class="section-kicker">Empieza en este bloque</p><h2>Dosis puente para cuerda</h2></div>
+        <div class="bridge-prescription"><strong>Semanas 2 y 4</strong><span>3 rondas</span><span>2 problemas seguidos a 25°</span><span>6A–6A+</span><span>15–30 s para cambiar</span><span>4–5 min entre rondas</span></div>
+        <p>Hazla después del calentamiento y reduce el volumen restante a 8–12 problemas. Debe dejar fatiga de antebrazo, pero permitir completar las tres rondas sin convertirlas en intentos máximos.</p>
+      </aside>
+
+      <div class="weekly-plan">
+        <article class="session-card strength">
+          <div class="session-index">A</div>
+          <div>
+            <p class="session-meta">MoonBoard 40° · fuerza y potencia</p>
+            <h2>Intentos de máxima calidad</h2>
+            <ol>
+              <li><strong>Calentamiento:</strong> 15–20 min progresivos y 3–5 problemas fáciles a 25°.</li>
+              <li><strong>Base:</strong> 3 problemas 6B+ que controles, uno o dos intentos cada uno.</li>
+              <li><strong>Trabajo:</strong> 4–6 problemas 6C y 2–3 problemas 6C+ elegidos por estilos distintos.</li>
+              <li><strong>Descanso:</strong> 3–5 min entre intentos duros. Termina cuando la potencia caiga claramente.</li>
+            </ol>
+            <p class="dose">Objetivo: 14–20 intentos duros totales, no 17 problemas duros completos.</p>
+          </div>
+        </article>
+
+        <article class="session-card volume">
+          <div class="session-index">B</div>
+          <div>
+            <p class="session-meta">MoonBoard 25° · volumen técnico</p>
+            <h2>Acumular movimientos limpios</h2>
+            <ol>
+              <li><strong>Selección:</strong> 12–18 problemas entre 5+ y 6B; evita convertirlo en otro día máximo.</li>
+              <li><strong>Pausa:</strong> 60–90 s entre bloques; 3 min si necesitas reiniciar la técnica.</li>
+              <li><strong>Intención:</strong> pies silenciosos, cadera cerca, precisión y respiración.</li>
+              <li><strong>Semanas 2 y 4:</strong> sustituye parte del volumen por la dosis puente de dos problemas enlazados.</li>
+            </ol>
+            <p class="dose">Objetivo: 80–90% completado y sensación final de poder hacer algo más.</p>
+          </div>
+        </article>
+
+        <article class="session-card rock">
+          <div class="session-index">C</div>
+          <div>
+            <p class="session-meta">Roca con cuerda · dificultad</p>
+            <h2>Convertir fuerza en escalada</h2>
+            <ol>
+              <li><strong>Entrada:</strong> dos vías progresivas, sin fatigar antebrazos.</li>
+              <li><strong>Proyecto:</strong> 3–5 pegues de calidad con descanso completo y una intención clara por pegue.</li>
+              <li><strong>Técnica:</strong> anota reposos, secuencia, chapajes y punto de caída.</li>
+              <li><strong>Salida:</strong> una vía cómoda solo si mantiene calidad; no añadas volumen por cumplir.</li>
+            </ol>
+            <p class="dose">Objetivo: aprendizaje del proyecto, no agotar el contador de vías.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="load-block">
+        <div class="panel-heading"><div><p class="section-kicker">Progresión</p><h2>Microciclo de cinco semanas</h2></div></div>
+        <div class="week-track">
+          <article><span>Semana 1</span><strong>Calibrar</strong><p>Elegir cartera 6C y medir calidad real.</p></article>
+          <article><span>Semana 2</span><strong>Construir</strong><p>Añadir un 6C+ y mantener descansos.</p></article>
+          <article><span>Semana 3</span><strong>Consolidar</strong><p>Repetir 6C en estilos débiles.</p></article>
+          <article><span>Semana 4</span><strong>Comprobar</strong><p>Intento fresco a 6C+/7A sin volumen extra.</p></article>
+          <article class="deload"><span>Semana 5</span><strong>Descargar</strong><p>50–60% del volumen; conservar intensidad.</p></article>
+        </div>
+      </div>
+
+      <div class="continuity-guide">
+        <div class="panel-heading"><div><p class="section-kicker">Progresión hacia cuerda</p><h2>Cómo entran los bloques enlazados</h2></div></div>
+        <div class="continuity-steps">
+          <article><span>Ahora · bloque 2</span><strong>2 diferentes × 3 rondas</strong><p>Primera exposición. Grado 6A–6A+ a 25°, transición corta y descanso completo.</p></article>
+          <article><span>Bloque 3</span><strong>Repetir ×2–3 o enlazar 3</strong><p>El mismo problema entrena acumulación controlada; tres diferentes transfieren mejor a la variedad de una vía.</p></article>
+          <article><span>Bloque 4</span><strong>3–5 problemas enlazados</strong><p>Entre 20 y 35 movimientos, 2–3 series y 6–10 minutos de recuperación.</p></article>
+          <article><span>Bloque 5</span><strong>La roca manda</strong><p>Las vías y el proyecto aportan la especificidad. MoonBoard mantiene fuerza y completa lo que falte.</p></article>
+        </div>
+        <p class="transition-rule"><strong>No hace falta esperar al 6C+.</strong> Pasaremos al bloque 3 cuando el 6C a 40° ronde el 70% de éxito durante dos sesiones de fuerza y toleres la dosis puente sin caída técnica marcada. El 6C+ consistente o el 7A será el hito para que la resistencia de potencia gane protagonismo, no para empezarla desde cero.</p>
+      </div>
+
+      <div class="plan-notes">
+        <article><h3>Separación</h3><p>Deja al menos 48 horas entre los dos días de MoonBoard. Evita colocar 40° el día posterior a roca dura.</p></article>
+        <article><h3>Control Tindeq</h3><p>Mide siempre con el mismo agarre, canto y protocolo. Compara tendencias, no una lectura aislada.</p></article>
+        <article><h3>Señal de ajuste</h3><p>Dolor focal en dedos, caída persistente del rendimiento o fatiga que altera la técnica justifican reducir carga y revisar.</p></article>
+      </div>
+      </div>
+
+      <div class="block-panel" id="block-panel-3" data-block-panel="3" role="tabpanel" hidden>
+        <div class="block-status"><div><p class="section-kicker">Siguiente fase</p><h2>Unir fuerza sin perder técnica</h2><p>Primer bloque realmente orientado a cuerda: mantienes un día de fuerza, pero el segundo día de MoonBoard empieza a acumular fatiga de forma deliberada.</p></div><div class="block-prescription"><strong>3–4 semanas</strong><span>2 sesiones Moon</span><span>1 día de cuerda</span></div></div>
+        <div class="block-schedule">
+          <article class="strength"><span>A · 40°</span><h3>Fuerza mantenida</h3><ul><li>4–6 problemas 6C/6C+.</li><li>2–4 intentos de calidad por problema.</li><li>3–5 min de descanso.</li></ul></article>
+          <article class="volume"><span>B · 25°</span><h3>Puente de continuidad</h3><ul><li>Opción 1: mismo problema ×2–3.</li><li>Opción 2: 3 problemas diferentes seguidos.</li><li>3–4 series; 5–6 min de descanso.</li></ul></article>
+          <article class="rock"><span>C · cuerda</span><h3>Aplicación en vía</h3><ul><li>Vías de 20–30 movimientos.</li><li>Practicar reposos y respiración.</li><li>3–4 pegues útiles, no agotamiento.</li></ul></article>
+        </div>
+        <p class="block-gate"><strong>Entrada:</strong> alrededor de 70% de éxito en 6C a 40° durante dos sesiones y dosis puente tolerada. <strong>Salida:</strong> completar tres problemas enlazados sin colapso técnico en las dos primeras series.</p>
+      </div>
+
+      <div class="block-panel" id="block-panel-4" data-block-panel="4" role="tabpanel" hidden>
+        <div class="block-status"><div><p class="section-kicker">Resistencia de potencia</p><h2>Producir fuerza con los antebrazos cargados</h2><p>La sesión de 25° deja de ser volumen general y se convierte en secuencias parecidas al tramo decisivo de una vía deportiva.</p></div><div class="block-prescription"><strong>4 semanas</strong><span>20–35 movimientos</span><span>2–3 series</span></div></div>
+        <div class="block-schedule">
+          <article class="strength"><span>A · 40°</span><h3>Fuerza, poco volumen</h3><ul><li>3–5 problemas duros.</li><li>10–14 intentos totales.</li><li>Finalizar antes de perder potencia.</li></ul></article>
+          <article class="volume"><span>B · 25°</span><h3>3–5 problemas enlazados</h3><ul><li>6A–6B según longitud.</li><li>20–35 movimientos por serie.</li><li>6–10 min entre 2–3 series.</li></ul></article>
+          <article class="rock"><span>C · cuerda</span><h3>Proyecto y encadenamiento</h3><ul><li>Una vía objetivo y una submáxima.</li><li>Ensayar sección clave con fatiga.</li><li>Medir dónde falla la recuperación.</li></ul></article>
+        </div>
+        <p class="block-gate"><strong>Entrada:</strong> 6C+ consistente o 7A máximo a 40°. <strong>Salida:</strong> mantener la secuencia y el ritmo en 25–35 movimientos, y trasladarlo a pegues completos en roca.</p>
+      </div>
+
+      <div class="block-panel" id="block-panel-5" data-block-panel="5" role="tabpanel" hidden>
+        <div class="block-status"><div><p class="section-kicker">Puesta a punto</p><h2>La vía objetivo organiza la semana</h2><p>El rendimiento en cuerda pasa al centro. MoonBoard conserva las cualidades que ya tienes sin robar recuperación a los pegues importantes.</p></div><div class="block-prescription"><strong>3–6 semanas</strong><span>roca prioritaria</span><span>MoonBoard mínimo eficaz</span></div></div>
+        <div class="block-schedule">
+          <article class="strength"><span>A · 40°</span><h3>Mantenimiento</h3><ul><li>3–4 problemas duros.</li><li>6–10 intentos de alta calidad.</li><li>Separado de la roca importante.</li></ul></article>
+          <article class="volume"><span>B · opcional</span><h3>Ajuste según el proyecto</h3><ul><li>Continuidad si la vía es larga.</li><li>Potencia si falla la sección clave.</li><li>Eliminar si resta calidad en roca.</li></ul></article>
+          <article class="rock"><span>C · prioridad</span><h3>Ensayo específico</h3><ul><li>Beta, chapajes y reposos definidos.</li><li>Pegues de encadenamiento frescos.</li><li>Descarga antes de días clave.</li></ul></article>
+        </div>
+        <p class="block-gate"><strong>Regla principal:</strong> si una sesión de MoonBoard empeora el siguiente día de proyecto, se reduce o se elimina. En este bloque el indicador válido es el rendimiento en la vía.</p>
+      </div>
+    </section>
+
+    <section class="page-section" id="sesiones" aria-labelledby="sessions-title">
+      <div class="page-heading">
+        <div><p class="section-kicker">Historial importado</p><h1 id="sessions-title">Nueve sesiones, bloque a bloque.</h1></div>
+        <a class="quiet-button link-button" href="data/boulders_moonboard.csv" download>Descargar CSV</a>
+      </div>
+      <div class="session-trend" id="session-trend" aria-label="Tendencia de sesiones"></div>
+      <div id="session-list" class="session-list"></div>
+    </section>
+
+    <section class="page-section" id="boulders" aria-labelledby="boulders-title">
+      <div class="page-heading compact">
+        <div><p class="section-kicker">Base de datos MoonBoard</p><h1 id="boulders-title">Los 141 boulders.</h1></div>
+        <span id="filter-count" class="result-count">141 resultados</span>
+      </div>
+      <div class="filters" aria-label="Filtros de boulders">
+        <label>Buscar<input id="filter-search" type="search" placeholder="Nombre o setter"></label>
+        <label>Ángulo<select id="filter-angle"><option value="">Todos</option><option value="25">25°</option><option value="40">40°</option></select></label>
+        <label>Grado<select id="filter-grade"><option value="">Todos</option></select></label>
+        <label>Resultado<select id="filter-result"><option value="">Todos</option><option value="completed">Completado</option><option value="open">Pendiente</option></select></label>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Fecha</th><th>Problema</th><th>Ángulo</th><th>Grado</th><th>Resultado</th><th>Intentos</th></tr></thead>
+          <tbody id="boulder-rows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="page-section" id="registro" aria-labelledby="log-title">
+      <div class="page-heading">
+        <div><p class="section-kicker">Seguimiento continuo</p><h1 id="log-title">Registrar una sesión.</h1></div>
+        <p class="heading-note">Los registros manuales se guardan solo en este navegador. Exporta una copia con regularidad.</p>
+      </div>
+      <div class="log-layout">
+        <form id="session-form" class="log-form">
+          <label>Fecha<input required name="date" type="date"></label>
+          <label>Tipo de sesión<select required name="type"><option value="MoonBoard 40°">MoonBoard 40°</option><option value="MoonBoard 25°">MoonBoard 25°</option><option value="Roca con cuerda">Roca con cuerda</option><option value="Tindeq / fuerza">Tindeq / fuerza</option></select></label>
+          <div class="form-pair"><label>Duración (min)<input name="duration" type="number" min="0" max="480"></label><label>RPE (1–10)<input name="rpe" type="number" min="1" max="10"></label></div>
+          <div class="form-pair"><label>Máximo grado<input name="maxGrade" type="text" placeholder="6C+"></label><label>Dolor (0–10)<input name="pain" type="number" min="0" max="10"></label></div>
+          <div class="form-pair"><label>Completados<input name="completed" type="number" min="0"></label><label>Intentos<input name="attempts" type="number" min="0"></label></div>
+          <label>Notas<textarea name="notes" rows="4" placeholder="Sensaciones, secuencias, reposos o molestias"></textarea></label>
+          <button class="primary-button" type="submit">Guardar sesión</button>
+        </form>
+        <div class="manual-log">
+          <div class="manual-heading"><div><p class="section-kicker">Añadidas manualmente</p><h2>Diario complementario</h2></div><label class="import-button">Importar copia<input id="import-file" type="file" accept="application/json"></label></div>
+          <div id="manual-list" class="manual-list"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Proyecto 8a · v1.1.0</strong> · Datos importados del Logbook de MoonBoard el 17/09/2026.</p>
+    <nav class="documentation-links" aria-label="Documentación del proyecto"><a href="README.md">Guía del proyecto</a><a href="PLAN_ENTRENAMIENTO.md">Plan maestro</a><a href="DICCIONARIO_DATOS.md">Diccionario de datos</a><a href="CHANGELOG.md">Historial de cambios</a></nav>
+    <details><summary>Criterio y fuentes</summary><p>El plan separa fuerza, volumen técnico y práctica específica en roca. Se apoya en revisiones sobre determinantes del rendimiento y entrenamiento específico en escalada. La evidencia disponible es útil, pero limitada y no sustituye la valoración de un entrenador o profesional sanitario ante dolor o lesión.</p><ul><li><a href="https://pubmed.ncbi.nlm.nih.gov/39216626/">Determinantes del rendimiento en escalada deportiva</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/36636194/">Entrenamiento específico y rendimiento</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/38162697/">Riesgo y prevención de lesiones por sobreuso</a></li><li><a href="https://pubmed.ncbi.nlm.nih.gov/41103490/">Fiabilidad de las mediciones de fuerza de dedos</a></li></ul></details>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="assets/data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

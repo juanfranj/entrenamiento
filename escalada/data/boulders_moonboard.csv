@@ -1,0 +1,142 @@
+fecha,orden,nombre,setter,angulo,grado_font,grado_v,resultado,completado,intentos,repeticiones_globales
+2026-09-17,1,DONGTASTIC,DonnyDawes,25,5+,V1,Flashed @25°,sí,1,3982
+2026-09-17,2,EUAN 1,euank,25,6A,V2,Flashed @25°,sí,1,2260
+2026-09-17,3,THE WALLERWEINERS,Austin hoyt,25,6B,V4,Flashed @25°,sí,1,1575
+2026-09-17,4,HOOKLEBERRY FIN,maez,40,6B+,V4,Flashed @40°,sí,1,1251
+2026-09-17,5,HOOKLEBERRY FIN,maez,40,6B+,V4,Session Flash @40°,sí,1,1251
+2026-09-17,6,BIRTHMARK,Kyle Knapp,40,6B+,V4,Flashed @40°,sí,1,717
+2026-09-17,7,BIG SQUEEZY,David,40,6C+,V5,Fail - (2 tries) @40°,no,2,14565
+2026-09-17,8,GRAIN OF SALT,Kyle Knapp,40,6C,V5,Fail - (1 try) @40°,no,1,586
+2026-09-17,9,QWB 1,das,40,6C,V5,Project - (3 tries) @40°,no,3,494
+2026-09-17,10,BOBER ATTAK,abbeyd407,40,6C,V5,Flashed @40°,sí,1,421
+2026-09-17,11,BIG LEBOWSKI,dfirman,40,6C,V5,Flashed @40°,sí,1,399
+2026-09-17,12,JOLLY OLLIE,Harvey foyer,40,6C,V5,Flashed @40°,sí,1,332
+2026-09-17,13,BLUE MOON,KoalaClimbing,40,6B+,V4,Flashed @40°,sí,1,213
+2026-09-17,14,WAHRE JUNGS,Jens Landgraf,40,6C+,V5,Project - (2 tries) @40°,no,2,5797
+2026-09-17,15,SWITCHEROO,DiPu,40,6C+,V5,Project - (2 tries) @40°,no,2,3209
+2026-09-17,16,SNAKE AND LADDERS,daddy long arms,40,6B+,V4,Flashed @40°,sí,1,566
+2026-09-17,17,LES BLEUS,Kyle Knapp,40,6C,V5,Flashed @40°,sí,1,401
+2026-09-17,18,BLUE MOON GIRL,RealWorldClimbing,40,6C+,V5,Flashed @40°,sí,1,285
+2026-09-17,19,SACRIFICE,Kyle Knapp,40,6C,V5,Project - (1 try) @40°,no,1,172
+2026-09-17,20,IF HE CAN DO IT THEN I...,lekanteto,40,6B+,V4,Flashed @40°,sí,1,547
+2026-09-15,1,HENNE WALK 25°,Ben Moon,25,5+,V1,Flashed @25°,sí,1,4222
+2026-09-15,2,BD6 25°,Ben Moon,25,5+,V1,Flashed @25°,sí,1,4188
+2026-09-15,3,SHORTY’S WARM UP,Gabi,25,6A,V2,Flashed @25°,sí,1,2451
+2026-09-15,4,SHORTY’S WARM UP,Gabi,25,6A,V2,Session Flash @25°,sí,1,2451
+2026-09-15,5,MIDNIGHT OIL,Kimball Holloway,25,6A,V2,Flashed @25°,sí,1,2289
+2026-09-15,6,HARVEST,Ben Moon,25,6A+,V3,Project - (2 tries) @25°,no,2,1553
+2026-09-15,7,DEEP BLUE SEA,Christy,25,6A+,V3,Flashed @25°,sí,1,1538
+2026-09-15,8,MITCH MASTER HARD 25°,Ben Moon,25,6B,V4,Fail - (2 tries) @25°,no,2,2578
+2026-09-15,9,SKIN'S RAW,jimi_lp,25,6B,V4,Project - (3 tries) @25°,no,3,1686
+2026-09-15,10,HIGH-STEP,Christy,25,6B+,V4,2nd try @25°,sí,2,2995
+2026-09-15,11,REAL MAN 25,Christophe Paquot,25,6B+,V4,Project - (3 tries) @25°,no,3,2484
+2026-09-15,12,SASHAY AWAY B*TCH,ervanilla,40,6B+,V4,Flashed @40°,sí,1,1391
+2026-09-15,13,BJÖRK,Jacob,40,6B+,V4,Project - (3 tries) @40°,no,3,1114
+2026-09-15,14,ANTER SANDBAGMAN,dani,40,6B+,V4,Flashed @40°,sí,1,1105
+2026-09-15,15,FIRST IN THE BLUE,Marko Keuschnig,40,6B+,V4,Flashed @40°,sí,1,1110
+2026-09-15,16,SHORTIES RULE,pert pert ,40,6B+,V4,Flashed @40°,sí,1,764
+2026-09-10,1,JUST FOR FUN,Garethbrooks_,25,5+,V1,Flashed @25°,sí,1,4318
+2026-09-10,2,THE BIG CROSS 25°,Ben Moon,25,6A,V2,Flashed @25°,sí,1,2538
+2026-09-10,3,STUPID THINGS,Harrison ‘ha,25,6A,V2,Flashed @25°,sí,1,2495
+2026-09-10,4,DANCING PIG 25°,Ben Moon,25,6A+,V3,Flashed @25°,sí,1,1664
+2026-09-10,5,ON A PALE HORSE 25°,Ben Moon,25,6A+,V3,Flashed @25°,sí,1,1584
+2026-09-10,6,SHANTARAM,Ben Moon,40,6C,V5,Fail - (2 tries) @40°,no,2,7501
+2026-09-10,7,I’M BLUE,Jacob,40,6B+,V4,Flashed @40°,sí,1,1568
+2026-09-10,8,YUMS IN MY TUMS,shomoonboards,40,6C,V5,Fail - (3 tries) @40°,no,3,10384
+2026-09-10,9,LUNE BLEUE,Kyle Knapp,40,6C,V5,Project - (3 tries) @40°,no,3,5176
+2026-09-10,10,CODEX,Ravioli Biceps,40,6C,V5,Project - (2 tries) @40°,no,2,1187
+2026-09-10,11,DEAFEN OUR EARS,Kyle Knapp,40,6C,V5,Flashed @40°,sí,1,939
+2026-09-10,12,TEEN AGE RIOT,Kyle Knapp,40,6C,V5,Flashed @40°,sí,1,689
+2026-09-10,13,GRAIN OF SALT,Kyle Knapp,40,6C,V5,Project - (2 tries) @40°,no,2,585
+2026-09-03,1,WARM UP B3,Ben Moon,25,5+,V1,Flashed @25°,sí,1,4787
+2026-09-03,2,KLIVRE,PaniX,25,5+,V1,Flashed @25°,sí,1,4692
+2026-09-03,3,THE JUNGLE,Gabi,25,6A,V2,Flashed @25°,sí,1,3042
+2026-09-03,4,FKJ [DK],FantaFrede,25,6A,V2,Flashed @25°,sí,1,2888
+2026-09-03,5,32.2 MILES 25°,Ben Moon,25,6A,V2,Flashed @25°,sí,1,2861
+2026-09-03,6,DONGLER,DonnyDawes,25,6A+,V3,Session Flash @25°,sí,1,1810
+2026-09-03,7,DONGLER,DonnyDawes,25,6A+,V3,2nd try @25°,sí,2,1810
+2026-09-03,8,WARMUP 11,Alex Freeman,25,6A+,V3,Flashed @25°,sí,1,1696
+2026-09-03,9,MITCH MASTER HARD 25°,Ben Moon,25,6B,V4,Fail - (3 tries) @25°,no,3,2578
+2026-09-03,10,GAS LEAK,garynewmey,25,6B,V4,2nd try @25°,sí,2,1949
+2026-09-03,11,B,elder,25,6B,V4,Flashed @25°,sí,1,1867
+2026-09-03,12,FREE BEER,Jack Folkes,25,6B,V4,Flashed @25°,sí,1,1732
+2026-09-03,13,THE WARM UP PROBLEM,Jack Andrew,40,6B+,V4,Flashed @40°,sí,1,6960
+2026-09-03,14,DEEP BLUE,Jack Andrew,40,6B+,V4,Flashed @40°,sí,1,2702
+2026-09-03,15,ICE BURN,JoBlo,40,6B+,V4,Flashed @40°,sí,1,3465
+2026-09-03,16,RAPTORS,Louis_Doherty,40,6C,V5,Project - (3 tries) @40°,no,3,6947
+2026-09-03,17,TEAMWORK,Marko Keuschnig,40,6B+,V4,Flashed @40°,sí,1,1737
+2026-09-01,1,IN ON THE ACTION,Fox,25,5+,V1,Flashed @25°,sí,1,5372
+2026-09-01,2,IN ON THE ACTION,Fox,25,5+,V1,Session Flash @25°,sí,1,5372
+2026-09-01,3,CLALEXIA,Bella ciao ,25,5+,V1,Flashed @25°,sí,1,5393
+2026-09-01,4,CLALEXIA,Bella ciao ,25,5+,V1,Session Flash @25°,sí,1,5393
+2026-09-01,5,DONNER KEBAB,DonnyDawes,25,6A,V2,Flashed @25°,sí,1,3338
+2026-09-01,6,TACOS PASTOR,RJtrials,25,6A,V2,Flashed @25°,sí,1,3095
+2026-09-01,7,TACOS PASTOR,RJtrials,25,6A,V2,Session Flash @25°,sí,1,3095
+2026-09-01,8,PRO-JECT,Jules,25,6A+,V3,Flashed @25°,sí,1,1811
+2026-09-01,9,DONGLER,DonnyDawes,25,6A+,V3,Project - (2 tries) @25°,no,2,1810
+2026-09-01,10,CLAN WAR,Mr. Noodles ,40,6C,V5,2nd try @40°,sí,2,19906
+2026-09-01,11,FIRST MEETING,luca,40,6B+,V4,Session Flash @40°,sí,1,13446
+2026-09-01,12,SHANTARAM,Ben Moon,40,6C,V5,Fail - (2 tries) @40°,no,2,7501
+2026-09-01,13,BIG SQUEEZY,David,40,6C+,V5,Project - (3 tries) @40°,no,3,14544
+2026-09-01,14,BLUEMOON,Chalkdust66,40,6C,V5,Flashed @40°,sí,1,11115
+2026-09-01,15,YUMS IN MY TUMS,shomoonboards,40,6C,V5,Project - (2 tries) @40°,no,2,10384
+2026-08-27,1,RED ONE 25°,Ben Moon,25,5+,V1,Flashed @25°,sí,1,7310
+2026-08-27,2,BLACK TIP 25°,Ben Moon,25,5+,V1,Flashed @25°,sí,1,6433
+2026-08-27,3,BLACK AND ONE WHITE 3,Alex LaChapelle ,25,5+,V1,Flashed @25°,sí,1,5953
+2026-08-27,4,SHIN RAMEN 25°,Ben Moon,25,6A,V2,2nd try @25°,sí,2,3784
+2026-08-27,5,JAK,jimi_lp,25,6A,V2,Flashed @25°,sí,1,3565
+2026-08-27,6,THE MASTER,Alx Ts,25,6A,V2,Flashed @25°,sí,1,3497
+2026-08-27,7,RESOURCES,Ben Moon,25,6A+,V3,Session Flash @25°,sí,1,2505
+2026-08-27,8,RESOURCES,Ben Moon,25,6A+,V3,Session Flash @25°,sí,1,2505
+2026-08-27,9,MY PROJECKT 1,David_climbing0209,25,6A+,V3,Session Flash @25°,sí,1,2271
+2026-08-27,10,DYNOSAURUS REX,Koha,25,6A+,V3,Flashed @25°,sí,1,2220
+2026-08-27,11,BLOC 2.0 25°,Ben Moon,25,6A+,V3,Flashed @25°,sí,1,1883
+2026-08-27,12,CALDO,martino.tito,25,6B,V4,Session Flash @25°,sí,1,3722
+2026-08-27,13,SWOOP,RJtrials,25,6B,V4,Session Flash @25°,sí,1,3112
+2026-08-27,14,MITCH MASTER HARD 25°,Ben Moon,25,6B,V4,Fail - (3 tries) @25°,no,3,2563
+2026-08-27,15,JAY VAN DEN HOVEN,DonnyDawes,25,6B,V4,Flashed @25°,sí,1,2236
+2026-08-27,16,REALMVAR 25°,Ben Moon,25,6B,V4,2nd try @25°,sí,2,2218
+2026-08-27,17,PEEL 🍌,wolfe oasis ,40,6C+,V5,Flashed @40°,sí,1,1785
+2026-08-27,18,DEATH METAL IN A TIE-DYE,Kyle Knapp,40,7A,V6,Project - (1 try) @40°,no,1,642
+2026-08-22,1,MOJO SPRING,Michael O'Donnell,25,5+,V1,Flashed @25°,sí,1,8139
+2026-08-22,2,THE NEW VERSION,DREUX JEREMY,25,5+,V1,Flashed @25°,sí,1,7730
+2026-08-22,3,SINCH YOUR CORSET,Mikala,25,6A,V2,Flashed @25°,sí,1,4554
+2026-08-22,4,MOUNTAIN GOAT 25°,Ben Moon,25,6A,V2,2nd try @25°,sí,2,4322
+2026-08-22,5,RESOURCES,Ben Moon,25,6A+,V3,Fail - (1 try) @25°,no,1,2505
+2026-08-22,6,MY PROJECKT 1,David_climbing0209,25,6A+,V3,Project - (1 try) @25°,no,1,2271
+2026-08-22,7,SNITCHES GET STITCHES,RTAGG,40,6B+,V4,3rd try @40°,sí,3,21061
+2026-08-22,8,BLUE BOTTLE,Jack Andrew,40,6B+,V4,2nd try @40°,sí,2,20086
+2026-08-22,9,CLAN WAR,Mr. Noodles ,40,6C,V5,Project - (3 tries) @40°,no,3,19563
+2026-08-22,10,FIRST MEETING,luca,40,6B+,V4,Project - (2 tries) @40°,no,2,13289
+2026-08-22,11,SHANTARAM,Ben Moon,40,6C,V5,Project - (3 tries) @40°,no,3,7161
+2026-08-20,1,WOODY'S TAIL,#dirtygirlchronicles ,25,5+,V1,Flashed @25°,sí,1,12814
+2026-08-20,2,WARM UP B1,Ben Moon,25,5+,V1,Flashed @25°,sí,1,9942
+2026-08-20,3,SCORPION,Jules,25,5+,V1,Flashed @25°,sí,1,9739
+2026-08-20,4,VRTW 2 25,RJtrials,25,6A,V2,Flashed @25°,sí,1,9117
+2026-08-20,5,DYNO TO THE TOP,Daan,25,6A,V2,Flashed @25°,sí,1,6633
+2026-08-20,6,HIAS,hias,25,6A,V2,Flashed @25°,sí,1,5803
+2026-08-20,7,KNOBBY KNEES,Mikala,25,6A,V2,Flashed @25°,sí,1,5620
+2026-08-20,8,TICKY TACKY 25 GRADI,clemente pozzi,25,6A+,V3,Flashed @25°,sí,1,3683
+2026-08-20,9,TOO COOL FOR SCHOOL,Spurrelli,25,6A+,V3,Flashed @25°,sí,1,3344
+2026-08-20,10,E.T. CLIMB HOME,Christy,25,6A+,V3,Flashed @25°,sí,1,2828
+2026-08-20,11,MR. STRETCH,Christy,25,6A+,V3,Flashed @25°,sí,1,2592
+2026-08-20,12,RESOURCES,Ben Moon,25,6A+,V3,Project - (2 tries) @25°,no,2,2505
+2026-08-20,13,RED REDEMPTION,Liam Knapper,25,6A+,V3,Flashed @25°,sí,1,2343
+2026-08-20,14,CAN MERCADER E19,xavighervas,25,6B,V4,Flashed @25°,sí,1,4288
+2026-08-20,15,CALDO,martino.tito,25,6B,V4,Project - (3 tries) @25°,no,3,3727
+2026-08-20,16,SWOOP,RJtrials,25,6B,V4,Project - (1 try) @25°,no,1,3109
+2026-08-20,17,MITCH MASTER HARD 25°,Ben Moon,25,6B,V4,Project - (1 try) @25°,no,1,2564
+2026-08-17,1,FLAWLESS,RJtrials,25,6B,V4,Flashed @25°,sí,1,6686
+2026-08-17,2,HOT SOSS#,Chalkdust66,25,6B,V4,Flashed @25°,sí,1,6341
+2026-08-17,3,HOT SOSS#,Chalkdust66,25,6B,V4,Session Flash @25°,sí,1,6341
+2026-08-17,4,FRENCH FRIES,MoonBoardSystem,25,6A+,V3,Flashed @25°,sí,1,8460
+2026-08-17,5,FRENCH FRIES,MoonBoardSystem,25,6A+,V3,Session Flash @25°,sí,1,8460
+2026-08-17,6,SULTANA/SANTANA,Jack Folkes,25,6A+,V3,Flashed @25°,sí,1,6053
+2026-08-17,7,SULTANA/SANTANA,Jack Folkes,25,6A+,V3,Session Flash @25°,sí,1,6053
+2026-08-17,8,VECTOR 25°,Ben Moon,25,6A+,V3,Flashed @25°,sí,1,4269
+2026-08-17,9,ALLEZ IN WONDERLAND 25°,Ben Moon,25,6A+,V3,Flashed @25°,sí,1,3692
+2026-08-17,10,SPANNY IN THE WORKS,Scriv,25,6B,V4,2nd try @25°,sí,2,4418
+2026-08-17,11,DAHL MAKHANI,Garethbrooks_,25,6A,V2,Flashed @25°,sí,1,10869
+2026-08-17,12,DAHL MAKHANI,Garethbrooks_,25,6A,V2,Session Flash @25°,sí,1,10869
+2026-08-17,13,SIMPLE SEQUENCE,Hoi,40,6C,V5,Flashed @40°,sí,1,1337
+2026-08-17,14,SIMPLE SEQUENCE,Hoi,40,6C,V5,Session Flash @40°,sí,1,1337
