@@ -4,7 +4,7 @@ Panel local de seguimiento del entrenamiento de escalada de Juanfran. Integra el
 
 ## Estado del proyecto
 
-- Versión: 1.1.0.
+- Versión: 1.2.0.
 - Bloque terminado: 1 — Base.
 - Bloque actual: 2 — Fuerza.
 - Datos importados: 9 sesiones, 141 problemas y 191 intentos registrados.
