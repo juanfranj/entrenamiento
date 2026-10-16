@@ -14,3 +14,11 @@ Cada cambio subido a la rama `main` se publica automáticamente en GitHub Pages.
 - [Plan de entrenamiento](escalada/PLAN_ENTRENAMIENTO.md)
 
 Cuando se incorporen otros tipos de entrenamiento, tendrán su propia carpeta junto a `escalada/`.
+
+## Entrenador e investigación
+
+- [Instrucciones del entrenador](AGENTS.md): criterios de evidencia, evaluación y trabajo con el plan vivo.
+- [Biblioteca de investigación](investigacion/index.html): visor local con búsqueda y fichas de fuentes científicas y técnicas.
+- [Guía de la biblioteca](investigacion/README.md): manual, protocolos, contexto fechado y plantillas.
+
+La investigación inicial se revisó el 16/10/2026. Las fuentes se mantienen separadas de los registros de entrenamiento; ampliar la biblioteca no cambia automáticamente la programación.

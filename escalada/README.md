@@ -4,7 +4,7 @@ Panel local de seguimiento del entrenamiento de escalada de Juanfran. Integra el
 
 ## Estado del proyecto
 
-- Versión: 2.3.0.
+- Versión: 2.4.0.
 - Bloque terminado: 1 — Base.
 - Bloque actual: 2 — Fuerza.
 - Datos importados: 17 sesiones, 278 entradas de problemas y 381 intentos registrados.
@@ -56,7 +56,7 @@ Panel local de seguimiento del entrenamiento de escalada de Juanfran. Integra el
 | `data/sessions.json` | Fuente estructurada del histórico importado. | Fuente principal |
 | `data/boulders_moonboard.csv` | Exportación tabular de todos los problemas. | Generado |
 | `moonboard_entrenamientos.xlsx` | Informe y análisis complementario en Excel. | Entregable |
-| `PLAN_ENTRENAMIENTO.md` | Plan maestro y criterios de progresión. | Manual |
+| `PLAN_ENTRENAMIENTO.md` | Plan maestro y criterios de progresión. | Generado desde el JSON |
 | `DICCIONARIO_DATOS.md` | Definición de campos, unidades y reglas de interpretación. | Manual |
 | `CHANGELOG.md` | Historial de versiones y cambios relevantes. | Manual |
 
@@ -124,8 +124,18 @@ El diario personal se guarda en cada navegador. Usa Exportar copia como respaldo
 
 El calendario muestra por separado el bloque actual del plan y el bloque al que pertenece el día seleccionado. El fondo completo de cada casilla identifica el bloque, incluidos los días de recuperación; la descarga lleva rayado y la semana seleccionada queda destacada. «Ver bloque» abre la fase correspondiente del plan. En móvil, tocar una fecha muestra su detalle debajo del calendario.
 
-Los periodos están definidos en `data/plan.json`, campo `blocks`. El recorrido empieza con la primera sesión MoonBoard del 17/08/2026. El bloque 1 llega al 17/09; el bloque 2 se reconstruye desde el 18/09 durante cinco semanas. Los bloques 3–5 se calendarizan como previsión ajustable de cuatro semanas cada uno. `block` mantiene el bloque actual de forma explícita: no cambia automáticamente al pasar las fechas.
+Los periodos están definidos en `data/plan.json`, campo `blocks`. El recorrido empieza con la primera sesión MoonBoard del 17/08/2026. El bloque 1 llega al 17/09; el bloque 2 se reconstruye desde el 18/09 y ahora incluye la descarga del 19 al 25/10. La cuarta semana se extiende hasta el 18/10. Los bloques 3–5 se calendarizan como previsión ajustable de cuatro semanas cada uno. `block` mantiene el bloque actual de forma explícita: no cambia automáticamente al pasar las fechas.
 
 Cada bloque contiene sus propias dosis A/B/C y semanas. El histórico hasta la revisión se conserva como actividad real; las sesiones prescritas se programan desde la revisión, sin inventar entrenamientos pasados. `review.assessment` guarda la revisión fechada del bloque 2. Al revisar nuevos resultados, se actualizan el bloque actual, las fechas, las sesiones y su copia en Google Calendar, conservando los registros reales.
 
 El archivo ICS contiene solo sesiones. Los identificadores de eventos de Google se conservan fuera de la carpeta publicada para actualizar los existentes sin crear duplicados. Al crear sesiones con el conector en el calendario secundario, usar `self_attendance: "omit"`, sin invitados, y verificar que no aparezcan en el principal. `attendees: []` por sí solo puede añadir la cuenta personal como asistente.
+
+## Revisión aplicada el 16/10/2026
+
+Prescripciones canónicas en `data/plan.json`: fichas de la web, calendario y plan Markdown comparten las mismas dosis. Descarga del 19 al 25/10; la semana 4 reconstruida se extiende hasta el 18/10. B3 previsto del 26/10 al 22/11, B4 del 23/11 al 20/12 y B5 del 21/12 al 17/01. El bloque actual sigue siendo el 2. Las semanas tienen límites explícitos para que alargar una fase no desplace incorrectamente la descarga.
+
+B2: A con techo de 12–16 intentos y B como EMOM 2×6. B3: A con techo de 8–12 y B inicial 3×2 enlazados. B4 sin requisito de grado de tabla; continuidad ajustada a la vía. B3 y B4 reservan su cuarta semana para menor carga y revisión. Acondicionamiento breve opcional, tras descarga y solo con ejercicios ya conocidos y tolerados.
+
+`build-data.mjs` genera también `PLAN_ENTRENAMIENTO.md`. `build-calendar.mjs` genera ICS y puede exportar los payloads para actualizar los eventos existentes, conservando sus IDs aunque cambie el bloque asignado. El resultado manual continúa enlazado por ID.
+
+Google Calendar verificado el 16/10: 41 sesiones de un día en «entrenemiento», 39 actualizadas conservando sus IDs, una añadida al final de la previsión y la sesión anterior del 15/10 conservada. Cero copias de entrenamiento localizadas en el calendario personal.

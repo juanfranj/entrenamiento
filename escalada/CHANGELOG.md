@@ -1,5 +1,15 @@
 # Historial de cambios
 
+## 2.4.0 — 16/10/2026
+
+- Aplicada revisión del entrenador: límites totales de intentos, EMOM B2 2×6 y enlaces B3 3×2; retirados cortes obligatorios de porcentaje/grado.
+- Descarga trasladada al 19–25/10; periodos futuros recalculados como previsión y semana actual extendida, con límites de fecha explícitos.
+- Descargas con prescripciones propias; el sensor sustituye carga. Menor carga y revisión en cuarta semana de B3/B4.
+- Fichas de plan, días del calendario, Markdown e ICS derivados de las mismas prescripciones JSON.
+- Biblioteca del entrenador e instrucciones AGENTS.md incorporadas al proyecto.
+- Registros reales e IDs anteriores conservados para no perder resultados enlazados.
+- Google Calendar verificado: 41 sesiones de un día, sin periodos de bloques ni copias en el personal; 39 actualizadas y una nueva, sin invitados.
+
 ## 2.3.0 — 16/10/2026
 
 - Importada por USB la sesión del 16/10: 17 problemas, 11 completados y 26 intentos; historial total de 17 sesiones y 278 entradas.

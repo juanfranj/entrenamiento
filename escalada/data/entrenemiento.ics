@@ -7,890 +7,1112 @@ X-WR-CALNAME:entrenemiento
 X-WR-TIMEZONE:Europe/Madrid
 BEGIN:VEVENT
 UID:b2-20261015-b@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:Bloque 2 · S4 · B · MoonBoard 25° · Dosis puente
 DESCRIPTION:Proyecto 8a — Bloque 2: Fuerza y transferencia a cuerda.\n\
- nBloque actual. Las fechas se pueden ampliar o desplazar según evoluci
- ón.\n\nSemana 4: Comprobar el máximo en fresco\, sin volumen extra.\n\
- nAcumular movimientos limpios y acabar con margen.\n\n1. Calentamiento p
- rogresivo.\n\n2. 3 rondas de 2 problemas diferentes a 25°\, 6A–6A+.\n
- \n3. 15–30 s de transición y 4–5 min entre rondas.\n\n4. Reducir el
-  volumen normal restante a 8–12 problemas.\n\nDosis: 3 rondas de 2 pro
- blemas\; descanso 4–5 min.\n\nRegistrar completados\, intentos\, calid
- ad técnica\, RPE y sensaciones.\n\nDía completo: sin hora fijada. Resp
- etar 48 h entre sesiones de MoonBoard.\n\nVer día y bloque en el cuader
- no: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2026-10-15
- #calendario\n\nReferencia: b2-20261015-b
+ nBloque actual. Ajustar según recuperación y revisión.\n\nSemana 4: C
+ omprobar el máximo en fresco\, sin volumen extra.\n\nAcumular movimient
+ os limpios y acabar con margen.\n\n1. Calentamiento progresivo.\n\n2. 3
+  rondas de 2 problemas diferentes a 25°.\n\n3. 15–30 s de transición
+  y 4–5 min entre rondas.\n\n4. Limitar el volumen normal restante a 8
+ –12 problemas.\n\nDosis: 3 rondas de 2 problemas a 25° · 6A–6A+. P
+ ausa: 15–30 s de transición\; 4–5 min entre rondas.\n\nRegistrar co
+ mpletados\, intentos\, calidad técnica\, RPE y sensaciones.\n\nAcondici
+ onamiento complementario opcional: Tras la descarga\, 10–15 min al fin
+ al de B si recuperas bien. Sin nuevo día duro ni nuevas sesiones de cal
+ endario\; no iniciar durante la descarga.\n\nDía completo: sin hora fij
+ ada. Procurar 48 h entre sesiones exigentes de dedos y ajustar según re
+ cuperación y roca.\n\nVer día y bloque en el cuaderno: https://juanfra
+ nj.github.io/entrenamiento/escalada/?fecha=2026-10-15#calendario\n\nRefe
+ rencia: b2-20261015-b
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b2-20261018-c@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
-SUMMARY:Bloque 2 · S5 · C · Roca con cuerda · Descarga
+SUMMARY:Bloque 2 · S4 · C · Roca con cuerda
 DESCRIPTION:Proyecto 8a — Bloque 2: Fuerza y transferencia a cuerda.\n\
- nBloque actual. Las fechas se pueden ampliar o desplazar según evoluci
- ón.\n\nSemana 5: 50–60% del volumen habitual. Conservar algo de inten
- sidad.\n\nConvertir la fuerza en rendimiento específico de deportiva.\n
- \n1. Reducir el volumen al 50–60% del habitual y conservar algo de int
- ensidad.\n\n2. Mantener calentamiento y descansos completos.\n\n3. No a
- ñadir dosis puente. Revisar criterios antes de cambiar de bloque.\n\nDo
- sis: 50–60% del volumen habitual.\n\nAnotar vía\, grado\, estilo\, pe
- gues y aprendizaje de la sesión.\n\nDía completo: sin hora fijada. Res
- petar 48 h entre sesiones de MoonBoard.\n\nVer día y bloque en el cuade
- rno: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2026-10-1
- 8#calendario\n\nReferencia: b2-20261018-c
+ nBloque actual. Ajustar según recuperación y revisión.\n\nSemana 4: E
+ xtensión de la semana reconstruida hasta el 18/10. Sesión A real del 1
+ 6/10\; descarga la semana siguiente.\n\nTransferir desde ahora a cuerda\
+ , sin convertir los pegues en una cuota.\n\n1. Calentar con vías progre
+ sivas sin fatigar el trabajo principal.\n\n2. Elegir una vía/proyecto y
+  un objetivo por pegue: secuencia\, reposo\, chapaje o enlace\; 7b+/7c o
+ rientativos según vía\, sin obligación de grado.\n\n3. Comenzar con 2
+ –3 pegues útiles\; terminar antes si la calidad o recuperación no pe
+ rmiten seguir.\n\n4. Registrar duración/sección\, reposos y causa de c
+ aída. Si llegas fatigado de la tabla\, reducir dificultad/volumen o des
+ cansar.\n\nDosis: Calentamiento progresivo + 2–3 pegues útiles inicia
+ lmente. Pausa: Recuperación completa según vía y esfuerzo.\n\nAnotar
+  trabajo realizado\, intentos/series\, tiempos y descansos reales\, cali
+ dad\, RPE y molestias cuando se conozcan\; no inventar datos ausentes.\n
+ \nDía completo: sin hora fijada. Procurar 48 h entre sesiones exigentes
+  de dedos y ajustar según recuperación y roca.\n\nVer día y bloque en
+  el cuaderno: https://juanfranj.github.io/entrenamiento/escalada/?fecha=
+ 2026-10-18#calendario\n\nReferencia: b2-20261018-c
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b2-20261020-a@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:Bloque 2 · S5 · A · MoonBoard 40° · Descarga
 DESCRIPTION:Proyecto 8a — Bloque 2: Fuerza y transferencia a cuerda.\n\
- nBloque actual. Las fechas se pueden ampliar o desplazar según evoluci
- ón.\n\nSemana 5: 50–60% del volumen habitual. Conservar algo de inten
- sidad.\n\nIntentos de máxima calidad.\n\n1. Reducir el volumen al 50–
- 60% del habitual y conservar algo de intensidad.\n\n2. Mantener calentam
- iento y descansos completos.\n\n3. No añadir dosis puente. Revisar crit
- erios antes de cambiar de bloque.\n\nDosis: 50–60% del volumen habitua
- l.\n\nAnotar problemas\, grado\, ángulo\, intentos\, encadenes\, RPE y
-  sensaciones.\n\nDía completo: sin hora fijada. Respetar 48 h entre ses
- iones de MoonBoard.\n\nVer día y bloque en el cuaderno: https://juanfra
- nj.github.io/entrenamiento/escalada/?fecha=2026-10-20#calendario\n\nRefe
- rencia: b2-20261020-a
+ nBloque actual. Ajustar según recuperación y revisión.\n\nSemana 5: 1
+ 9–25/10: reducir carga real. Sensor opcional en sustitución de A\; de
+ cidir el siguiente bloque con continuidad y recuperación.\n\nAsimilar c
+ arga\; el test\, si se realiza\, sustituye entrenamiento y solo establec
+ e referencia.\n\n1. Mantener calentamiento progresivo y elegir problemas
+  controlados\; sin buscar máximos nuevos.\n\n2. Reducir aproximadamente
+  a la mitad del volumen de trabajo realmente tolerado\; el máximo es 6
+ –8 intentos\, no una obligación.\n\n3. Si se concreta el primer test
+  de sensor\, sustituir este trabajo por familiarización y medición aco
+ rdadas\; no sumar test y sesión completa.\n\n4. Confirmar modelo\, mont
+ aje y protocolo antes del test\; no añadir batería de RFD/CF\, campus
+  o suspensiones extra.\n\n5. Parar ante molestias o caída de calidad y
+  registrar respuesta.\n\nDosis: 6–8 intentos de trabajo como máximo\;
+  menos si no recuperas. Pausa: Descansos completos de 3–5 min o más.\
+ n\nAnotar trabajo realizado\, intentos/series\, tiempos y descansos real
+ es\, calidad\, RPE y molestias cuando se conozcan\; no inventar datos au
+ sentes.\n\nDía completo: sin hora fijada. Procurar 48 h entre sesiones
+  exigentes de dedos y ajustar según recuperación y roca.\n\nVer día y
+  bloque en el cuaderno: https://juanfranj.github.io/entrenamiento/escala
+ da/?fecha=2026-10-20#calendario\n\nReferencia: b2-20261020-a
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b2-20261022-b@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:Bloque 2 · S5 · B · MoonBoard 25° · Descarga
 DESCRIPTION:Proyecto 8a — Bloque 2: Fuerza y transferencia a cuerda.\n\
- nBloque actual. Las fechas se pueden ampliar o desplazar según evoluci
- ón.\n\nSemana 5: 50–60% del volumen habitual. Conservar algo de inten
- sidad.\n\nAcumular movimientos limpios y acabar con margen.\n\n1. Reduci
- r el volumen al 50–60% del habitual y conservar algo de intensidad.\n\
- n2. Mantener calentamiento y descansos completos.\n\n3. No añadir dosis
-  puente. Revisar criterios antes de cambiar de bloque.\n\nDosis: 50–60
- % del volumen habitual.\n\nRegistrar completados\, intentos\, calidad t
- écnica\, RPE y sensaciones.\n\nDía completo: sin hora fijada. Respetar
-  48 h entre sesiones de MoonBoard.\n\nVer día y bloque en el cuaderno:
-  https://juanfranj.github.io/entrenamiento/escalada/?fecha=2026-10-22#ca
- lendario\n\nReferencia: b2-20261022-b
+ nBloque actual. Ajustar según recuperación y revisión.\n\nSemana 5: 1
+ 9–25/10: reducir carga real. Sensor opcional en sustitución de A\; de
+ cidir el siguiente bloque con continuidad y recuperación.\n\nMoverse co
+ n calidad y recuperar\, sin una sesión de resistencia encubierta.\n\n1.
+  Calentar y elegir problemas conocidos y fáciles para ti.\n\n2. Hacer h
+ asta 6–8 problemas cómodos\, reduciendo más si representa más de la
+  mitad de tu volumen habitual.\n\n3. Cuidar pies\, postura y precisión\
+ ; sin EMOM\, enlazados ni trabajo al fallo.\n\n4. No estrenar acondicion
+ amiento exigente\; registrar recuperación.\n\nDosis: 6–8 problemas c
+ ómodos como máximo. Pausa: 90 s–3 min entre problemas\, o más si ha
+ ce falta.\n\nAnotar trabajo realizado\, intentos/series\, tiempos y desc
+ ansos reales\, calidad\, RPE y molestias cuando se conozcan\; no inventa
+ r datos ausentes.\n\nDía completo: sin hora fijada. Procurar 48 h entre
+  sesiones exigentes de dedos y ajustar según recuperación y roca.\n\nV
+ er día y bloque en el cuaderno: https://juanfranj.github.io/entrenamien
+ to/escalada/?fecha=2026-10-22#calendario\n\nReferencia: b2-20261022-b
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3-20261025-c@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
-SUMMARY:Bloque 3 · S1 · C · Roca con cuerda · Previsto
-DESCRIPTION:Proyecto 8a — Bloque 3: Puente hacia cuerda.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 1: Entrada: 6C a 40° cerca del
-  70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres pro
- blemas enlazados con técnica en las dos primeras series.\n\nAplicar la
-  dosis del bloque manteniendo calidad.\n\n1. Calentamiento progresivo.\n
- \n2. Elegir vías de 20–30 movimientos.\n\n3. Practicar ritmo\, respir
- ación y uso real de reposos.\n\n4. Limitar la sesión a 3–4 pegues ú
- tiles.\n\nDosis: 3–4 pegues útiles · vías de 20–30 movimientos. P
- ausa: Recuperación completa entre pegues.\n\nRegistrar problemas o vía
- s\, intentos\, encadenes\, duración\, RPE y sensaciones cuando se conoz
- can.\n\nDía completo: sin hora fijada. Respetar 48 h entre sesiones de
-  MoonBoard.\n\nVer día y bloque en el cuaderno: https://juanfranj.githu
- b.io/entrenamiento/escalada/?fecha=2026-10-25#calendario\n\nReferencia:
-  b3-20261025-c
+SUMMARY:Bloque 2 · S5 · C · Roca con cuerda · Descarga
+DESCRIPTION:Proyecto 8a — Bloque 2: Fuerza y transferencia a cuerda.\n\
+ nBloque actual. Ajustar según recuperación y revisión.\n\nSemana 5: 1
+ 9–25/10: reducir carga real. Sensor opcional en sustitución de A\; de
+ cidir el siguiente bloque con continuidad y recuperación.\n\nReducir cl
+ aramente carga y conservar gesto\; adaptar al volumen real\, no cumplir
+  una cuota.\n\n1. Valorar recuperación antes de salir\; descansar si no
+  hay margen.\n\n2. Calentar de forma progresiva y priorizar vías cómod
+ as\, lectura y reposos.\n\n3. Como máximo 1–2 pegues o ensayos breves
+  submáximos\; sin perseguir fallos repetidos.\n\n4. Revisar sensaciones
+  y registros antes de confirmar el siguiente bloque.\n\nDosis: Calentami
+ ento + 1–2 pegues cómodos/ensayos breves\, o descanso. Pausa: Descans
+ os completos\, sin acumular fatiga.\n\nAnotar trabajo realizado\, intent
+ os/series\, tiempos y descansos reales\, calidad\, RPE y molestias cuand
+ o se conozcan\; no inventar datos ausentes.\n\nDía completo: sin hora f
+ ijada. Procurar 48 h entre sesiones exigentes de dedos y ajustar según
+  recuperación y roca.\n\nVer día y bloque en el cuaderno: https://juan
+ franj.github.io/entrenamiento/escalada/?fecha=2026-10-25#calendario\n\nR
+ eferencia: b3-20261025-c
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3-20261027-a@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:Bloque 3 · S1 · A · MoonBoard 40° · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 3: Puente hacia cuerda.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 1: Entrada: 6C a 40° cerca del
-  70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres pro
- blemas enlazados con técnica en las dos primeras series.\n\nAplicar la
-  dosis del bloque manteniendo calidad.\n\n1. Calentamiento progresivo.\n
- \n2. Elegir 4–6 problemas 6C/6C+.\n\n3. Realizar 2–4 intentos de cal
- idad por problema.\n\n4. Terminar si cae claramente la calidad.\n\nDosis
- : 4–6 problemas 6C/6C+ · 2–4 intentos por problema. Pausa: 3–5 mi
- n entre intentos.\n\nRegistrar problemas o vías\, intentos\, encadenes\
- , duración\, RPE y sensaciones cuando se conozcan.\n\nDía completo: si
- n hora fijada. Respetar 48 h entre sesiones de MoonBoard.\n\nVer día y
-  bloque en el cuaderno: https://juanfranj.github.io/entrenamiento/escala
- da/?fecha=2026-10-27#calendario\n\nReferencia: b3-20261027-a
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 1: Entrada tras revisió
+ n de continuidad y recuperación. Empezar con dos problemas enlazados\;
+  progresar solo conservando técnica y tolerancia\, sin exigir un grado
+  de tabla.\n\nMantener exposición a fuerza mientras aumenta la continui
+ dad\, reduciendo volumen respecto a B2.\n\n1. Calentar progresivamente y
+  usar referencias conocidas del mismo montaje.\n\n2. Elegir 3–5 proble
+ mas adecuados alrededor de 6C/6C+\; adaptar a presas\, estilo y calidad.
+ \n\n3. Limitar el conjunto a 8–12 intentos de trabajo\, aunque queden
+  problemas pendientes. No multiplicar el máximo por cada problema.\n\n4
+ . Acabar antes de perder precisión/potencia\; ajustar si afecta al día
+  de continuidad o roca.\n\nDosis: 8–12 intentos de trabajo como máxim
+ o · 3–5 problemas. Pausa: 3–5 min entre intentos\; recuperación co
+ mpleta.\n\nAnotar trabajo realizado\, intentos/series\, tiempos y descan
+ sos reales\, calidad\, RPE y molestias cuando se conozcan\; no inventar
+  datos ausentes.\n\nDía completo: sin hora fijada. Procurar 48 h entre
+  sesiones exigentes de dedos y ajustar según recuperación y roca.\n\nV
+ er día y bloque en el cuaderno: https://juanfranj.github.io/entrenamien
+ to/escalada/?fecha=2026-10-27#calendario\n\nReferencia: b3-20261027-a
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3-20261029-b@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:Bloque 3 · S1 · B · MoonBoard 25° · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 3: Puente hacia cuerda.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 1: Entrada: 6C a 40° cerca del
-  70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres pro
- blemas enlazados con técnica en las dos primeras series.\n\nAplicar la
-  dosis del bloque manteniendo calidad.\n\n1. Calentamiento progresivo.\n
- \n2. Elegir una opción: repetir el mismo problema 2–3 veces o enlazar
-  3 problemas diferentes.\n\n3. Completar 3–4 series.\n\n4. Mantener t
- écnica y comprobar la calidad de las dos primeras series.\n\nDosis: 3
- –4 series · mismo problema ×2–3 o 3 diferentes. Pausa: 5–6 min e
- ntre series.\n\nRegistrar problemas o vías\, intentos\, encadenes\, dur
- ación\, RPE y sensaciones cuando se conozcan.\n\nDía completo: sin hor
- a fijada. Respetar 48 h entre sesiones de MoonBoard.\n\nVer día y bloqu
- e en el cuaderno: https://juanfranj.github.io/entrenamiento/escalada/?fe
- cha=2026-10-29#calendario\n\nReferencia: b3-20261029-b
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 1: Entrada tras revisió
+ n de continuidad y recuperación. Empezar con dos problemas enlazados\;
+  progresar solo conservando técnica y tolerancia\, sin exigir un grado
+  de tabla.\n\nAumentar movimientos consecutivos sin perder fuerza\, téc
+ nica ni recuperación.\n\n1. Calentar y elegir problemas conocidos que p
+ ermitan dos seguidos con técnica\; 6A–6A+ solo como orientación inic
+ ial.\n\n2. Repetir un problema dos veces o enlazar dos diferentes\; baja
+ r de forma controlada y usar lo justo para recolocarte.\n\n3. Hacer 3 se
+ ries con 5–6 min entre series. Registrar tiempos y calidad de cada una
+ .\n\n4. Solo tras completar la dosis en exposiciones comparables y recup
+ erar bien\, valorar 3 problemas por serie\; no subir también dificultad
+ .\n\n5. Esta sesión sustituye al EMOM. Reducir dificultad o serie si ca
+ e la técnica\; no empezar por un 4×4.\n\nDosis: Inicio: 3 series de 2
+  problemas seguidos. Pausa: Transición controlada de 15–30 s\; 5–6
+  min entre series.\n\nAnotar trabajo realizado\, intentos/series\, tiemp
+ os y descansos reales\, calidad\, RPE y molestias cuando se conozcan\; n
+ o inventar datos ausentes.\n\nAcondicionamiento complementario opcional:
+  Tras la descarga\, 10–15 min al final de B si recuperas bien. Sin nue
+ vo día duro ni nuevas sesiones de calendario\; no iniciar durante la de
+ scarga.\n\nDía completo: sin hora fijada. Procurar 48 h entre sesiones
+  exigentes de dedos y ajustar según recuperación y roca.\n\nVer día y
+  bloque en el cuaderno: https://juanfranj.github.io/entrenamiento/escala
+ da/?fecha=2026-10-29#calendario\n\nReferencia: b3-20261029-b
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3-20261101-c@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
-SUMMARY:Bloque 3 · S2 · C · Roca con cuerda · Previsto
+SUMMARY:Bloque 3 · S1 · C · Roca con cuerda · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 3: Puente hacia cuerda.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 2: Entrada: 6C a 40° cerca del
-  70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres pro
- blemas enlazados con técnica en las dos primeras series.\n\nAplicar la
-  dosis del bloque manteniendo calidad.\n\n1. Calentamiento progresivo.\n
- \n2. Elegir vías de 20–30 movimientos.\n\n3. Practicar ritmo\, respir
- ación y uso real de reposos.\n\n4. Limitar la sesión a 3–4 pegues ú
- tiles.\n\nDosis: 3–4 pegues útiles · vías de 20–30 movimientos. P
- ausa: Recuperación completa entre pegues.\n\nRegistrar problemas o vía
- s\, intentos\, encadenes\, duración\, RPE y sensaciones cuando se conoz
- can.\n\nDía completo: sin hora fijada. Respetar 48 h entre sesiones de
-  MoonBoard.\n\nVer día y bloque en el cuaderno: https://juanfranj.githu
- b.io/entrenamiento/escalada/?fecha=2026-11-01#calendario\n\nReferencia:
-  b3-20261101-c
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 1: Entrada tras revisió
+ n de continuidad y recuperación. Empezar con dos problemas enlazados\;
+  progresar solo conservando técnica y tolerancia\, sin exigir un grado
+  de tabla.\n\nComprobar transferencia real del trabajo de continuidad.\n
+ \n1. Calentar progresivamente y elegir una vía que represente el siguie
+ nte objetivo.\n\n2. Practicar ritmo\, respiración\, chapajes y reposos\
+ ; los 20–30 movimientos son orientativos\, adaptar a la vía.\n\n3. Ha
+ cer inicialmente 2–4 pegues útiles\, terminando antes si cae la calid
+ ad.\n\n4. Registrar secciones enlazadas y qué limita el siguiente avanc
+ e.\n\nDosis: 2–4 pegues útiles según longitud y respuesta. Pausa: Re
+ cuperación completa entre pegues.\n\nAnotar trabajo realizado\, intento
+ s/series\, tiempos y descansos reales\, calidad\, RPE y molestias cuando
+  se conozcan\; no inventar datos ausentes.\n\nDía completo: sin hora fi
+ jada. Procurar 48 h entre sesiones exigentes de dedos y ajustar según r
+ ecuperación y roca.\n\nVer día y bloque en el cuaderno: https://juanfr
+ anj.github.io/entrenamiento/escalada/?fecha=2026-11-01#calendario\n\nRef
+ erencia: b3-20261101-c
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3-20261103-a@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Bloque 3 · S2 · A · MoonBoard 40° · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 3: Puente hacia cuerda.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 2: Entrada: 6C a 40° cerca del
-  70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres pro
- blemas enlazados con técnica en las dos primeras series.\n\nAplicar la
-  dosis del bloque manteniendo calidad.\n\n1. Calentamiento progresivo.\n
- \n2. Elegir 4–6 problemas 6C/6C+.\n\n3. Realizar 2–4 intentos de cal
- idad por problema.\n\n4. Terminar si cae claramente la calidad.\n\nDosis
- : 4–6 problemas 6C/6C+ · 2–4 intentos por problema. Pausa: 3–5 mi
- n entre intentos.\n\nRegistrar problemas o vías\, intentos\, encadenes\
- , duración\, RPE y sensaciones cuando se conozcan.\n\nDía completo: si
- n hora fijada. Respetar 48 h entre sesiones de MoonBoard.\n\nVer día y
-  bloque en el cuaderno: https://juanfranj.github.io/entrenamiento/escala
- da/?fecha=2026-11-03#calendario\n\nReferencia: b3-20261103-a
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 2: Entrada tras revisió
+ n de continuidad y recuperación. Empezar con dos problemas enlazados\;
+  progresar solo conservando técnica y tolerancia\, sin exigir un grado
+  de tabla.\n\nMantener exposición a fuerza mientras aumenta la continui
+ dad\, reduciendo volumen respecto a B2.\n\n1. Calentar progresivamente y
+  usar referencias conocidas del mismo montaje.\n\n2. Elegir 3–5 proble
+ mas adecuados alrededor de 6C/6C+\; adaptar a presas\, estilo y calidad.
+ \n\n3. Limitar el conjunto a 8–12 intentos de trabajo\, aunque queden
+  problemas pendientes. No multiplicar el máximo por cada problema.\n\n4
+ . Acabar antes de perder precisión/potencia\; ajustar si afecta al día
+  de continuidad o roca.\n\nDosis: 8–12 intentos de trabajo como máxim
+ o · 3–5 problemas. Pausa: 3–5 min entre intentos\; recuperación co
+ mpleta.\n\nAnotar trabajo realizado\, intentos/series\, tiempos y descan
+ sos reales\, calidad\, RPE y molestias cuando se conozcan\; no inventar
+  datos ausentes.\n\nDía completo: sin hora fijada. Procurar 48 h entre
+  sesiones exigentes de dedos y ajustar según recuperación y roca.\n\nV
+ er día y bloque en el cuaderno: https://juanfranj.github.io/entrenamien
+ to/escalada/?fecha=2026-11-03#calendario\n\nReferencia: b3-20261103-a
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3-20261105-b@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
 SUMMARY:Bloque 3 · S2 · B · MoonBoard 25° · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 3: Puente hacia cuerda.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 2: Entrada: 6C a 40° cerca del
-  70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres pro
- blemas enlazados con técnica en las dos primeras series.\n\nAplicar la
-  dosis del bloque manteniendo calidad.\n\n1. Calentamiento progresivo.\n
- \n2. Elegir una opción: repetir el mismo problema 2–3 veces o enlazar
-  3 problemas diferentes.\n\n3. Completar 3–4 series.\n\n4. Mantener t
- écnica y comprobar la calidad de las dos primeras series.\n\nDosis: 3
- –4 series · mismo problema ×2–3 o 3 diferentes. Pausa: 5–6 min e
- ntre series.\n\nRegistrar problemas o vías\, intentos\, encadenes\, dur
- ación\, RPE y sensaciones cuando se conozcan.\n\nDía completo: sin hor
- a fijada. Respetar 48 h entre sesiones de MoonBoard.\n\nVer día y bloqu
- e en el cuaderno: https://juanfranj.github.io/entrenamiento/escalada/?fe
- cha=2026-11-05#calendario\n\nReferencia: b3-20261105-b
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 2: Entrada tras revisió
+ n de continuidad y recuperación. Empezar con dos problemas enlazados\;
+  progresar solo conservando técnica y tolerancia\, sin exigir un grado
+  de tabla.\n\nAumentar movimientos consecutivos sin perder fuerza\, téc
+ nica ni recuperación.\n\n1. Calentar y elegir problemas conocidos que p
+ ermitan dos seguidos con técnica\; 6A–6A+ solo como orientación inic
+ ial.\n\n2. Repetir un problema dos veces o enlazar dos diferentes\; baja
+ r de forma controlada y usar lo justo para recolocarte.\n\n3. Hacer 3 se
+ ries con 5–6 min entre series. Registrar tiempos y calidad de cada una
+ .\n\n4. Solo tras completar la dosis en exposiciones comparables y recup
+ erar bien\, valorar 3 problemas por serie\; no subir también dificultad
+ .\n\n5. Esta sesión sustituye al EMOM. Reducir dificultad o serie si ca
+ e la técnica\; no empezar por un 4×4.\n\nDosis: Inicio: 3 series de 2
+  problemas seguidos. Pausa: Transición controlada de 15–30 s\; 5–6
+  min entre series.\n\nAnotar trabajo realizado\, intentos/series\, tiemp
+ os y descansos reales\, calidad\, RPE y molestias cuando se conozcan\; n
+ o inventar datos ausentes.\n\nAcondicionamiento complementario opcional:
+  Tras la descarga\, 10–15 min al final de B si recuperas bien. Sin nue
+ vo día duro ni nuevas sesiones de calendario\; no iniciar durante la de
+ scarga.\n\nDía completo: sin hora fijada. Procurar 48 h entre sesiones
+  exigentes de dedos y ajustar según recuperación y roca.\n\nVer día y
+  bloque en el cuaderno: https://juanfranj.github.io/entrenamiento/escala
+ da/?fecha=2026-11-05#calendario\n\nReferencia: b3-20261105-b
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3-20261108-c@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
-SUMMARY:Bloque 3 · S3 · C · Roca con cuerda · Previsto
+SUMMARY:Bloque 3 · S2 · C · Roca con cuerda · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 3: Puente hacia cuerda.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 3: Entrada: 6C a 40° cerca del
-  70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres pro
- blemas enlazados con técnica en las dos primeras series.\n\nAplicar la
-  dosis del bloque manteniendo calidad.\n\n1. Calentamiento progresivo.\n
- \n2. Elegir vías de 20–30 movimientos.\n\n3. Practicar ritmo\, respir
- ación y uso real de reposos.\n\n4. Limitar la sesión a 3–4 pegues ú
- tiles.\n\nDosis: 3–4 pegues útiles · vías de 20–30 movimientos. P
- ausa: Recuperación completa entre pegues.\n\nRegistrar problemas o vía
- s\, intentos\, encadenes\, duración\, RPE y sensaciones cuando se conoz
- can.\n\nDía completo: sin hora fijada. Respetar 48 h entre sesiones de
-  MoonBoard.\n\nVer día y bloque en el cuaderno: https://juanfranj.githu
- b.io/entrenamiento/escalada/?fecha=2026-11-08#calendario\n\nReferencia:
-  b3-20261108-c
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 2: Entrada tras revisió
+ n de continuidad y recuperación. Empezar con dos problemas enlazados\;
+  progresar solo conservando técnica y tolerancia\, sin exigir un grado
+  de tabla.\n\nComprobar transferencia real del trabajo de continuidad.\n
+ \n1. Calentar progresivamente y elegir una vía que represente el siguie
+ nte objetivo.\n\n2. Practicar ritmo\, respiración\, chapajes y reposos\
+ ; los 20–30 movimientos son orientativos\, adaptar a la vía.\n\n3. Ha
+ cer inicialmente 2–4 pegues útiles\, terminando antes si cae la calid
+ ad.\n\n4. Registrar secciones enlazadas y qué limita el siguiente avanc
+ e.\n\nDosis: 2–4 pegues útiles según longitud y respuesta. Pausa: Re
+ cuperación completa entre pegues.\n\nAnotar trabajo realizado\, intento
+ s/series\, tiempos y descansos reales\, calidad\, RPE y molestias cuando
+  se conozcan\; no inventar datos ausentes.\n\nDía completo: sin hora fi
+ jada. Procurar 48 h entre sesiones exigentes de dedos y ajustar según r
+ ecuperación y roca.\n\nVer día y bloque en el cuaderno: https://juanfr
+ anj.github.io/entrenamiento/escalada/?fecha=2026-11-08#calendario\n\nRef
+ erencia: b3-20261108-c
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3-20261110-a@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:Bloque 3 · S3 · A · MoonBoard 40° · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 3: Puente hacia cuerda.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 3: Entrada: 6C a 40° cerca del
-  70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres pro
- blemas enlazados con técnica en las dos primeras series.\n\nAplicar la
-  dosis del bloque manteniendo calidad.\n\n1. Calentamiento progresivo.\n
- \n2. Elegir 4–6 problemas 6C/6C+.\n\n3. Realizar 2–4 intentos de cal
- idad por problema.\n\n4. Terminar si cae claramente la calidad.\n\nDosis
- : 4–6 problemas 6C/6C+ · 2–4 intentos por problema. Pausa: 3–5 mi
- n entre intentos.\n\nRegistrar problemas o vías\, intentos\, encadenes\
- , duración\, RPE y sensaciones cuando se conozcan.\n\nDía completo: si
- n hora fijada. Respetar 48 h entre sesiones de MoonBoard.\n\nVer día y
-  bloque en el cuaderno: https://juanfranj.github.io/entrenamiento/escala
- da/?fecha=2026-11-10#calendario\n\nReferencia: b3-20261110-a
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 3: Entrada tras revisió
+ n de continuidad y recuperación. Empezar con dos problemas enlazados\;
+  progresar solo conservando técnica y tolerancia\, sin exigir un grado
+  de tabla.\n\nMantener exposición a fuerza mientras aumenta la continui
+ dad\, reduciendo volumen respecto a B2.\n\n1. Calentar progresivamente y
+  usar referencias conocidas del mismo montaje.\n\n2. Elegir 3–5 proble
+ mas adecuados alrededor de 6C/6C+\; adaptar a presas\, estilo y calidad.
+ \n\n3. Limitar el conjunto a 8–12 intentos de trabajo\, aunque queden
+  problemas pendientes. No multiplicar el máximo por cada problema.\n\n4
+ . Acabar antes de perder precisión/potencia\; ajustar si afecta al día
+  de continuidad o roca.\n\nDosis: 8–12 intentos de trabajo como máxim
+ o · 3–5 problemas. Pausa: 3–5 min entre intentos\; recuperación co
+ mpleta.\n\nAnotar trabajo realizado\, intentos/series\, tiempos y descan
+ sos reales\, calidad\, RPE y molestias cuando se conozcan\; no inventar
+  datos ausentes.\n\nDía completo: sin hora fijada. Procurar 48 h entre
+  sesiones exigentes de dedos y ajustar según recuperación y roca.\n\nV
+ er día y bloque en el cuaderno: https://juanfranj.github.io/entrenamien
+ to/escalada/?fecha=2026-11-10#calendario\n\nReferencia: b3-20261110-a
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3-20261112-b@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Bloque 3 · S3 · B · MoonBoard 25° · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 3: Puente hacia cuerda.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 3: Entrada: 6C a 40° cerca del
-  70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres pro
- blemas enlazados con técnica en las dos primeras series.\n\nAplicar la
-  dosis del bloque manteniendo calidad.\n\n1. Calentamiento progresivo.\n
- \n2. Elegir una opción: repetir el mismo problema 2–3 veces o enlazar
-  3 problemas diferentes.\n\n3. Completar 3–4 series.\n\n4. Mantener t
- écnica y comprobar la calidad de las dos primeras series.\n\nDosis: 3
- –4 series · mismo problema ×2–3 o 3 diferentes. Pausa: 5–6 min e
- ntre series.\n\nRegistrar problemas o vías\, intentos\, encadenes\, dur
- ación\, RPE y sensaciones cuando se conozcan.\n\nDía completo: sin hor
- a fijada. Respetar 48 h entre sesiones de MoonBoard.\n\nVer día y bloqu
- e en el cuaderno: https://juanfranj.github.io/entrenamiento/escalada/?fe
- cha=2026-11-12#calendario\n\nReferencia: b3-20261112-b
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 3: Entrada tras revisió
+ n de continuidad y recuperación. Empezar con dos problemas enlazados\;
+  progresar solo conservando técnica y tolerancia\, sin exigir un grado
+  de tabla.\n\nAumentar movimientos consecutivos sin perder fuerza\, téc
+ nica ni recuperación.\n\n1. Calentar y elegir problemas conocidos que p
+ ermitan dos seguidos con técnica\; 6A–6A+ solo como orientación inic
+ ial.\n\n2. Repetir un problema dos veces o enlazar dos diferentes\; baja
+ r de forma controlada y usar lo justo para recolocarte.\n\n3. Hacer 3 se
+ ries con 5–6 min entre series. Registrar tiempos y calidad de cada una
+ .\n\n4. Solo tras completar la dosis en exposiciones comparables y recup
+ erar bien\, valorar 3 problemas por serie\; no subir también dificultad
+ .\n\n5. Esta sesión sustituye al EMOM. Reducir dificultad o serie si ca
+ e la técnica\; no empezar por un 4×4.\n\nDosis: Inicio: 3 series de 2
+  problemas seguidos. Pausa: Transición controlada de 15–30 s\; 5–6
+  min entre series.\n\nAnotar trabajo realizado\, intentos/series\, tiemp
+ os y descansos reales\, calidad\, RPE y molestias cuando se conozcan\; n
+ o inventar datos ausentes.\n\nAcondicionamiento complementario opcional:
+  Tras la descarga\, 10–15 min al final de B si recuperas bien. Sin nue
+ vo día duro ni nuevas sesiones de calendario\; no iniciar durante la de
+ scarga.\n\nDía completo: sin hora fijada. Procurar 48 h entre sesiones
+  exigentes de dedos y ajustar según recuperación y roca.\n\nVer día y
+  bloque en el cuaderno: https://juanfranj.github.io/entrenamiento/escala
+ da/?fecha=2026-11-12#calendario\n\nReferencia: b3-20261112-b
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3-20261115-c@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-SUMMARY:Bloque 3 · S4 · C · Roca con cuerda · Previsto
+SUMMARY:Bloque 3 · S3 · C · Roca con cuerda · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 3: Puente hacia cuerda.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 4: Entrada: 6C a 40° cerca del
-  70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres pro
- blemas enlazados con técnica en las dos primeras series.\n\nAplicar la
-  dosis del bloque manteniendo calidad.\n\n1. Calentamiento progresivo.\n
- \n2. Elegir vías de 20–30 movimientos.\n\n3. Practicar ritmo\, respir
- ación y uso real de reposos.\n\n4. Limitar la sesión a 3–4 pegues ú
- tiles.\n\nDosis: 3–4 pegues útiles · vías de 20–30 movimientos. P
- ausa: Recuperación completa entre pegues.\n\nRegistrar problemas o vía
- s\, intentos\, encadenes\, duración\, RPE y sensaciones cuando se conoz
- can.\n\nDía completo: sin hora fijada. Respetar 48 h entre sesiones de
-  MoonBoard.\n\nVer día y bloque en el cuaderno: https://juanfranj.githu
- b.io/entrenamiento/escalada/?fecha=2026-11-15#calendario\n\nReferencia:
-  b3-20261115-c
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 3: Entrada tras revisió
+ n de continuidad y recuperación. Empezar con dos problemas enlazados\;
+  progresar solo conservando técnica y tolerancia\, sin exigir un grado
+  de tabla.\n\nComprobar transferencia real del trabajo de continuidad.\n
+ \n1. Calentar progresivamente y elegir una vía que represente el siguie
+ nte objetivo.\n\n2. Practicar ritmo\, respiración\, chapajes y reposos\
+ ; los 20–30 movimientos son orientativos\, adaptar a la vía.\n\n3. Ha
+ cer inicialmente 2–4 pegues útiles\, terminando antes si cae la calid
+ ad.\n\n4. Registrar secciones enlazadas y qué limita el siguiente avanc
+ e.\n\nDosis: 2–4 pegues útiles según longitud y respuesta. Pausa: Re
+ cuperación completa entre pegues.\n\nAnotar trabajo realizado\, intento
+ s/series\, tiempos y descansos reales\, calidad\, RPE y molestias cuando
+  se conozcan\; no inventar datos ausentes.\n\nDía completo: sin hora fi
+ jada. Procurar 48 h entre sesiones exigentes de dedos y ajustar según r
+ ecuperación y roca.\n\nVer día y bloque en el cuaderno: https://juanfr
+ anj.github.io/entrenamiento/escalada/?fecha=2026-11-15#calendario\n\nRef
+ erencia: b3-20261115-c
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3-20261117-a@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
-SUMMARY:Bloque 3 · S4 · A · MoonBoard 40° · Previsto
+SUMMARY:Bloque 3 · S4 · A · MoonBoard 40° · Descarga · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 3: Puente hacia cuerda.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 4: Entrada: 6C a 40° cerca del
-  70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres pro
- blemas enlazados con técnica en las dos primeras series.\n\nAplicar la
-  dosis del bloque manteniendo calidad.\n\n1. Calentamiento progresivo.\n
- \n2. Elegir 4–6 problemas 6C/6C+.\n\n3. Realizar 2–4 intentos de cal
- idad por problema.\n\n4. Terminar si cae claramente la calidad.\n\nDosis
- : 4–6 problemas 6C/6C+ · 2–4 intentos por problema. Pausa: 3–5 mi
- n entre intentos.\n\nRegistrar problemas o vías\, intentos\, encadenes\
- , duración\, RPE y sensaciones cuando se conozcan.\n\nDía completo: si
- n hora fijada. Respetar 48 h entre sesiones de MoonBoard.\n\nVer día y
-  bloque en el cuaderno: https://juanfranj.github.io/entrenamiento/escala
- da/?fecha=2026-11-17#calendario\n\nReferencia: b3-20261117-a
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 4: Semana de menor carga
+ \; revisar respuesta y transferencia antes de confirmar otra fase.\n\nAs
+ imilar carga\; el test\, si se realiza\, sustituye entrenamiento y solo
+  establece referencia.\n\n1. Mantener calentamiento progresivo y elegir
+  problemas controlados\; sin buscar máximos nuevos.\n\n2. Reducir aprox
+ imadamente a la mitad del volumen realmente tolerado\; máximo 4–6 int
+ entos de trabajo.\n\n3. Si hay una evaluación con sensor acordada\, sus
+ tituir este trabajo por la medición\; no sumar test y sesión completa.
+ \n\n4. Mantener protocolo comparable\; no añadir batería de RFD/CF\, c
+ ampus o suspensiones extra.\n\n5. Parar ante molestias o caída de calid
+ ad y registrar respuesta.\n\nDosis: 4–6 intentos de trabajo como máxi
+ mo. Pausa: Descansos completos de 3–5 min o más.\n\nAnotar trabajo re
+ alizado\, intentos/series\, tiempos y descansos reales\, calidad\, RPE y
+  molestias cuando se conozcan\; no inventar datos ausentes.\n\nDía comp
+ leto: sin hora fijada. Procurar 48 h entre sesiones exigentes de dedos y
+  ajustar según recuperación y roca.\n\nVer día y bloque en el cuadern
+ o: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2026-11-17#
+ calendario\n\nReferencia: b3-20261117-a
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b3-20261119-b@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
-SUMMARY:Bloque 3 · S4 · B · MoonBoard 25° · Previsto
+SUMMARY:Bloque 3 · S4 · B · MoonBoard 25° · Descarga · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 3: Puente hacia cuerda.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 4: Entrada: 6C a 40° cerca del
-  70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres pro
- blemas enlazados con técnica en las dos primeras series.\n\nAplicar la
-  dosis del bloque manteniendo calidad.\n\n1. Calentamiento progresivo.\n
- \n2. Elegir una opción: repetir el mismo problema 2–3 veces o enlazar
-  3 problemas diferentes.\n\n3. Completar 3–4 series.\n\n4. Mantener t
- écnica y comprobar la calidad de las dos primeras series.\n\nDosis: 3
- –4 series · mismo problema ×2–3 o 3 diferentes. Pausa: 5–6 min e
- ntre series.\n\nRegistrar problemas o vías\, intentos\, encadenes\, dur
- ación\, RPE y sensaciones cuando se conozcan.\n\nDía completo: sin hor
- a fijada. Respetar 48 h entre sesiones de MoonBoard.\n\nVer día y bloqu
- e en el cuaderno: https://juanfranj.github.io/entrenamiento/escalada/?fe
- cha=2026-11-19#calendario\n\nReferencia: b3-20261119-b
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 4: Semana de menor carga
+ \; revisar respuesta y transferencia antes de confirmar otra fase.\n\nMo
+ verse con calidad y recuperar\, sin una sesión de resistencia encubiert
+ a.\n\n1. Calentar y elegir problemas conocidos y fáciles para ti.\n\n2.
+  Hacer hasta 6–8 problemas cómodos\, reduciendo más si representa m
+ ás de la mitad de tu volumen habitual.\n\n3. Cuidar pies\, postura y pr
+ ecisión\; sin EMOM\, enlazados ni trabajo al fallo.\n\n4. No estrenar a
+ condicionamiento exigente\; registrar recuperación.\n\nDosis: 6–8 pro
+ blemas cómodos como máximo. Pausa: 90 s–3 min entre problemas\, o m
+ ás si hace falta.\n\nAnotar trabajo realizado\, intentos/series\, tiemp
+ os y descansos reales\, calidad\, RPE y molestias cuando se conozcan\; n
+ o inventar datos ausentes.\n\nDía completo: sin hora fijada. Procurar 4
+ 8 h entre sesiones exigentes de dedos y ajustar según recuperación y r
+ oca.\n\nVer día y bloque en el cuaderno: https://juanfranj.github.io/en
+ trenamiento/escalada/?fecha=2026-11-19#calendario\n\nReferencia: b3-2026
+ 1119-b
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b4-20261122-c@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
-SUMMARY:Bloque 4 · S1 · C · Roca con cuerda · Previsto
-DESCRIPTION:Proyecto 8a — Bloque 4: Resistencia de potencia.\n\nPREVISI
- ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implic
- a haber alcanzado los criterios.\n\nSemana 1: Entrada: 6C+ consistente o
-  7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35
-  movimientos y transferirlo a roca.\n\nAplicar la dosis del bloque mante
- niendo calidad.\n\n1. Calentamiento progresivo.\n\n2. Trabajar una vía
-  objetivo y una submáxima.\n\n3. Ensayar el tramo decisivo bajo fatiga
-  controlada.\n\n4. Anotar si el fallo procede de secuencia\, fuerza\, ri
- tmo o recuperación.\n\nDosis: Una vía objetivo y una vía submáxima.
-  Pausa: Descanso completo entre pegues.\n\nRegistrar problemas o vías\,
-  intentos\, encadenes\, duración\, RPE y sensaciones cuando se conozcan
- .\n\nDía completo: sin hora fijada. Respetar 48 h entre sesiones de Moo
- nBoard.\n\nVer día y bloque en el cuaderno: https://juanfranj.github.io
- /entrenamiento/escalada/?fecha=2026-11-22#calendario\n\nReferencia: b4-2
- 0261122-c
+SUMMARY:Bloque 3 · S4 · C · Roca con cuerda · Descarga · Previsto
+DESCRIPTION:Proyecto 8a — Bloque 3: Puente hacia cuerda.\n\nPREVISIÓN
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 4: Semana de menor carga
+ \; revisar respuesta y transferencia antes de confirmar otra fase.\n\nRe
+ ducir claramente carga y conservar gesto\; adaptar al volumen real\, no
+  cumplir una cuota.\n\n1. Valorar recuperación antes de salir\; descans
+ ar si no hay margen.\n\n2. Calentar de forma progresiva y priorizar vía
+ s cómodas\, lectura y reposos.\n\n3. Como máximo 1–2 pegues o ensayo
+ s breves submáximos\; sin perseguir fallos repetidos.\n\n4. Revisar sen
+ saciones y registros antes de confirmar el siguiente bloque.\n\nDosis: C
+ alentamiento + 1–2 pegues cómodos/ensayos breves\, o descanso. Pausa:
+  Descansos completos\, sin acumular fatiga.\n\nAnotar trabajo realizado\
+ , intentos/series\, tiempos y descansos reales\, calidad\, RPE y molesti
+ as cuando se conozcan\; no inventar datos ausentes.\n\nDía completo: si
+ n hora fijada. Procurar 48 h entre sesiones exigentes de dedos y ajustar
+  según recuperación y roca.\n\nVer día y bloque en el cuaderno: https
+ ://juanfranj.github.io/entrenamiento/escalada/?fecha=2026-11-22#calendar
+ io\n\nReferencia: b4-20261122-c
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b4-20261124-a@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:Bloque 4 · S1 · A · MoonBoard 40° · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 4: Resistencia de potencia.\n\nPREVISI
- ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implic
- a haber alcanzado los criterios.\n\nSemana 1: Entrada: 6C+ consistente o
-  7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35
-  movimientos y transferirlo a roca.\n\nAplicar la dosis del bloque mante
- niendo calidad.\n\n1. Calentamiento progresivo.\n\n2. Elegir 3–5 probl
- emas duros.\n\n3. Limitar el total a 10–14 intentos.\n\n4. Finalizar a
- ntes de que la potencia caiga claramente.\n\nDosis: 3–5 problemas duro
- s · 10–14 intentos totales. Pausa: Descansos completos para mantener
-  potencia.\n\nRegistrar problemas o vías\, intentos\, encadenes\, durac
- ión\, RPE y sensaciones cuando se conozcan.\n\nDía completo: sin hora
-  fijada. Respetar 48 h entre sesiones de MoonBoard.\n\nVer día y bloque
-  en el cuaderno: https://juanfranj.github.io/entrenamiento/escalada/?fec
- ha=2026-11-24#calendario\n\nReferencia: b4-20261124-a
+ ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha
+  no demuestra haber alcanzado criterios.\n\nSemana 1: Entrada según dem
+ anda de la vía y tolerancia a enlaces\; sin requisito de 6C+/7A. Salida
+ : mejorar secciones o pegues útiles en cuerda con ritmo y recuperación
+ .\n\nConservar fuerza mientras la vía y las secuencias largas ganan pri
+ oridad.\n\n1. Calentar y elegir 3–4 problemas exigentes pero practicab
+ les.\n\n2. Limitar a 6–10 intentos totales\; priorizar la ejecución y
+  no agotar la fuerza.\n\n3. Reducir más si la carga de enlaces o de roc
+ a afecta la recuperación.\n\nDosis: 6–10 intentos de trabajo como má
+ ximo · 3–4 problemas. Pausa: Descansos completos de 3–5 min o más
+  según recuperación.\n\nAnotar trabajo realizado\, intentos/series\, t
+ iempos y descansos reales\, calidad\, RPE y molestias cuando se conozcan
+ \; no inventar datos ausentes.\n\nDía completo: sin hora fijada. Procur
+ ar 48 h entre sesiones exigentes de dedos y ajustar según recuperación
+  y roca.\n\nVer día y bloque en el cuaderno: https://juanfranj.github.i
+ o/entrenamiento/escalada/?fecha=2026-11-24#calendario\n\nReferencia: b4-
+ 20261124-a
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b4-20261126-b@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Bloque 4 · S1 · B · MoonBoard 25° · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 4: Resistencia de potencia.\n\nPREVISI
- ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implic
- a haber alcanzado los criterios.\n\nSemana 1: Entrada: 6C+ consistente o
-  7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35
-  movimientos y transferirlo a roca.\n\nAplicar la dosis del bloque mante
- niendo calidad.\n\n1. Calentamiento progresivo.\n\n2. Enlazar 3–5 prob
- lemas\, normalmente 6A–6B según longitud.\n\n3. Acumular aproximadame
- nte 20–35 movimientos por serie.\n\n4. Completar 2–3 series conserva
- ndo secuencia y ritmo.\n\nDosis: 2–3 series · 3–5 problemas · 20
- –35 movimientos. Pausa: 6–10 min entre series.\n\nRegistrar problema
- s o vías\, intentos\, encadenes\, duración\, RPE y sensaciones cuando
-  se conozcan.\n\nDía completo: sin hora fijada. Respetar 48 h entre ses
- iones de MoonBoard.\n\nVer día y bloque en el cuaderno: https://juanfra
- nj.github.io/entrenamiento/escalada/?fecha=2026-11-26#calendario\n\nRefe
- rencia: b4-20261126-b
+ ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha
+  no demuestra haber alcanzado criterios.\n\nSemana 1: Entrada según dem
+ anda de la vía y tolerancia a enlaces\; sin requisito de 6C+/7A. Salida
+ : mejorar secciones o pegues útiles en cuerda con ritmo y recuperación
+ .\n\nProducir movimientos útiles bajo fatiga controlada\, con transfere
+ ncia comprobable.\n\n1. Calentar y escoger problemas conocidos suficient
+ emente fáciles para el conjunto.\n\n2. Empezar con 2 series de 3 proble
+ mas\; adaptar duración y agarres al tramo de vía\, sin exigir un grado
+  de MoonBoard.\n\n3. Los 20–35 movimientos son una referencia de longi
+ tud\, no una cuota. Ajustar a la vía y mantener técnica.\n\n4. Si se t
+ olera en sesiones comparables\, añadir una serie o un problema por seri
+ e\; nunca ambas cosas a la vez.\n\n5. No sumar EMOM. Parar si cambia la
+  técnica o la fatiga impide practicar el objetivo.\n\nDosis: Inicio: 2
+  series de 3 problemas · progresión individual. Pausa: 6–10 min entr
+ e series.\n\nAnotar trabajo realizado\, intentos/series\, tiempos y desc
+ ansos reales\, calidad\, RPE y molestias cuando se conozcan\; no inventa
+ r datos ausentes.\n\nAcondicionamiento complementario opcional: Tras la
+  descarga\, 10–15 min al final de B si recuperas bien. Sin nuevo día
+  duro ni nuevas sesiones de calendario\; no iniciar durante la descarga.
+ \n\nDía completo: sin hora fijada. Procurar 48 h entre sesiones exigent
+ es de dedos y ajustar según recuperación y roca.\n\nVer día y bloque
+  en el cuaderno: https://juanfranj.github.io/entrenamiento/escalada/?fec
+ ha=2026-11-26#calendario\n\nReferencia: b4-20261126-b
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b4-20261129-c@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
-SUMMARY:Bloque 4 · S2 · C · Roca con cuerda · Previsto
+SUMMARY:Bloque 4 · S1 · C · Roca con cuerda · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 4: Resistencia de potencia.\n\nPREVISI
- ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implic
- a haber alcanzado los criterios.\n\nSemana 2: Entrada: 6C+ consistente o
-  7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35
-  movimientos y transferirlo a roca.\n\nAplicar la dosis del bloque mante
- niendo calidad.\n\n1. Calentamiento progresivo.\n\n2. Trabajar una vía
-  objetivo y una submáxima.\n\n3. Ensayar el tramo decisivo bajo fatiga
-  controlada.\n\n4. Anotar si el fallo procede de secuencia\, fuerza\, ri
- tmo o recuperación.\n\nDosis: Una vía objetivo y una vía submáxima.
-  Pausa: Descanso completo entre pegues.\n\nRegistrar problemas o vías\,
-  intentos\, encadenes\, duración\, RPE y sensaciones cuando se conozcan
- .\n\nDía completo: sin hora fijada. Respetar 48 h entre sesiones de Moo
- nBoard.\n\nVer día y bloque en el cuaderno: https://juanfranj.github.io
- /entrenamiento/escalada/?fecha=2026-11-29#calendario\n\nReferencia: b4-2
- 0261129-c
+ ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha
+  no demuestra haber alcanzado criterios.\n\nSemana 1: Entrada según dem
+ anda de la vía y tolerancia a enlaces\; sin requisito de 6C+/7A. Salida
+ : mejorar secciones o pegues útiles en cuerda con ritmo y recuperación
+ .\n\nMedir progreso en la vía\, no solo completar enlaces de tabla.\n\n
+ 1. Calentar y escoger proyecto y secciones decisivas.\n\n2. Alternar ens
+ ayo técnico y enlaces según el limitante\; no buscar fatiga extra por
+  obligación.\n\n3. Registrar ritmo\, reposos\, sección alcanzada y si
+  el fallo procede de secuencia\, fuerza o recuperación.\n\n4. Ajustar e
+ l total según longitud\, condiciones y respuesta\, conservando pegues d
+ e calidad.\n\nDosis: 2–4 pegues útiles inicialmente · según vía y
+  recuperación. Pausa: Descanso completo entre pegues.\n\nAnotar trabajo
+  realizado\, intentos/series\, tiempos y descansos reales\, calidad\, RP
+ E y molestias cuando se conozcan\; no inventar datos ausentes.\n\nDía c
+ ompleto: sin hora fijada. Procurar 48 h entre sesiones exigentes de dedo
+ s y ajustar según recuperación y roca.\n\nVer día y bloque en el cuad
+ erno: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2026-11-
+ 29#calendario\n\nReferencia: b4-20261129-c
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b4-20261201-a@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Bloque 4 · S2 · A · MoonBoard 40° · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 4: Resistencia de potencia.\n\nPREVISI
- ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implic
- a haber alcanzado los criterios.\n\nSemana 2: Entrada: 6C+ consistente o
-  7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35
-  movimientos y transferirlo a roca.\n\nAplicar la dosis del bloque mante
- niendo calidad.\n\n1. Calentamiento progresivo.\n\n2. Elegir 3–5 probl
- emas duros.\n\n3. Limitar el total a 10–14 intentos.\n\n4. Finalizar a
- ntes de que la potencia caiga claramente.\n\nDosis: 3–5 problemas duro
- s · 10–14 intentos totales. Pausa: Descansos completos para mantener
-  potencia.\n\nRegistrar problemas o vías\, intentos\, encadenes\, durac
- ión\, RPE y sensaciones cuando se conozcan.\n\nDía completo: sin hora
-  fijada. Respetar 48 h entre sesiones de MoonBoard.\n\nVer día y bloque
-  en el cuaderno: https://juanfranj.github.io/entrenamiento/escalada/?fec
- ha=2026-12-01#calendario\n\nReferencia: b4-20261201-a
+ ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha
+  no demuestra haber alcanzado criterios.\n\nSemana 2: Entrada según dem
+ anda de la vía y tolerancia a enlaces\; sin requisito de 6C+/7A. Salida
+ : mejorar secciones o pegues útiles en cuerda con ritmo y recuperación
+ .\n\nConservar fuerza mientras la vía y las secuencias largas ganan pri
+ oridad.\n\n1. Calentar y elegir 3–4 problemas exigentes pero practicab
+ les.\n\n2. Limitar a 6–10 intentos totales\; priorizar la ejecución y
+  no agotar la fuerza.\n\n3. Reducir más si la carga de enlaces o de roc
+ a afecta la recuperación.\n\nDosis: 6–10 intentos de trabajo como má
+ ximo · 3–4 problemas. Pausa: Descansos completos de 3–5 min o más
+  según recuperación.\n\nAnotar trabajo realizado\, intentos/series\, t
+ iempos y descansos reales\, calidad\, RPE y molestias cuando se conozcan
+ \; no inventar datos ausentes.\n\nDía completo: sin hora fijada. Procur
+ ar 48 h entre sesiones exigentes de dedos y ajustar según recuperación
+  y roca.\n\nVer día y bloque en el cuaderno: https://juanfranj.github.i
+ o/entrenamiento/escalada/?fecha=2026-12-01#calendario\n\nReferencia: b4-
+ 20261201-a
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b4-20261203-b@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Bloque 4 · S2 · B · MoonBoard 25° · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 4: Resistencia de potencia.\n\nPREVISI
- ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implic
- a haber alcanzado los criterios.\n\nSemana 2: Entrada: 6C+ consistente o
-  7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35
-  movimientos y transferirlo a roca.\n\nAplicar la dosis del bloque mante
- niendo calidad.\n\n1. Calentamiento progresivo.\n\n2. Enlazar 3–5 prob
- lemas\, normalmente 6A–6B según longitud.\n\n3. Acumular aproximadame
- nte 20–35 movimientos por serie.\n\n4. Completar 2–3 series conserva
- ndo secuencia y ritmo.\n\nDosis: 2–3 series · 3–5 problemas · 20
- –35 movimientos. Pausa: 6–10 min entre series.\n\nRegistrar problema
- s o vías\, intentos\, encadenes\, duración\, RPE y sensaciones cuando
-  se conozcan.\n\nDía completo: sin hora fijada. Respetar 48 h entre ses
- iones de MoonBoard.\n\nVer día y bloque en el cuaderno: https://juanfra
- nj.github.io/entrenamiento/escalada/?fecha=2026-12-03#calendario\n\nRefe
- rencia: b4-20261203-b
+ ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha
+  no demuestra haber alcanzado criterios.\n\nSemana 2: Entrada según dem
+ anda de la vía y tolerancia a enlaces\; sin requisito de 6C+/7A. Salida
+ : mejorar secciones o pegues útiles en cuerda con ritmo y recuperación
+ .\n\nProducir movimientos útiles bajo fatiga controlada\, con transfere
+ ncia comprobable.\n\n1. Calentar y escoger problemas conocidos suficient
+ emente fáciles para el conjunto.\n\n2. Empezar con 2 series de 3 proble
+ mas\; adaptar duración y agarres al tramo de vía\, sin exigir un grado
+  de MoonBoard.\n\n3. Los 20–35 movimientos son una referencia de longi
+ tud\, no una cuota. Ajustar a la vía y mantener técnica.\n\n4. Si se t
+ olera en sesiones comparables\, añadir una serie o un problema por seri
+ e\; nunca ambas cosas a la vez.\n\n5. No sumar EMOM. Parar si cambia la
+  técnica o la fatiga impide practicar el objetivo.\n\nDosis: Inicio: 2
+  series de 3 problemas · progresión individual. Pausa: 6–10 min entr
+ e series.\n\nAnotar trabajo realizado\, intentos/series\, tiempos y desc
+ ansos reales\, calidad\, RPE y molestias cuando se conozcan\; no inventa
+ r datos ausentes.\n\nAcondicionamiento complementario opcional: Tras la
+  descarga\, 10–15 min al final de B si recuperas bien. Sin nuevo día
+  duro ni nuevas sesiones de calendario\; no iniciar durante la descarga.
+ \n\nDía completo: sin hora fijada. Procurar 48 h entre sesiones exigent
+ es de dedos y ajustar según recuperación y roca.\n\nVer día y bloque
+  en el cuaderno: https://juanfranj.github.io/entrenamiento/escalada/?fec
+ ha=2026-12-03#calendario\n\nReferencia: b4-20261203-b
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b4-20261206-c@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
-SUMMARY:Bloque 4 · S3 · C · Roca con cuerda · Previsto
+SUMMARY:Bloque 4 · S2 · C · Roca con cuerda · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 4: Resistencia de potencia.\n\nPREVISI
- ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implic
- a haber alcanzado los criterios.\n\nSemana 3: Entrada: 6C+ consistente o
-  7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35
-  movimientos y transferirlo a roca.\n\nAplicar la dosis del bloque mante
- niendo calidad.\n\n1. Calentamiento progresivo.\n\n2. Trabajar una vía
-  objetivo y una submáxima.\n\n3. Ensayar el tramo decisivo bajo fatiga
-  controlada.\n\n4. Anotar si el fallo procede de secuencia\, fuerza\, ri
- tmo o recuperación.\n\nDosis: Una vía objetivo y una vía submáxima.
-  Pausa: Descanso completo entre pegues.\n\nRegistrar problemas o vías\,
-  intentos\, encadenes\, duración\, RPE y sensaciones cuando se conozcan
- .\n\nDía completo: sin hora fijada. Respetar 48 h entre sesiones de Moo
- nBoard.\n\nVer día y bloque en el cuaderno: https://juanfranj.github.io
- /entrenamiento/escalada/?fecha=2026-12-06#calendario\n\nReferencia: b4-2
- 0261206-c
+ ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha
+  no demuestra haber alcanzado criterios.\n\nSemana 2: Entrada según dem
+ anda de la vía y tolerancia a enlaces\; sin requisito de 6C+/7A. Salida
+ : mejorar secciones o pegues útiles en cuerda con ritmo y recuperación
+ .\n\nMedir progreso en la vía\, no solo completar enlaces de tabla.\n\n
+ 1. Calentar y escoger proyecto y secciones decisivas.\n\n2. Alternar ens
+ ayo técnico y enlaces según el limitante\; no buscar fatiga extra por
+  obligación.\n\n3. Registrar ritmo\, reposos\, sección alcanzada y si
+  el fallo procede de secuencia\, fuerza o recuperación.\n\n4. Ajustar e
+ l total según longitud\, condiciones y respuesta\, conservando pegues d
+ e calidad.\n\nDosis: 2–4 pegues útiles inicialmente · según vía y
+  recuperación. Pausa: Descanso completo entre pegues.\n\nAnotar trabajo
+  realizado\, intentos/series\, tiempos y descansos reales\, calidad\, RP
+ E y molestias cuando se conozcan\; no inventar datos ausentes.\n\nDía c
+ ompleto: sin hora fijada. Procurar 48 h entre sesiones exigentes de dedo
+ s y ajustar según recuperación y roca.\n\nVer día y bloque en el cuad
+ erno: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2026-12-
+ 06#calendario\n\nReferencia: b4-20261206-c
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b4-20261208-a@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:Bloque 4 · S3 · A · MoonBoard 40° · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 4: Resistencia de potencia.\n\nPREVISI
- ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implic
- a haber alcanzado los criterios.\n\nSemana 3: Entrada: 6C+ consistente o
-  7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35
-  movimientos y transferirlo a roca.\n\nAplicar la dosis del bloque mante
- niendo calidad.\n\n1. Calentamiento progresivo.\n\n2. Elegir 3–5 probl
- emas duros.\n\n3. Limitar el total a 10–14 intentos.\n\n4. Finalizar a
- ntes de que la potencia caiga claramente.\n\nDosis: 3–5 problemas duro
- s · 10–14 intentos totales. Pausa: Descansos completos para mantener
-  potencia.\n\nRegistrar problemas o vías\, intentos\, encadenes\, durac
- ión\, RPE y sensaciones cuando se conozcan.\n\nDía completo: sin hora
-  fijada. Respetar 48 h entre sesiones de MoonBoard.\n\nVer día y bloque
-  en el cuaderno: https://juanfranj.github.io/entrenamiento/escalada/?fec
- ha=2026-12-08#calendario\n\nReferencia: b4-20261208-a
+ ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha
+  no demuestra haber alcanzado criterios.\n\nSemana 3: Entrada según dem
+ anda de la vía y tolerancia a enlaces\; sin requisito de 6C+/7A. Salida
+ : mejorar secciones o pegues útiles en cuerda con ritmo y recuperación
+ .\n\nConservar fuerza mientras la vía y las secuencias largas ganan pri
+ oridad.\n\n1. Calentar y elegir 3–4 problemas exigentes pero practicab
+ les.\n\n2. Limitar a 6–10 intentos totales\; priorizar la ejecución y
+  no agotar la fuerza.\n\n3. Reducir más si la carga de enlaces o de roc
+ a afecta la recuperación.\n\nDosis: 6–10 intentos de trabajo como má
+ ximo · 3–4 problemas. Pausa: Descansos completos de 3–5 min o más
+  según recuperación.\n\nAnotar trabajo realizado\, intentos/series\, t
+ iempos y descansos reales\, calidad\, RPE y molestias cuando se conozcan
+ \; no inventar datos ausentes.\n\nDía completo: sin hora fijada. Procur
+ ar 48 h entre sesiones exigentes de dedos y ajustar según recuperación
+  y roca.\n\nVer día y bloque en el cuaderno: https://juanfranj.github.i
+ o/entrenamiento/escalada/?fecha=2026-12-08#calendario\n\nReferencia: b4-
+ 20261208-a
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b4-20261210-b@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:Bloque 4 · S3 · B · MoonBoard 25° · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 4: Resistencia de potencia.\n\nPREVISI
- ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implic
- a haber alcanzado los criterios.\n\nSemana 3: Entrada: 6C+ consistente o
-  7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35
-  movimientos y transferirlo a roca.\n\nAplicar la dosis del bloque mante
- niendo calidad.\n\n1. Calentamiento progresivo.\n\n2. Enlazar 3–5 prob
- lemas\, normalmente 6A–6B según longitud.\n\n3. Acumular aproximadame
- nte 20–35 movimientos por serie.\n\n4. Completar 2–3 series conserva
- ndo secuencia y ritmo.\n\nDosis: 2–3 series · 3–5 problemas · 20
- –35 movimientos. Pausa: 6–10 min entre series.\n\nRegistrar problema
- s o vías\, intentos\, encadenes\, duración\, RPE y sensaciones cuando
-  se conozcan.\n\nDía completo: sin hora fijada. Respetar 48 h entre ses
- iones de MoonBoard.\n\nVer día y bloque en el cuaderno: https://juanfra
- nj.github.io/entrenamiento/escalada/?fecha=2026-12-10#calendario\n\nRefe
- rencia: b4-20261210-b
+ ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha
+  no demuestra haber alcanzado criterios.\n\nSemana 3: Entrada según dem
+ anda de la vía y tolerancia a enlaces\; sin requisito de 6C+/7A. Salida
+ : mejorar secciones o pegues útiles en cuerda con ritmo y recuperación
+ .\n\nProducir movimientos útiles bajo fatiga controlada\, con transfere
+ ncia comprobable.\n\n1. Calentar y escoger problemas conocidos suficient
+ emente fáciles para el conjunto.\n\n2. Empezar con 2 series de 3 proble
+ mas\; adaptar duración y agarres al tramo de vía\, sin exigir un grado
+  de MoonBoard.\n\n3. Los 20–35 movimientos son una referencia de longi
+ tud\, no una cuota. Ajustar a la vía y mantener técnica.\n\n4. Si se t
+ olera en sesiones comparables\, añadir una serie o un problema por seri
+ e\; nunca ambas cosas a la vez.\n\n5. No sumar EMOM. Parar si cambia la
+  técnica o la fatiga impide practicar el objetivo.\n\nDosis: Inicio: 2
+  series de 3 problemas · progresión individual. Pausa: 6–10 min entr
+ e series.\n\nAnotar trabajo realizado\, intentos/series\, tiempos y desc
+ ansos reales\, calidad\, RPE y molestias cuando se conozcan\; no inventa
+ r datos ausentes.\n\nAcondicionamiento complementario opcional: Tras la
+  descarga\, 10–15 min al final de B si recuperas bien. Sin nuevo día
+  duro ni nuevas sesiones de calendario\; no iniciar durante la descarga.
+ \n\nDía completo: sin hora fijada. Procurar 48 h entre sesiones exigent
+ es de dedos y ajustar según recuperación y roca.\n\nVer día y bloque
+  en el cuaderno: https://juanfranj.github.io/entrenamiento/escalada/?fec
+ ha=2026-12-10#calendario\n\nReferencia: b4-20261210-b
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b4-20261213-c@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
-SUMMARY:Bloque 4 · S4 · C · Roca con cuerda · Previsto
+SUMMARY:Bloque 4 · S3 · C · Roca con cuerda · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 4: Resistencia de potencia.\n\nPREVISI
- ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implic
- a haber alcanzado los criterios.\n\nSemana 4: Entrada: 6C+ consistente o
-  7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35
-  movimientos y transferirlo a roca.\n\nAplicar la dosis del bloque mante
- niendo calidad.\n\n1. Calentamiento progresivo.\n\n2. Trabajar una vía
-  objetivo y una submáxima.\n\n3. Ensayar el tramo decisivo bajo fatiga
-  controlada.\n\n4. Anotar si el fallo procede de secuencia\, fuerza\, ri
- tmo o recuperación.\n\nDosis: Una vía objetivo y una vía submáxima.
-  Pausa: Descanso completo entre pegues.\n\nRegistrar problemas o vías\,
-  intentos\, encadenes\, duración\, RPE y sensaciones cuando se conozcan
- .\n\nDía completo: sin hora fijada. Respetar 48 h entre sesiones de Moo
- nBoard.\n\nVer día y bloque en el cuaderno: https://juanfranj.github.io
- /entrenamiento/escalada/?fecha=2026-12-13#calendario\n\nReferencia: b4-2
- 0261213-c
+ ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha
+  no demuestra haber alcanzado criterios.\n\nSemana 3: Entrada según dem
+ anda de la vía y tolerancia a enlaces\; sin requisito de 6C+/7A. Salida
+ : mejorar secciones o pegues útiles en cuerda con ritmo y recuperación
+ .\n\nMedir progreso en la vía\, no solo completar enlaces de tabla.\n\n
+ 1. Calentar y escoger proyecto y secciones decisivas.\n\n2. Alternar ens
+ ayo técnico y enlaces según el limitante\; no buscar fatiga extra por
+  obligación.\n\n3. Registrar ritmo\, reposos\, sección alcanzada y si
+  el fallo procede de secuencia\, fuerza o recuperación.\n\n4. Ajustar e
+ l total según longitud\, condiciones y respuesta\, conservando pegues d
+ e calidad.\n\nDosis: 2–4 pegues útiles inicialmente · según vía y
+  recuperación. Pausa: Descanso completo entre pegues.\n\nAnotar trabajo
+  realizado\, intentos/series\, tiempos y descansos reales\, calidad\, RP
+ E y molestias cuando se conozcan\; no inventar datos ausentes.\n\nDía c
+ ompleto: sin hora fijada. Procurar 48 h entre sesiones exigentes de dedo
+ s y ajustar según recuperación y roca.\n\nVer día y bloque en el cuad
+ erno: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2026-12-
+ 13#calendario\n\nReferencia: b4-20261213-c
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b4-20261215-a@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
-SUMMARY:Bloque 4 · S4 · A · MoonBoard 40° · Previsto
+SUMMARY:Bloque 4 · S4 · A · MoonBoard 40° · Descarga · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 4: Resistencia de potencia.\n\nPREVISI
- ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implic
- a haber alcanzado los criterios.\n\nSemana 4: Entrada: 6C+ consistente o
-  7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35
-  movimientos y transferirlo a roca.\n\nAplicar la dosis del bloque mante
- niendo calidad.\n\n1. Calentamiento progresivo.\n\n2. Elegir 3–5 probl
- emas duros.\n\n3. Limitar el total a 10–14 intentos.\n\n4. Finalizar a
- ntes de que la potencia caiga claramente.\n\nDosis: 3–5 problemas duro
- s · 10–14 intentos totales. Pausa: Descansos completos para mantener
-  potencia.\n\nRegistrar problemas o vías\, intentos\, encadenes\, durac
- ión\, RPE y sensaciones cuando se conozcan.\n\nDía completo: sin hora
-  fijada. Respetar 48 h entre sesiones de MoonBoard.\n\nVer día y bloque
-  en el cuaderno: https://juanfranj.github.io/entrenamiento/escalada/?fec
- ha=2026-12-15#calendario\n\nReferencia: b4-20261215-a
+ ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha
+  no demuestra haber alcanzado criterios.\n\nSemana 4: Semana de menor ca
+ rga\; revisar respuesta y transferencia antes de confirmar otra fase.\n\
+ nAsimilar carga\; el test\, si se realiza\, sustituye entrenamiento y so
+ lo establece referencia.\n\n1. Mantener calentamiento progresivo y elegi
+ r problemas controlados\; sin buscar máximos nuevos.\n\n2. Reducir apro
+ ximadamente a la mitad del volumen realmente tolerado\; máximo 4–6 in
+ tentos de trabajo.\n\n3. Si hay una evaluación con sensor acordada\, su
+ stituir este trabajo por la medición\; no sumar test y sesión completa
+ .\n\n4. Mantener protocolo comparable\; no añadir batería de RFD/CF\,
+  campus o suspensiones extra.\n\n5. Parar ante molestias o caída de cal
+ idad y registrar respuesta.\n\nDosis: 4–6 intentos de trabajo como má
+ ximo. Pausa: Descansos completos de 3–5 min o más.\n\nAnotar trabajo
+  realizado\, intentos/series\, tiempos y descansos reales\, calidad\, RP
+ E y molestias cuando se conozcan\; no inventar datos ausentes.\n\nDía c
+ ompleto: sin hora fijada. Procurar 48 h entre sesiones exigentes de dedo
+ s y ajustar según recuperación y roca.\n\nVer día y bloque en el cuad
+ erno: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2026-12-
+ 15#calendario\n\nReferencia: b4-20261215-a
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b4-20261217-b@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-SUMMARY:Bloque 4 · S4 · B · MoonBoard 25° · Previsto
+SUMMARY:Bloque 4 · S4 · B · MoonBoard 25° · Descarga · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 4: Resistencia de potencia.\n\nPREVISI
- ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implic
- a haber alcanzado los criterios.\n\nSemana 4: Entrada: 6C+ consistente o
-  7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35
-  movimientos y transferirlo a roca.\n\nAplicar la dosis del bloque mante
- niendo calidad.\n\n1. Calentamiento progresivo.\n\n2. Enlazar 3–5 prob
- lemas\, normalmente 6A–6B según longitud.\n\n3. Acumular aproximadame
- nte 20–35 movimientos por serie.\n\n4. Completar 2–3 series conserva
- ndo secuencia y ritmo.\n\nDosis: 2–3 series · 3–5 problemas · 20
- –35 movimientos. Pausa: 6–10 min entre series.\n\nRegistrar problema
- s o vías\, intentos\, encadenes\, duración\, RPE y sensaciones cuando
-  se conozcan.\n\nDía completo: sin hora fijada. Respetar 48 h entre ses
- iones de MoonBoard.\n\nVer día y bloque en el cuaderno: https://juanfra
- nj.github.io/entrenamiento/escalada/?fecha=2026-12-17#calendario\n\nRefe
- rencia: b4-20261217-b
+ ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha
+  no demuestra haber alcanzado criterios.\n\nSemana 4: Semana de menor ca
+ rga\; revisar respuesta y transferencia antes de confirmar otra fase.\n\
+ nMoverse con calidad y recuperar\, sin una sesión de resistencia encubi
+ erta.\n\n1. Calentar y elegir problemas conocidos y fáciles para ti.\n\
+ n2. Hacer hasta 6–8 problemas cómodos\, reduciendo más si representa
+  más de la mitad de tu volumen habitual.\n\n3. Cuidar pies\, postura y
+  precisión\; sin EMOM\, enlazados ni trabajo al fallo.\n\n4. No estrena
+ r acondicionamiento exigente\; registrar recuperación.\n\nDosis: 6–8
+  problemas cómodos como máximo. Pausa: 90 s–3 min entre problemas\,
+  o más si hace falta.\n\nAnotar trabajo realizado\, intentos/series\, t
+ iempos y descansos reales\, calidad\, RPE y molestias cuando se conozcan
+ \; no inventar datos ausentes.\n\nDía completo: sin hora fijada. Procur
+ ar 48 h entre sesiones exigentes de dedos y ajustar según recuperación
+  y roca.\n\nVer día y bloque en el cuaderno: https://juanfranj.github.i
+ o/entrenamiento/escalada/?fecha=2026-12-17#calendario\n\nReferencia: b4-
+ 20261217-b
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b5-20261220-c@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
-SUMMARY:Bloque 5 · S1 · C · Roca con cuerda · Previsto
-DESCRIPTION:Proyecto 8a — Bloque 5: Específico de vía.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 1: El rendimiento en vía manda.
-  Reducir o eliminar MoonBoard si resta calidad en roca.\n\nAplicar la do
- sis del bloque manteniendo calidad.\n\n1. Definir beta\, chapajes y repo
- sos.\n\n2. Realizar los pegues de encadenamiento en fresco.\n\n3. Descar
- gar antes de los días clave.\n\n4. Registrar el rendimiento y lo aprend
- ido en la vía.\n\nDosis: Roca prioritaria · pegues con recuperación c
- ompleta. Pausa: Recuperación completa\; descargar antes de días clave.
- \n\nRegistrar problemas o vías\, intentos\, encadenes\, duración\, RPE
-  y sensaciones cuando se conozcan.\n\nDía completo: sin hora fijada. Re
- spetar 48 h entre sesiones de MoonBoard.\n\nVer día y bloque en el cuad
- erno: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2026-12-
- 20#calendario\n\nReferencia: b5-20261220-c
+SUMMARY:Bloque 4 · S4 · C · Roca con cuerda · Descarga · Previsto
+DESCRIPTION:Proyecto 8a — Bloque 4: Resistencia de potencia.\n\nPREVISI
+ ÓN AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha
+  no demuestra haber alcanzado criterios.\n\nSemana 4: Semana de menor ca
+ rga\; revisar respuesta y transferencia antes de confirmar otra fase.\n\
+ nReducir claramente carga y conservar gesto\; adaptar al volumen real\,
+  no cumplir una cuota.\n\n1. Valorar recuperación antes de salir\; desc
+ ansar si no hay margen.\n\n2. Calentar de forma progresiva y priorizar v
+ ías cómodas\, lectura y reposos.\n\n3. Como máximo 1–2 pegues o ens
+ ayos breves submáximos\; sin perseguir fallos repetidos.\n\n4. Revisar
+  sensaciones y registros antes de confirmar el siguiente bloque.\n\nDosi
+ s: Calentamiento + 1–2 pegues cómodos/ensayos breves\, o descanso. Pa
+ usa: Descansos completos\, sin acumular fatiga.\n\nAnotar trabajo realiz
+ ado\, intentos/series\, tiempos y descansos reales\, calidad\, RPE y mol
+ estias cuando se conozcan\; no inventar datos ausentes.\n\nDía completo
+ : sin hora fijada. Procurar 48 h entre sesiones exigentes de dedos y aju
+ star según recuperación y roca.\n\nVer día y bloque en el cuaderno: h
+ ttps://juanfranj.github.io/entrenamiento/escalada/?fecha=2026-12-20#cale
+ ndario\n\nReferencia: b5-20261220-c
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b5-20261222-a@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:Bloque 5 · S1 · A · MoonBoard 40° · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 5: Específico de vía.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 1: El rendimiento en vía manda.
-  Reducir o eliminar MoonBoard si resta calidad en roca.\n\nAplicar la do
- sis del bloque manteniendo calidad.\n\n1. Calentamiento progresivo.\n\n2
- . Elegir 3–4 problemas duros.\n\n3. Limitar a 6–10 intentos de alta
-  calidad.\n\n4. Reducir la sesión si perjudica el día de roca.\n\nDosi
- s: 3–4 problemas duros · 6–10 intentos de alta calidad. Pausa: Desc
- anso completo\; separado de la roca importante.\n\nRegistrar problemas o
-  vías\, intentos\, encadenes\, duración\, RPE y sensaciones cuando se
-  conozcan.\n\nDía completo: sin hora fijada. Respetar 48 h entre sesion
- es de MoonBoard.\n\nVer día y bloque en el cuaderno: https://juanfranj.
- github.io/entrenamiento/escalada/?fecha=2026-12-22#calendario\n\nReferen
- cia: b5-20261222-a
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 1: El rendimiento en la
+  vía objetivo organiza la semana\; ajustar o retirar tabla si resta rec
+ uperación. Fechas de encadenamiento por concretar.\n\nMantener fuerza c
+ on la mínima carga que permita llegar recuperado a roca.\n\n1. Calentar
+  progresivamente.\n\n2. Elegir 3–4 problemas exigentes y conocidos\; 6
+ –8 intentos totales como máximo.\n\n3. Separar de la roca importante
+  y retirar volumen si perjudica los pegues.\n\nDosis: 6–8 intentos de
+  trabajo como máximo · 3–4 problemas. Pausa: Descanso completo\; sep
+ arado de la roca importante.\n\nRegistrar problemas o vías\, intentos\,
+  encadenes\, duración\, RPE y sensaciones cuando se conozcan.\n\nDía c
+ ompleto: sin hora fijada. Procurar 48 h entre sesiones exigentes de dedo
+ s y ajustar según recuperación y roca.\n\nVer día y bloque en el cuad
+ erno: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2026-12-
+ 22#calendario\n\nReferencia: b5-20261222-a
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b5-20261224-b@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Bloque 5 · S1 · B · MoonBoard 25° · Opcional · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 5: Específico de vía.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 1: El rendimiento en vía manda.
-  Reducir o eliminar MoonBoard si resta calidad en roca.\n\nAplicar la do
- sis del bloque manteniendo calidad.\n\n1. Elegir continuidad si la vía
-  es larga.\n\n2. Elegir potencia si el límite está en una sección cor
- ta.\n\n3. Reducir o eliminar esta sesión si empeora el rendimiento en r
- oca.\n\nDosis: Opcional: continuidad o potencia según la vía. Pausa: C
- onservar recuperación para roca.\n\nRegistrar problemas o vías\, inten
- tos\, encadenes\, duración\, RPE y sensaciones cuando se conozcan.\n\nD
- ía completo: sin hora fijada. Respetar 48 h entre sesiones de MoonBoard
- .\n\nVer día y bloque en el cuaderno: https://juanfranj.github.io/entre
- namiento/escalada/?fecha=2026-12-24#calendario\n\nReferencia: b5-2026122
- 4-b
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 1: El rendimiento en la
+  vía objetivo organiza la semana\; ajustar o retirar tabla si resta rec
+ uperación. Fechas de encadenamiento por concretar.\n\nSesión opcional
+  que se omite si no aporta al proyecto o compromete la recuperación.\n\
+ n1. Elegir una única tarea de continuidad o potencia según la vía.\n\
+ n2. Usar una dosis previamente tolerada\, sin añadir una sesión máxim
+ a ni sumar métodos.\n\n3. Omitir si resta calidad en roca\; registrar m
+ otivo y respuesta.\n\nDosis: Opcional: continuidad o potencia según la
+  vía. Pausa: Conservar recuperación para roca.\n\nRegistrar problemas
+  o vías\, intentos\, encadenes\, duración\, RPE y sensaciones cuando s
+ e conozcan.\n\nAcondicionamiento complementario opcional: Tras la descar
+ ga\, 10–15 min al final de B si recuperas bien. Sin nuevo día duro ni
+  nuevas sesiones de calendario\; no iniciar durante la descarga.\n\nDía
+  completo: sin hora fijada. Procurar 48 h entre sesiones exigentes de de
+ dos y ajustar según recuperación y roca.\n\nVer día y bloque en el cu
+ aderno: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2026-1
+ 2-24#calendario\n\nReferencia: b5-20261224-b
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b5-20261227-c@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
-SUMMARY:Bloque 5 · S2 · C · Roca con cuerda · Previsto
+SUMMARY:Bloque 5 · S1 · C · Roca con cuerda · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 5: Específico de vía.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 2: El rendimiento en vía manda.
-  Reducir o eliminar MoonBoard si resta calidad en roca.\n\nAplicar la do
- sis del bloque manteniendo calidad.\n\n1. Definir beta\, chapajes y repo
- sos.\n\n2. Realizar los pegues de encadenamiento en fresco.\n\n3. Descar
- gar antes de los días clave.\n\n4. Registrar el rendimiento y lo aprend
- ido en la vía.\n\nDosis: Roca prioritaria · pegues con recuperación c
- ompleta. Pausa: Recuperación completa\; descargar antes de días clave.
- \n\nRegistrar problemas o vías\, intentos\, encadenes\, duración\, RPE
-  y sensaciones cuando se conozcan.\n\nDía completo: sin hora fijada. Re
- spetar 48 h entre sesiones de MoonBoard.\n\nVer día y bloque en el cuad
- erno: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2026-12-
- 27#calendario\n\nReferencia: b5-20261227-c
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 1: El rendimiento en la
+  vía objetivo organiza la semana\; ajustar o retirar tabla si resta rec
+ uperación. Fechas de encadenamiento por concretar.\n\nEncadenar con rec
+ uperación\, táctica y secuencia definidas\; la cuota no manda.\n\n1. D
+ efinir beta\, chapajes y reposos.\n\n2. Realizar los pegues de encadenam
+ iento en fresco.\n\n3. Descargar antes de los días clave.\n\n4. Registr
+ ar el rendimiento y lo aprendido en la vía.\n\nDosis: 2–4 pegues úti
+ les como referencia inicial\; ajustar a la vía. Pausa: Recuperación co
+ mpleta\; descargar antes de días clave.\n\nRegistrar problemas o vías\
+ , intentos\, encadenes\, duración\, RPE y sensaciones cuando se conozca
+ n.\n\nDía completo: sin hora fijada. Procurar 48 h entre sesiones exige
+ ntes de dedos y ajustar según recuperación y roca.\n\nVer día y bloqu
+ e en el cuaderno: https://juanfranj.github.io/entrenamiento/escalada/?fe
+ cha=2026-12-27#calendario\n\nReferencia: b5-20261227-c
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b5-20261229-a@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:Bloque 5 · S2 · A · MoonBoard 40° · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 5: Específico de vía.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 2: El rendimiento en vía manda.
-  Reducir o eliminar MoonBoard si resta calidad en roca.\n\nAplicar la do
- sis del bloque manteniendo calidad.\n\n1. Calentamiento progresivo.\n\n2
- . Elegir 3–4 problemas duros.\n\n3. Limitar a 6–10 intentos de alta
-  calidad.\n\n4. Reducir la sesión si perjudica el día de roca.\n\nDosi
- s: 3–4 problemas duros · 6–10 intentos de alta calidad. Pausa: Desc
- anso completo\; separado de la roca importante.\n\nRegistrar problemas o
-  vías\, intentos\, encadenes\, duración\, RPE y sensaciones cuando se
-  conozcan.\n\nDía completo: sin hora fijada. Respetar 48 h entre sesion
- es de MoonBoard.\n\nVer día y bloque en el cuaderno: https://juanfranj.
- github.io/entrenamiento/escalada/?fecha=2026-12-29#calendario\n\nReferen
- cia: b5-20261229-a
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 2: El rendimiento en la
+  vía objetivo organiza la semana\; ajustar o retirar tabla si resta rec
+ uperación. Fechas de encadenamiento por concretar.\n\nMantener fuerza c
+ on la mínima carga que permita llegar recuperado a roca.\n\n1. Calentar
+  progresivamente.\n\n2. Elegir 3–4 problemas exigentes y conocidos\; 6
+ –8 intentos totales como máximo.\n\n3. Separar de la roca importante
+  y retirar volumen si perjudica los pegues.\n\nDosis: 6–8 intentos de
+  trabajo como máximo · 3–4 problemas. Pausa: Descanso completo\; sep
+ arado de la roca importante.\n\nRegistrar problemas o vías\, intentos\,
+  encadenes\, duración\, RPE y sensaciones cuando se conozcan.\n\nDía c
+ ompleto: sin hora fijada. Procurar 48 h entre sesiones exigentes de dedo
+ s y ajustar según recuperación y roca.\n\nVer día y bloque en el cuad
+ erno: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2026-12-
+ 29#calendario\n\nReferencia: b5-20261229-a
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b5-20261231-b@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Bloque 5 · S2 · B · MoonBoard 25° · Opcional · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 5: Específico de vía.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 2: El rendimiento en vía manda.
-  Reducir o eliminar MoonBoard si resta calidad en roca.\n\nAplicar la do
- sis del bloque manteniendo calidad.\n\n1. Elegir continuidad si la vía
-  es larga.\n\n2. Elegir potencia si el límite está en una sección cor
- ta.\n\n3. Reducir o eliminar esta sesión si empeora el rendimiento en r
- oca.\n\nDosis: Opcional: continuidad o potencia según la vía. Pausa: C
- onservar recuperación para roca.\n\nRegistrar problemas o vías\, inten
- tos\, encadenes\, duración\, RPE y sensaciones cuando se conozcan.\n\nD
- ía completo: sin hora fijada. Respetar 48 h entre sesiones de MoonBoard
- .\n\nVer día y bloque en el cuaderno: https://juanfranj.github.io/entre
- namiento/escalada/?fecha=2026-12-31#calendario\n\nReferencia: b5-2026123
- 1-b
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 2: El rendimiento en la
+  vía objetivo organiza la semana\; ajustar o retirar tabla si resta rec
+ uperación. Fechas de encadenamiento por concretar.\n\nSesión opcional
+  que se omite si no aporta al proyecto o compromete la recuperación.\n\
+ n1. Elegir una única tarea de continuidad o potencia según la vía.\n\
+ n2. Usar una dosis previamente tolerada\, sin añadir una sesión máxim
+ a ni sumar métodos.\n\n3. Omitir si resta calidad en roca\; registrar m
+ otivo y respuesta.\n\nDosis: Opcional: continuidad o potencia según la
+  vía. Pausa: Conservar recuperación para roca.\n\nRegistrar problemas
+  o vías\, intentos\, encadenes\, duración\, RPE y sensaciones cuando s
+ e conozcan.\n\nAcondicionamiento complementario opcional: Tras la descar
+ ga\, 10–15 min al final de B si recuperas bien. Sin nuevo día duro ni
+  nuevas sesiones de calendario\; no iniciar durante la descarga.\n\nDía
+  completo: sin hora fijada. Procurar 48 h entre sesiones exigentes de de
+ dos y ajustar según recuperación y roca.\n\nVer día y bloque en el cu
+ aderno: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2026-1
+ 2-31#calendario\n\nReferencia: b5-20261231-b
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b5-20270103-c@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
-SUMMARY:Bloque 5 · S3 · C · Roca con cuerda · Previsto
+SUMMARY:Bloque 5 · S2 · C · Roca con cuerda · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 5: Específico de vía.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 3: El rendimiento en vía manda.
-  Reducir o eliminar MoonBoard si resta calidad en roca.\n\nAplicar la do
- sis del bloque manteniendo calidad.\n\n1. Definir beta\, chapajes y repo
- sos.\n\n2. Realizar los pegues de encadenamiento en fresco.\n\n3. Descar
- gar antes de los días clave.\n\n4. Registrar el rendimiento y lo aprend
- ido en la vía.\n\nDosis: Roca prioritaria · pegues con recuperación c
- ompleta. Pausa: Recuperación completa\; descargar antes de días clave.
- \n\nRegistrar problemas o vías\, intentos\, encadenes\, duración\, RPE
-  y sensaciones cuando se conozcan.\n\nDía completo: sin hora fijada. Re
- spetar 48 h entre sesiones de MoonBoard.\n\nVer día y bloque en el cuad
- erno: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2027-01-
- 03#calendario\n\nReferencia: b5-20270103-c
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 2: El rendimiento en la
+  vía objetivo organiza la semana\; ajustar o retirar tabla si resta rec
+ uperación. Fechas de encadenamiento por concretar.\n\nEncadenar con rec
+ uperación\, táctica y secuencia definidas\; la cuota no manda.\n\n1. D
+ efinir beta\, chapajes y reposos.\n\n2. Realizar los pegues de encadenam
+ iento en fresco.\n\n3. Descargar antes de los días clave.\n\n4. Registr
+ ar el rendimiento y lo aprendido en la vía.\n\nDosis: 2–4 pegues úti
+ les como referencia inicial\; ajustar a la vía. Pausa: Recuperación co
+ mpleta\; descargar antes de días clave.\n\nRegistrar problemas o vías\
+ , intentos\, encadenes\, duración\, RPE y sensaciones cuando se conozca
+ n.\n\nDía completo: sin hora fijada. Procurar 48 h entre sesiones exige
+ ntes de dedos y ajustar según recuperación y roca.\n\nVer día y bloqu
+ e en el cuaderno: https://juanfranj.github.io/entrenamiento/escalada/?fe
+ cha=2027-01-03#calendario\n\nReferencia: b5-20270103-c
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b5-20270105-a@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 SUMMARY:Bloque 5 · S3 · A · MoonBoard 40° · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 5: Específico de vía.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 3: El rendimiento en vía manda.
-  Reducir o eliminar MoonBoard si resta calidad en roca.\n\nAplicar la do
- sis del bloque manteniendo calidad.\n\n1. Calentamiento progresivo.\n\n2
- . Elegir 3–4 problemas duros.\n\n3. Limitar a 6–10 intentos de alta
-  calidad.\n\n4. Reducir la sesión si perjudica el día de roca.\n\nDosi
- s: 3–4 problemas duros · 6–10 intentos de alta calidad. Pausa: Desc
- anso completo\; separado de la roca importante.\n\nRegistrar problemas o
-  vías\, intentos\, encadenes\, duración\, RPE y sensaciones cuando se
-  conozcan.\n\nDía completo: sin hora fijada. Respetar 48 h entre sesion
- es de MoonBoard.\n\nVer día y bloque en el cuaderno: https://juanfranj.
- github.io/entrenamiento/escalada/?fecha=2027-01-05#calendario\n\nReferen
- cia: b5-20270105-a
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 3: El rendimiento en la
+  vía objetivo organiza la semana\; ajustar o retirar tabla si resta rec
+ uperación. Fechas de encadenamiento por concretar.\n\nMantener fuerza c
+ on la mínima carga que permita llegar recuperado a roca.\n\n1. Calentar
+  progresivamente.\n\n2. Elegir 3–4 problemas exigentes y conocidos\; 6
+ –8 intentos totales como máximo.\n\n3. Separar de la roca importante
+  y retirar volumen si perjudica los pegues.\n\nDosis: 6–8 intentos de
+  trabajo como máximo · 3–4 problemas. Pausa: Descanso completo\; sep
+ arado de la roca importante.\n\nRegistrar problemas o vías\, intentos\,
+  encadenes\, duración\, RPE y sensaciones cuando se conozcan.\n\nDía c
+ ompleto: sin hora fijada. Procurar 48 h entre sesiones exigentes de dedo
+ s y ajustar según recuperación y roca.\n\nVer día y bloque en el cuad
+ erno: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2027-01-
+ 05#calendario\n\nReferencia: b5-20270105-a
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b5-20270107-b@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:Bloque 5 · S3 · B · MoonBoard 25° · Opcional · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 5: Específico de vía.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 3: El rendimiento en vía manda.
-  Reducir o eliminar MoonBoard si resta calidad en roca.\n\nAplicar la do
- sis del bloque manteniendo calidad.\n\n1. Elegir continuidad si la vía
-  es larga.\n\n2. Elegir potencia si el límite está en una sección cor
- ta.\n\n3. Reducir o eliminar esta sesión si empeora el rendimiento en r
- oca.\n\nDosis: Opcional: continuidad o potencia según la vía. Pausa: C
- onservar recuperación para roca.\n\nRegistrar problemas o vías\, inten
- tos\, encadenes\, duración\, RPE y sensaciones cuando se conozcan.\n\nD
- ía completo: sin hora fijada. Respetar 48 h entre sesiones de MoonBoard
- .\n\nVer día y bloque en el cuaderno: https://juanfranj.github.io/entre
- namiento/escalada/?fecha=2027-01-07#calendario\n\nReferencia: b5-2027010
- 7-b
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 3: El rendimiento en la
+  vía objetivo organiza la semana\; ajustar o retirar tabla si resta rec
+ uperación. Fechas de encadenamiento por concretar.\n\nSesión opcional
+  que se omite si no aporta al proyecto o compromete la recuperación.\n\
+ n1. Elegir una única tarea de continuidad o potencia según la vía.\n\
+ n2. Usar una dosis previamente tolerada\, sin añadir una sesión máxim
+ a ni sumar métodos.\n\n3. Omitir si resta calidad en roca\; registrar m
+ otivo y respuesta.\n\nDosis: Opcional: continuidad o potencia según la
+  vía. Pausa: Conservar recuperación para roca.\n\nRegistrar problemas
+  o vías\, intentos\, encadenes\, duración\, RPE y sensaciones cuando s
+ e conozcan.\n\nAcondicionamiento complementario opcional: Tras la descar
+ ga\, 10–15 min al final de B si recuperas bien. Sin nuevo día duro ni
+  nuevas sesiones de calendario\; no iniciar durante la descarga.\n\nDía
+  completo: sin hora fijada. Procurar 48 h entre sesiones exigentes de de
+ dos y ajustar según recuperación y roca.\n\nVer día y bloque en el cu
+ aderno: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2027-0
+ 1-07#calendario\n\nReferencia: b5-20270107-b
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b5-20270110-c@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
-SUMMARY:Bloque 5 · S4 · C · Roca con cuerda · Previsto
+SUMMARY:Bloque 5 · S3 · C · Roca con cuerda · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 5: Específico de vía.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 4: El rendimiento en vía manda.
-  Reducir o eliminar MoonBoard si resta calidad en roca.\n\nAplicar la do
- sis del bloque manteniendo calidad.\n\n1. Definir beta\, chapajes y repo
- sos.\n\n2. Realizar los pegues de encadenamiento en fresco.\n\n3. Descar
- gar antes de los días clave.\n\n4. Registrar el rendimiento y lo aprend
- ido en la vía.\n\nDosis: Roca prioritaria · pegues con recuperación c
- ompleta. Pausa: Recuperación completa\; descargar antes de días clave.
- \n\nRegistrar problemas o vías\, intentos\, encadenes\, duración\, RPE
-  y sensaciones cuando se conozcan.\n\nDía completo: sin hora fijada. Re
- spetar 48 h entre sesiones de MoonBoard.\n\nVer día y bloque en el cuad
- erno: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2027-01-
- 10#calendario\n\nReferencia: b5-20270110-c
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 3: El rendimiento en la
+  vía objetivo organiza la semana\; ajustar o retirar tabla si resta rec
+ uperación. Fechas de encadenamiento por concretar.\n\nEncadenar con rec
+ uperación\, táctica y secuencia definidas\; la cuota no manda.\n\n1. D
+ efinir beta\, chapajes y reposos.\n\n2. Realizar los pegues de encadenam
+ iento en fresco.\n\n3. Descargar antes de los días clave.\n\n4. Registr
+ ar el rendimiento y lo aprendido en la vía.\n\nDosis: 2–4 pegues úti
+ les como referencia inicial\; ajustar a la vía. Pausa: Recuperación co
+ mpleta\; descargar antes de días clave.\n\nRegistrar problemas o vías\
+ , intentos\, encadenes\, duración\, RPE y sensaciones cuando se conozca
+ n.\n\nDía completo: sin hora fijada. Procurar 48 h entre sesiones exige
+ ntes de dedos y ajustar según recuperación y roca.\n\nVer día y bloqu
+ e en el cuaderno: https://juanfranj.github.io/entrenamiento/escalada/?fe
+ cha=2027-01-10#calendario\n\nReferencia: b5-20270110-c
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b5-20270112-a@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Bloque 5 · S4 · A · MoonBoard 40° · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 5: Específico de vía.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 4: El rendimiento en vía manda.
-  Reducir o eliminar MoonBoard si resta calidad en roca.\n\nAplicar la do
- sis del bloque manteniendo calidad.\n\n1. Calentamiento progresivo.\n\n2
- . Elegir 3–4 problemas duros.\n\n3. Limitar a 6–10 intentos de alta
-  calidad.\n\n4. Reducir la sesión si perjudica el día de roca.\n\nDosi
- s: 3–4 problemas duros · 6–10 intentos de alta calidad. Pausa: Desc
- anso completo\; separado de la roca importante.\n\nRegistrar problemas o
-  vías\, intentos\, encadenes\, duración\, RPE y sensaciones cuando se
-  conozcan.\n\nDía completo: sin hora fijada. Respetar 48 h entre sesion
- es de MoonBoard.\n\nVer día y bloque en el cuaderno: https://juanfranj.
- github.io/entrenamiento/escalada/?fecha=2027-01-12#calendario\n\nReferen
- cia: b5-20270112-a
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 4: El rendimiento en la
+  vía objetivo organiza la semana\; ajustar o retirar tabla si resta rec
+ uperación. Fechas de encadenamiento por concretar.\n\nMantener fuerza c
+ on la mínima carga que permita llegar recuperado a roca.\n\n1. Calentar
+  progresivamente.\n\n2. Elegir 3–4 problemas exigentes y conocidos\; 6
+ –8 intentos totales como máximo.\n\n3. Separar de la roca importante
+  y retirar volumen si perjudica los pegues.\n\nDosis: 6–8 intentos de
+  trabajo como máximo · 3–4 problemas. Pausa: Descanso completo\; sep
+ arado de la roca importante.\n\nRegistrar problemas o vías\, intentos\,
+  encadenes\, duración\, RPE y sensaciones cuando se conozcan.\n\nDía c
+ ompleto: sin hora fijada. Procurar 48 h entre sesiones exigentes de dedo
+ s y ajustar según recuperación y roca.\n\nVer día y bloque en el cuad
+ erno: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2027-01-
+ 12#calendario\n\nReferencia: b5-20270112-a
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:b5-20270114-b@proyecto8a
-DTSTAMP:20261015T100000Z
+DTSTAMP:20261016T120000Z
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
 SUMMARY:Bloque 5 · S4 · B · MoonBoard 25° · Opcional · Previsto
 DESCRIPTION:Proyecto 8a — Bloque 5: Específico de vía.\n\nPREVISIÓN
-  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; no implica h
- aber alcanzado los criterios.\n\nSemana 4: El rendimiento en vía manda.
-  Reducir o eliminar MoonBoard si resta calidad en roca.\n\nAplicar la do
- sis del bloque manteniendo calidad.\n\n1. Elegir continuidad si la vía
-  es larga.\n\n2. Elegir potencia si el límite está en una sección cor
- ta.\n\n3. Reducir o eliminar esta sesión si empeora el rendimiento en r
- oca.\n\nDosis: Opcional: continuidad o potencia según la vía. Pausa: C
- onservar recuperación para roca.\n\nRegistrar problemas o vías\, inten
- tos\, encadenes\, duración\, RPE y sensaciones cuando se conozcan.\n\nD
- ía completo: sin hora fijada. Respetar 48 h entre sesiones de MoonBoard
- .\n\nVer día y bloque en el cuaderno: https://juanfranj.github.io/entre
- namiento/escalada/?fecha=2027-01-14#calendario\n\nReferencia: b5-2027011
- 4-b
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 4: El rendimiento en la
+  vía objetivo organiza la semana\; ajustar o retirar tabla si resta rec
+ uperación. Fechas de encadenamiento por concretar.\n\nSesión opcional
+  que se omite si no aporta al proyecto o compromete la recuperación.\n\
+ n1. Elegir una única tarea de continuidad o potencia según la vía.\n\
+ n2. Usar una dosis previamente tolerada\, sin añadir una sesión máxim
+ a ni sumar métodos.\n\n3. Omitir si resta calidad en roca\; registrar m
+ otivo y respuesta.\n\nDosis: Opcional: continuidad o potencia según la
+  vía. Pausa: Conservar recuperación para roca.\n\nRegistrar problemas
+  o vías\, intentos\, encadenes\, duración\, RPE y sensaciones cuando s
+ e conozcan.\n\nAcondicionamiento complementario opcional: Tras la descar
+ ga\, 10–15 min al final de B si recuperas bien. Sin nuevo día duro ni
+  nuevas sesiones de calendario\; no iniciar durante la descarga.\n\nDía
+  completo: sin hora fijada. Procurar 48 h entre sesiones exigentes de de
+ dos y ajustar según recuperación y roca.\n\nVer día y bloque en el cu
+ aderno: https://juanfranj.github.io/entrenamiento/escalada/?fecha=2027-0
+ 1-14#calendario\n\nReferencia: b5-20270114-b
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:b5-20270117-c@proyecto8a
+DTSTAMP:20261016T120000Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:Bloque 5 · S4 · C · Roca con cuerda · Previsto
+DESCRIPTION:Proyecto 8a — Bloque 5: Específico de vía.\n\nPREVISIÓN
+  AJUSTABLE. Confirmar el cambio de bloque en la revisión\; la fecha no
+  demuestra haber alcanzado criterios.\n\nSemana 4: El rendimiento en la
+  vía objetivo organiza la semana\; ajustar o retirar tabla si resta rec
+ uperación. Fechas de encadenamiento por concretar.\n\nEncadenar con rec
+ uperación\, táctica y secuencia definidas\; la cuota no manda.\n\n1. D
+ efinir beta\, chapajes y reposos.\n\n2. Realizar los pegues de encadenam
+ iento en fresco.\n\n3. Descargar antes de los días clave.\n\n4. Registr
+ ar el rendimiento y lo aprendido en la vía.\n\nDosis: 2–4 pegues úti
+ les como referencia inicial\; ajustar a la vía. Pausa: Recuperación co
+ mpleta\; descargar antes de días clave.\n\nRegistrar problemas o vías\
+ , intentos\, encadenes\, duración\, RPE y sensaciones cuando se conozca
+ n.\n\nDía completo: sin hora fijada. Procurar 48 h entre sesiones exige
+ ntes de dedos y ajustar según recuperación y roca.\n\nVer día y bloqu
+ e en el cuaderno: https://juanfranj.github.io/entrenamiento/escalada/?fe
+ cha=2027-01-17#calendario\n\nReferencia: b5-20270117-c
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR

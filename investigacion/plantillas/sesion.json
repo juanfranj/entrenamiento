@@ -1,0 +1,20 @@
+{
+  "template_only": true,
+  "date": null,
+  "session_type": null,
+  "planned_goal": null,
+  "actual_work": null,
+  "board": {"brand": null, "layout": null, "angle_degrees": null, "hold_sets": null, "foot_rules": null},
+  "problems": [],
+  "sets": [],
+  "work_seconds": null,
+  "rest_between_reps_seconds": null,
+  "rest_between_sets_seconds": null,
+  "duration_minutes": null,
+  "session_rpe_0_10": null,
+  "quality_notes": null,
+  "symptoms_reported": null,
+  "recovery_next_day": null,
+  "stop_reason": null,
+  "source": null
+}

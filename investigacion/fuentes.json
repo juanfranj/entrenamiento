@@ -1,0 +1,951 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-10-16",
+  "scope": "Revisión rápida aplicada; no revisión sistemática exhaustiva. Notas originales, sin copias integrales de artículos.",
+  "confidence_note": "Valoración cualitativa local para la aplicación indicada; no es GRADE formal.",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Effects of climbing- and resistance-training on climbing-specific performance: a systematic review and meta-analysis",
+      "authors": "Stien et al.",
+      "year": 2023,
+      "doi": "10.5114/biolsport.2023.113295",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36636194/",
+      "kind": "Revisión sistemática y metaanálisis",
+      "topics": [
+        "fuerza",
+        "suspensiones",
+        "resistencia",
+        "RFD"
+      ],
+      "access": "Resumen PubMed y resultados accesibles en PMC",
+      "design_sample": "11 estudios; 5 metaanalizados; búsqueda hasta enero de 2021.",
+      "finding": "La resistencia específica mejora tests de escalada frente a escalar solamente; efecto agregado SDM 0,57 (IC95% 0,24–0,91).",
+      "limitations": "Pocos ensayos; tests físicos y rendimiento en roca no son equivalentes. Publicación 2023, online 2022; la búsqueda no llega a 2023.",
+      "application": "Justifica considerar trabajo específico, no añadirlo automáticamente a MoonBoard.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S02",
+      "title": "Strength Training in Climbing: A Systematic Review",
+      "authors": "Langer, Simon y Wiemeyer",
+      "year": 2023,
+      "doi": "10.1519/JSC.0000000000004286",
+      "url": "https://doi.org/10.1519/JSC.0000000000004286",
+      "kind": "Revisión sistemática",
+      "topics": [
+        "fuerza",
+        "campus",
+        "suspensiones"
+      ],
+      "access": "Resumen editorial",
+      "design_sample": "Revisión de entrenamiento de fuerza en escalada. Volumen 2023; publicación online 2022.",
+      "finding": "Examina fuerza de agarre, tracción, resistencia y potencia, además del rendimiento.",
+      "limitations": "Texto completo no evaluado en esta revisión local; no extraer dosis exactas de este registro.",
+      "application": "Mapa complementario; apoyar decisiones concretas en ensayos consultados.",
+      "confidence": "limitada para prescripción",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S03",
+      "title": "Physical performance testing in climbing—A systematic review",
+      "authors": "Langer, Simon y Wiemeyer",
+      "year": 2023,
+      "doi": "10.3389/fspor.2023.1130812",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10203485/",
+      "kind": "Revisión sistemática",
+      "topics": [
+        "evaluación",
+        "resistencia",
+        "fuerza"
+      ],
+      "access": "Resultados y resumen indexados",
+      "design_sample": "156 estudios de evaluación física.",
+      "finding": "Muchos tests diferentes y datos incompletos de fiabilidad y validez.",
+      "limitations": "Un test fiable no representa todas las dimensiones del rendimiento.",
+      "application": "Seleccionar pocas mediciones reproducibles y registrar el protocolo.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S04",
+      "title": "Sport climbing performance determinants and functional testing methods: A systematic review",
+      "authors": "Faggian et al.",
+      "year": 2025,
+      "doi": "10.1016/j.jshs.2024.100974",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39216626/",
+      "kind": "Revisión sistemática",
+      "topics": [
+        "evaluación",
+        "resistencia",
+        "fuerza",
+        "acondicionamiento"
+      ],
+      "access": "Resumen y secciones indexadas de PMC",
+      "design_sample": "74 estudios; 2691 escaladores; búsqueda hasta diciembre de 2022.",
+      "finding": "Los tests específicos de escalada discriminan mejor niveles que muchos tests generales.",
+      "limitations": "Online 29/08/2024; volumen 2025. La batería propuesta requiere validación adicional; heterogeneidad.",
+      "application": "Evaluar dedos, resistencia y movimiento, sin reducir el nivel a un único número.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S05",
+      "title": "Reliability of finger strength assessment methods in climbing: a systematic review",
+      "authors": "Pérez-Cordero et al.",
+      "year": 2025,
+      "doi": "10.3389/fspor.2025.1650198",
+      "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2025.1650198/full",
+      "kind": "Revisión sistemática",
+      "topics": [
+        "Tindeq",
+        "evaluación",
+        "fuerza"
+      ],
+      "access": "Texto completo consultado",
+      "design_sample": "15 estudios; 747 participantes. Publicado 01/10/2025.",
+      "finding": "La fuerza isométrica máxima suele mostrar buena fiabilidad; recomienda estandarizar regleta y posición.",
+      "limitations": "Protocolos heterogéneos; calidad metodológica limitada y fiabilidad absoluta variable. ICC alto no elimina el error individual.",
+      "application": "Mantener regleta cercana a 20–23 mm y protocolo idéntico cuando sea apropiado.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S06",
+      "title": "Hangboard training in advanced climbers: A randomized controlled trial",
+      "authors": "Mundry et al.",
+      "year": 2021,
+      "doi": "10.1038/s41598-021-92898-2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34188125/",
+      "kind": "Ensayo aleatorizado",
+      "topics": [
+        "suspensiones",
+        "fuerza"
+      ],
+      "access": "Resumen PubMed",
+      "design_sample": "30 escaladores; 8 semanas; lastre, reducción de agarre y control.",
+      "finding": "El grupo con lastre progresivo mejoró fuerza de agarre frente al control.",
+      "limitations": "Muestra pequeña; medición de agarres concreta, no prueba de mejora general de grado.",
+      "application": "El lastre es una opción de sobrecarga; no reducir regleta y aumentar lastre simultáneamente.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S07",
+      "title": "The Effects of 10 Weeks Hangboard Training on Climbing Specific Maximal Strength, Explosive Strength, and Finger Endurance",
+      "authors": "Hermans et al.",
+      "year": 2022,
+      "doi": "10.3389/fspor.2022.888158",
+      "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2022.888158/full",
+      "kind": "Ensayo aleatorizado",
+      "topics": [
+        "suspensiones",
+        "fuerza",
+        "RFD"
+      ],
+      "access": "Texto completo consultado",
+      "design_sample": "35 participantes; dos sesiones semanales durante 10 semanas.",
+      "finding": "Mayor mejora de fuerza máxima en regleta frente al control; diferencias entre grupos no claras para RFD y resistencia.",
+      "limitations": "Las mejoras dentro de un grupo no demuestran superioridad entre grupos.",
+      "application": "Registrar fuerza como resultado principal cuando ese sea el objetivo.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S08",
+      "title": "Effects of Different Hangboard Training Intensities on Finger Grip Strength, Stamina, and Endurance",
+      "authors": "Devise et al.",
+      "year": 2022,
+      "doi": "10.3389/fspor.2022.862782",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9039162/",
+      "kind": "Ensayo aleatorizado",
+      "topics": [
+        "suspensiones",
+        "fuerza",
+        "resistencia"
+      ],
+      "access": "Métodos y resultados indexados",
+      "design_sample": "54 escaladores; 4 semanas; 2 sesiones/semana; intensidades 60%, 80%, 100% de fuerza máxima y control.",
+      "finding": "Las adaptaciones difieren según intensidad y capacidad evaluada.",
+      "limitations": "Regleta instrumentada y protocolo específicos; %MVC no equivale a %lastre ni a grado.",
+      "application": "Definir intensidad y objetivo antes de elegir el protocolo.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S09",
+      "title": "Comparison of the Effects of Three Hangboard Strength and Endurance Training Programs on Grip Endurance in Sport Climbers",
+      "authors": "López-Rivera y González-Badillo",
+      "year": 2019,
+      "doi": "10.2478/hukin-2018-0057",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30988852/",
+      "kind": "Ensayo comparativo aleatorizado",
+      "topics": [
+        "suspensiones",
+        "resistencia"
+      ],
+      "access": "Resumen PubMed",
+      "design_sample": "26 avanzados; 8 semanas; máximas, intermitentes y combinación.",
+      "finding": "Los resultados de resistencia variaron entre programas; combinar métodos no mostró una ventaja automática.",
+      "limitations": "Grupos pequeños, población avanzada y tarea de test concreta.",
+      "application": "Evitar sumar todos los protocolos de dedos como si sus beneficios fueran aditivos.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S10",
+      "title": "Effects of Different Loading Programs on Finger Strength in Rock Climbers",
+      "authors": "Gilmore, Klimek, Abrahamsson y Baar",
+      "year": 2024,
+      "doi": "10.1186/s40798-024-00793-7",
+      "url": "https://link.springer.com/article/10.1186/s40798-024-00793-7",
+      "kind": "Estudio retrospectivo",
+      "topics": [
+        "suspensiones",
+        "fuerza"
+      ],
+      "access": "Texto completo consultado",
+      "design_sample": "Registros de usuarios Crimpd; tests separados 4–16 semanas.",
+      "finding": "Asociaciones favorables con cargas bajas frecuentes, máximas o ambas.",
+      "limitations": "Autoselección, dosis autorregistrada, carga total no controlada y predominio masculino. No es ensayo causal ni prueba de prevención tendinosa.",
+      "application": "Abrahangs es una posibilidad a evaluar, no una obligación diaria.",
+      "confidence": "baja para causalidad",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S11",
+      "title": "Effects of Two vs. Four Weekly Campus Board Training Sessions on Bouldering Performance and Climbing-Specific Tests in Advanced and Elite Climbers",
+      "authors": "Stien et al.",
+      "year": 2021,
+      "doi": "10.52082/jssm.2021.438",
+      "url": "https://www.jssm.org/abstresearchajssm-20-438.xml.xml",
+      "kind": "Ensayo aleatorizado",
+      "topics": [
+        "campus",
+        "potencia",
+        "RFD"
+      ],
+      "access": "Resumen editorial consultado",
+      "design_sample": "16 avanzados–élite; 5 semanas; 2 o 4 sesiones con volumen equiparado y control.",
+      "finding": "Hubo mejoras específicas; los patrones variaron por grupo y resultado.",
+      "limitations": "Grupos muy pequeños; no demuestra que cuatro sesiones sean mejores ni que campus sea necesario.",
+      "application": "Usar campus solo para una limitación concreta, con volumen sustituido y experiencia suficiente.",
+      "confidence": "limitada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S12",
+      "title": "The effects of five weeks of climbing training, on and off the wall, on climbing specific strength, performance, and training experience in female climbers—A randomized controlled trial",
+      "authors": "Langer, Andersen y Stien",
+      "year": 2024,
+      "doi": "10.1371/journal.pone.0306300",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0306300",
+      "kind": "Ensayo aleatorizado",
+      "topics": [
+        "tablas",
+        "Kilter",
+        "técnica",
+        "acondicionamiento"
+      ],
+      "access": "Texto completo consultado",
+      "design_sample": "31 mujeres asignadas; 26 completaron; 5 semanas; trabajo en pared/Kilter o fuera de pared.",
+      "finding": "Tendencias de mejora y buena aceptación; no establece superioridad universal de una modalidad.",
+      "limitations": "Estudio corto y limitado en potencia; Kilter a 15° no representa MoonBoard a 40°.",
+      "application": "Elegir por objetivo, adherencia y transferencia, sin equiparar las tablas.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S13",
+      "title": "Validity and Reliability of a Commercial Force Sensor for the Measurement of Upper Body Strength in Sport Climbing",
+      "authors": "Labott et al.",
+      "year": 2022,
+      "doi": "10.3389/fspor.2022.838358",
+      "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2022.838358/full",
+      "kind": "Validación instrumental",
+      "topics": [
+        "Tindeq",
+        "evaluación"
+      ],
+      "access": "Resumen y métodos/resultados consultados",
+      "design_sample": "25 escaladores; tirón en regleta y bloqueo unilateral; comparación Tindeq/plataforma.",
+      "finding": "Acuerdo excelente para las posiciones estáticas evaluadas: ICC de validez 0,99.",
+      "limitations": "Fuerza media en ventana de 3 s; no valida todas las posiciones, picos instantáneos ni RFD.",
+      "application": "Repetir montaje y métrica; no usar el ICC como umbral de cambio personal.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S14",
+      "title": "The Validity and Reliability of Two Commercially Available Load Sensors for Clinical Strength Assessment",
+      "authors": "Merry et al.",
+      "year": 2021,
+      "doi": "10.3390/s21248399",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8703969/",
+      "kind": "Validación instrumental",
+      "topics": [
+        "Tindeq",
+        "evaluación"
+      ],
+      "access": "Resumen y resultados indexados",
+      "design_sample": "Validación de Activ5 y Tindeq bajo condiciones controladas.",
+      "finding": "Los sensores pueden servir para medir fuerza, con errores y comportamiento propios.",
+      "limitations": "La validación instrumental no equivale a validación de cualquier test deportivo.",
+      "application": "Comprobar calibración, cero, rango y montaje en el modelo real.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S15",
+      "title": "An All-Out Test to Determine Finger Flexor Critical Force in Rock Climbers",
+      "authors": "Giles et al.",
+      "year": 2021,
+      "doi": "10.1123/ijspp.2020-0637",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33647876/",
+      "kind": "Estudio de asociación y evaluación",
+      "topics": [
+        "resistencia",
+        "Tindeq",
+        "evaluación",
+        "fuerza crítica"
+      ],
+      "access": "Resumen PubMed",
+      "design_sample": "129 participantes; contracciones máximas intermitentes.",
+      "finding": "Fuerza crítica e impulso sobre ella se asocian con nivel de escalada.",
+      "limitations": "Nivel autorreferido; asociación no demuestra eficacia de una zona de entrenamiento ni causalidad.",
+      "application": "Test avanzado separado de fuerza máxima; conservar temporización y cálculo originales.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S16",
+      "title": "Climbing performance in males: the importance of climbing-specific finger strength",
+      "authors": "Buraas, Brobakken y Wang",
+      "year": 2025,
+      "doi": "10.1007/s00421-025-05802-5",
+      "url": "https://link.springer.com/article/10.1007/s00421-025-05802-5",
+      "kind": "Estudio transversal",
+      "topics": [
+        "fuerza",
+        "evaluación"
+      ],
+      "access": "Texto completo consultado",
+      "design_sample": "19 hombres; fuerza en regleta de 22 mm y rendimiento.",
+      "finding": "Asociación entre fuerza específica y búlder (r=0,89), y cuerda (r=0,67).",
+      "limitations": "Solo hombres; correlación y muestra pequeña. No predice el grado de una persona.",
+      "application": "Medir agarre específico; evitar diagnosticar fuerza a partir de un intento fallido.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S17",
+      "title": "Pull-Up Performance Is Affected Differently by the Muscle Contraction Regimens Practiced during Training among Climbers",
+      "authors": "Vigouroux y Devise",
+      "year": 2024,
+      "doi": "10.3390/bioengineering11010085",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38247962/",
+      "kind": "Ensayo comparativo",
+      "topics": [
+        "acondicionamiento",
+        "tracción",
+        "potencia"
+      ],
+      "access": "Resumen PubMed",
+      "design_sample": "30 avanzados–élite; 5 semanas; excéntrico, isométrico, pliométrico o control.",
+      "finding": "El estudio compara adaptaciones específicas de distintos regímenes de tracción.",
+      "limitations": "No permite convertir mejoras de dominadas en mejora garantizada de cuerda.",
+      "application": "Elegir tipo de tracción según la tarea limitante.",
+      "confidence": "limitada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S18",
+      "title": "Risk factors and injury prevention strategies for overuse injuries in adult climbers: a systematic review",
+      "authors": "Quarmby et al.",
+      "year": 2023,
+      "doi": "10.3389/fspor.2023.1269870",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38162697/",
+      "kind": "Revisión sistemática",
+      "topics": [
+        "lesiones",
+        "carga",
+        "acondicionamiento"
+      ],
+      "access": "Resumen PubMed y resultados indexados",
+      "design_sample": "34 estudios de riesgo y prevención.",
+      "finding": "Asociaciones con intensidad, lesión previa y otros factores; una intervención de fuerza redujo lesiones de hombro/codo.",
+      "limitations": "Predominio observacional; evidencia conflictiva en varias variables. Ausencia de asociación no prueba inutilidad.",
+      "application": "Gestionar exposición y antecedentes; no prometer inmunidad por calentar o usar tape.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S19",
+      "title": "Recovery markers in elite climbers after the national boulder climbing championship",
+      "authors": "Gáspari et al.",
+      "year": 2024,
+      "doi": "10.3389/fspor.2024.1251047",
+      "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2024.1251047/full",
+      "kind": "Estudio observacional agudo",
+      "topics": [
+        "recuperación",
+        "carga"
+      ],
+      "access": "Texto completo consultado",
+      "design_sample": "9 escaladores de selección; seguimiento hasta 60 h.",
+      "finding": "Fuerza, molestias y disposición recuperan a ritmos distintos.",
+      "limitations": "Competición de élite y muestra pequeña; no fija 60 h como regla universal.",
+      "application": "Combinar sensaciones, rendimiento y carga; un pico de fuerza no resume recuperación.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S20",
+      "title": "Low-Load Blood-Flow Restricted Resistance Training Improves Finger Flexor Muscle Function in Experienced Climbers: A Randomized Controlled Trial",
+      "authors": "Perrin et al.",
+      "year": 2026,
+      "doi": "10.1249/MSS.0000000000003992",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41882800/",
+      "kind": "Ensayo aleatorizado",
+      "topics": [
+        "suspensiones",
+        "resistencia",
+        "BFR",
+        "fuerza crítica"
+      ],
+      "access": "Resumen PubMed",
+      "design_sample": "36 avanzados–élite; 5 semanas; dos sesiones/semana; BFR, alta carga y control. Online marzo; volumen agosto 2026.",
+      "finding": "BFR mejoró fuerza máxima y crítica de forma comparable a alta carga, con mayor incomodidad.",
+      "limitations": "Resultados musculares; supervisión y presión individualizadas; no prueba superioridad en roca.",
+      "application": "Método especializado, no pauta doméstica ni propuesta actual para Juanfran.",
+      "confidence": "limitada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S21",
+      "title": "The Effect of Blood Flow Restriction Training on Rock Climbing Performance, Forearm Blood Oxygenation and Cardiovascular Responses",
+      "authors": "McKellar y Burr",
+      "year": 2026,
+      "doi": "10.1002/ejsc.70146",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41721652/",
+      "kind": "Intervención comparativa",
+      "topics": [
+        "tablas",
+        "Kilter",
+        "resistencia",
+        "BFR"
+      ],
+      "access": "Resumen PubMed",
+      "design_sample": "25 participantes; 6 semanas; escalada con/sin trabajo adicional BFR.",
+      "finding": "Ambos grupos mejoraron el rendimiento; BFR no aportó ventaja clara y la fuerza cayó en ese grupo.",
+      "limitations": "Protocolo diferente al de S20; no mezclar resultados como si fueran la misma dosis.",
+      "application": "Novedad no implica utilidad adicional; no añadir BFR por rutina.",
+      "confidence": "limitada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S22",
+      "title": "The Effects of Plyometric Training on Selected Neuromuscular Outcomes in Trained-to-Highly Trained Male Boulder Climbers: A Preliminary Exploratory Trial",
+      "authors": "Cortés-Roco et al.",
+      "year": 2026,
+      "doi": "10.3390/sports14080313",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42646851/",
+      "kind": "Ensayo exploratorio",
+      "topics": [
+        "potencia",
+        "acondicionamiento",
+        "RFD"
+      ],
+      "access": "Resumen PubMed",
+      "design_sample": "18 hombres; 10 semanas; dos sesiones/semana. Publicado 23/07/2026.",
+      "finding": "Algunas mejoras de tracción/potencia; sin diferencias claras en fuerza o RFD de dedos y otros resultados.",
+      "limitations": "Muestra pequeña y baja fiabilidad de variables RFD. No prueba eficacia universal del campus.",
+      "application": "Considerar explosividad solo con objetivo y medición adecuados.",
+      "confidence": "preliminar",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S23",
+      "title": "Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews",
+      "authors": "Currier et al. / American College of Sports Medicine",
+      "year": 2026,
+      "doi": "10.1249/MSS.0000000000003897",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41843416/",
+      "kind": "Posicionamiento y revisión de revisiones",
+      "topics": [
+        "acondicionamiento",
+        "fuerza"
+      ],
+      "access": "Registro bibliográfico y resumen oficial ACSM",
+      "design_sample": "Adultos sanos; documento general de entrenamiento de fuerza.",
+      "finding": "El posicionamiento prioriza regularidad, individualización y entrenamiento de los grandes grupos musculares.",
+      "limitations": "No es específico de escaladores ni justifica sumar su volumen a una semana ya exigente.",
+      "application": "Base general; adaptar la dosis y descontar el trabajo de tracción ya realizado.",
+      "confidence": "moderada para extrapolación",
+      "checked_on": "2026-10-16",
+      "supporting_urls": [
+        "https://acsm.org/resistance-training-guidelines-update-2026/"
+      ]
+    },
+    {
+      "id": "S24",
+      "title": "Sleep and the athlete: narrative review and 2021 expert consensus recommendations",
+      "authors": "Walsh et al.",
+      "year": 2021,
+      "doi": "10.1136/bjsports-2020-102025",
+      "url": "https://bjsm.bmj.com/content/55/7/356",
+      "kind": "Consenso experto",
+      "topics": [
+        "recuperación",
+        "sueño"
+      ],
+      "access": "Texto editorial consultado",
+      "design_sample": "Revisión y consenso de sueño en deportistas. Volumen 2021; online 2020.",
+      "finding": "El sueño requiere atención individual y los dispositivos de consumo tienen limitaciones.",
+      "limitations": "No existe una cifra única que certifique recuperación para cada deportista.",
+      "application": "Registrar sueño, somnolencia y horario; derivar problemas persistentes.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S25",
+      "title": "2023 International Olympic Committee’s consensus statement on Relative Energy Deficiency in Sport (REDs)",
+      "authors": "Mountjoy et al. / IOC",
+      "year": 2023,
+      "doi": "10.1136/bjsports-2023-106994",
+      "url": "https://bjsm.bmj.com/content/57/17/1073",
+      "kind": "Consenso",
+      "topics": [
+        "nutrición",
+        "salud",
+        "recuperación"
+      ],
+      "access": "Texto editorial consultado",
+      "design_sample": "Consenso multidisciplinar; deportistas de ambos sexos.",
+      "finding": "La baja disponibilidad energética problemática puede afectar salud y rendimiento.",
+      "limitations": "Síntomas inespecíficos; evaluación clínica necesaria. No diagnosticar con un cálculo aislado.",
+      "application": "No recomendar bajar peso como solución por defecto; priorizar alimentación suficiente.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S26",
+      "title": "WHO guidelines on physical activity and sedentary behaviour: at a glance",
+      "authors": "World Health Organization",
+      "year": 2020,
+      "doi": null,
+      "url": "https://www.who.int/europe/publications/i/item/9789240014886",
+      "kind": "Guía institucional",
+      "topics": [
+        "acondicionamiento",
+        "aeróbico"
+      ],
+      "access": "Resumen institucional",
+      "design_sample": "Adultos y otros grupos poblacionales.",
+      "finding": "Marco de salud: 150–300 min moderados o equivalente y fortalecimiento habitual.",
+      "limitations": "Objetivo poblacional de salud, no dosis adicional de entrenamiento para un escalador.",
+      "application": "Contabilizar toda actividad y adaptar el acondicionamiento a tiempo y recuperación.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16",
+      "supporting_urls": [
+        "https://www.who.int/europe/publications/i/item/9789240014886"
+      ]
+    },
+    {
+      "id": "S27",
+      "title": "MoonBoard Footholds — información oficial de configuraciones y benchmarks",
+      "authors": "Moon Climbing",
+      "year": null,
+      "doi": null,
+      "url": "https://us.moonclimbing.com/products/moonboard-footholds",
+      "kind": "Documentación oficial",
+      "topics": [
+        "MoonBoard",
+        "tablas",
+        "grados"
+      ],
+      "access": "Página oficial consultada",
+      "design_sample": "Descripción del sistema, configuraciones y moderación de benchmarks.",
+      "finding": "Benchmarks seleccionados por moderadores; el sistema usa grados Font/V y diferentes configuraciones.",
+      "limitations": "Fuente comercial de funcionamiento, no ensayo de eficacia ni conversión entre tablas.",
+      "application": "Registrar layout, ángulo, presas, reglas y condición de benchmark.",
+      "confidence": "técnica",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S28",
+      "title": "Tindeq Progressor user instruction",
+      "authors": "Tindeq / BLIMS AS",
+      "year": null,
+      "doi": null,
+      "url": "https://tindeq.com/p/",
+      "kind": "Manual de fabricante",
+      "topics": [
+        "Tindeq",
+        "material"
+      ],
+      "access": "Manual web consultado",
+      "design_sample": "Instrucciones del dispositivo; existen generaciones/modelos distintos.",
+      "finding": "Describe uso y límites de carga y advierte sobre montaje y mantenimiento.",
+      "limitations": "No sustituye la validación científica de cada test. Modelo del usuario aún sin confirmar.",
+      "application": "Identificar modelo y consultar su manual antes de medir.",
+      "confidence": "técnica",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S29",
+      "title": "Tindeq Progressor API",
+      "authors": "Tindeq",
+      "year": null,
+      "doi": null,
+      "url": "https://tindeq.com/progressor_api/",
+      "kind": "Documentación oficial",
+      "topics": [
+        "Tindeq",
+        "datos"
+      ],
+      "access": "Documentación indexada",
+      "design_sample": "Interfaz para datos del sensor.",
+      "finding": "Permite desarrollar captura de datos.",
+      "limitations": "La existencia de API no implica que se haya conectado o probado el sensor del usuario.",
+      "application": "Si se integra, verificar versión, unidades y tiempos; conservar datos crudos.",
+      "confidence": "técnica",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S30",
+      "title": "MOONBOARD: Qué es y cómo usarlo en tu entrenamiento",
+      "authors": "PasoClave",
+      "year": 2024,
+      "doi": null,
+      "url": "https://www.pasoclave.com/moonboard-que-es-como-entrenar/",
+      "kind": "Divulgación profesional",
+      "topics": [
+        "MoonBoard",
+        "tablas"
+      ],
+      "access": "Artículo consultado",
+      "design_sample": "Guía práctica en español.",
+      "finding": "Describe la herramienta y su aplicación al entrenamiento.",
+      "limitations": "No es ensayo ni revisión sistemática; no usar opiniones de dureza como conversión científica.",
+      "application": "Lectura práctica; contrastar afirmaciones fisiológicas con fuentes primarias.",
+      "confidence": "experta, no experimental",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S31",
+      "title": "GESTIÓN de la FATIGA con SENSOR DE FUERZA (Tindeq/Frez)",
+      "authors": "PasoClave",
+      "year": 2025,
+      "doi": null,
+      "url": "https://www.pasoclave.com/gestion-fatiga-sensor-fuerza-tindeq/",
+      "kind": "Divulgación profesional",
+      "topics": [
+        "Tindeq",
+        "carga",
+        "recuperación"
+      ],
+      "access": "Artículo y bibliografía consultados",
+      "design_sample": "19/06/2025; aplicación de sensores y control de pérdidas.",
+      "finding": "Discute el uso contextual de mediciones y sus límites.",
+      "limitations": "Parte de las referencias proviene de otras tareas/deportes; incluye promoción comercial.",
+      "application": "Los porcentajes de pérdida deben etiquetarse como heurística si no están validados para la tarea.",
+      "confidence": "experta, no experimental",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S32",
+      "title": "BATERÍA Funcional de TESTS para Escalada Deportiva y Búlder basada en la Evidencia Científica",
+      "authors": "PasoClave",
+      "year": 2024,
+      "doi": null,
+      "url": "https://www.pasoclave.com/pruebas-para-escalada-revision-sistematica/",
+      "kind": "Divulgación profesional",
+      "topics": [
+        "evaluación"
+      ],
+      "access": "Artículo consultado",
+      "design_sample": "08/11/2024; explicación práctica de tests.",
+      "finding": "Puerta de entrada en español a evaluación específica.",
+      "limitations": "La fecha del artículo no actualiza la fecha de búsqueda del paper comentado.",
+      "application": "Consultar S04 y S05 antes de seleccionar protocolo.",
+      "confidence": "experta, no experimental",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S33",
+      "title": "AUTORREGULACIÓN del Entrenamiento en Escalada con HRV y otras herramientas",
+      "authors": "PasoClave",
+      "year": 2025,
+      "doi": null,
+      "url": "https://www.pasoclave.com/overreaching-sobreentrenamiento-escalada-hrv/",
+      "kind": "Divulgación profesional",
+      "topics": [
+        "carga",
+        "recuperación"
+      ],
+      "access": "Artículo consultado",
+      "design_sample": "04/09/2025; discusión de autorregulación.",
+      "finding": "Presenta varias herramientas de seguimiento de la recuperación.",
+      "limitations": "HRV no diagnostica por sí sola fatiga local de dedos ni autoriza entrenar con dolor.",
+      "application": "Combinar contexto y tendencias; evitar decisiones automáticas por un valor.",
+      "confidence": "experta, no experimental",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S34",
+      "title": "Acute motor–cognitive responses to a bouldering fatigue protocol in indoor recreational climbers",
+      "authors": "Wilczyński et al.",
+      "year": 2026,
+      "doi": "10.3389/fphys.2026.1712130",
+      "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1712130/full",
+      "kind": "Estudio agudo antes-después",
+      "topics": [
+        "Kilter",
+        "tablas",
+        "fatiga"
+      ],
+      "access": "Resumen y métodos/resultados indexados",
+      "design_sample": "28 participantes; Kilter a 15° hasta agotamiento; publicado 05/03/2026.",
+      "finding": "La fatiga redujo resistencia de suspensión y varias medidas motoras.",
+      "limitations": "Sin aleatorización; efecto agudo, no adaptación crónica ni equivalencia con MoonBoard.",
+      "application": "Comparar tests en condiciones de recuperación semejantes.",
+      "confidence": "limitada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S35",
+      "title": "The psychology of rock climbing: A systematic review",
+      "authors": "Mangan, Andrews, Miles y Draper",
+      "year": 2025,
+      "doi": "10.1016/j.psychsport.2024.102763",
+      "url": "https://doi.org/10.1016/j.psychsport.2024.102763",
+      "kind": "Revisión sistemática",
+      "topics": [
+        "psicología",
+        "técnica"
+      ],
+      "access": "Resumen y extractos editoriales indexados",
+      "design_sample": "Volumen enero 2025; DOI de 2024.",
+      "finding": "Reúne investigación sobre componentes psicológicos y lectura de vías.",
+      "limitations": "No se ha evaluado todo el texto; no atribuir eficacia clínica ni dosis de exposición a este registro.",
+      "application": "Incluir lectura, atención y confianza como posibles limitantes; no todo es fuerza.",
+      "confidence": "limitada para prescripción",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S36",
+      "title": "Development of Specific Motor Skills through System Wall Bouldering Training: A Pilot Study",
+      "authors": "Stien et al.",
+      "year": 2024,
+      "doi": "10.1155/2024/5584962",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39015173/",
+      "kind": "Estudio piloto comparativo",
+      "topics": [
+        "técnica",
+        "tablas"
+      ],
+      "access": "Resumen PubMed y página editorial",
+      "design_sample": "13 mujeres avanzadas; 5 semanas; 30 min, dos veces/semana, sustituyendo parte de la práctica.",
+      "finding": "Mejoras modestas en ambos grupos, sin diferencias significativas entre ellos.",
+      "limitations": "Muy pequeña muestra; no demuestra superioridad del system wall.",
+      "application": "Práctica técnica intencionada y transferible; medir también retención en problemas nuevos.",
+      "confidence": "preliminar",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S37",
+      "title": "Relative Energy Deficiency in Sport in Rock Climbers: A Narrative Review",
+      "authors": "Tan y Schöffl",
+      "year": 2025,
+      "doi": "10.1519/JSC.0000000000005157",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40875976/",
+      "kind": "Revisión narrativa",
+      "topics": [
+        "nutrición",
+        "salud"
+      ],
+      "access": "Resumen PubMed",
+      "design_sample": "Revisión contextual de REDs y escalada.",
+      "finding": "Destaca insuficiencia energética y necesidad de atención individual y multidisciplinar.",
+      "limitations": "Revisión narrativa, no ensayo dietético ni herramienta diagnóstica.",
+      "application": "Evitar metas de peso arbitrarias y derivar señales persistentes de mala alimentación/recuperación.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S38",
+      "title": "Nutrition prescription for climbing athletes on rock or artificial surfaces: are we guessing?",
+      "authors": "Joubert, Michael, Nugent y Chmielewska",
+      "year": 2026,
+      "doi": "10.3389/fspor.2026.1799533",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42602506/",
+      "kind": "Minirrevisión crítica",
+      "topics": [
+        "nutrición",
+        "salud"
+      ],
+      "access": "Resumen PubMed",
+      "design_sample": "16 estudios observacionales; 658 escaladores. Publicado 31/07/2026.",
+      "finding": "Señala limitaciones de evaluación dietética y ausencia de ensayos de manipulación dietética en su ámbito revisado.",
+      "limitations": "No permite afirmar una dieta óptima específica de escalada.",
+      "application": "Separar nutrición deportiva general de evidencia directa en escalada.",
+      "confidence": "limitada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S39",
+      "title": "Acute:Chronic Workload Ratio: Conceptual Issues and Fundamental Pitfalls",
+      "authors": "Impellizzeri et al.",
+      "year": 2020,
+      "doi": "10.1123/ijspp.2019-0864",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32502973/",
+      "kind": "Análisis metodológico",
+      "topics": [
+        "carga",
+        "lesiones"
+      ],
+      "access": "Resumen PubMed",
+      "design_sample": "Crítica conceptual y estadística del ACWR.",
+      "finding": "Explica por qué asociación y artefactos del ratio no justifican prescribir zonas causales de seguridad.",
+      "limitations": "No es un ensayo de prevención ni implica que la carga no importe.",
+      "application": "Registrar carga sin vender un ratio como predictor individual de lesión.",
+      "confidence": "moderada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S40",
+      "title": "Four Weeks of Finger Grip Training Increases the Rate of Force Development and the Maximal Force in Elite and Top World-Ranking Climbers",
+      "authors": "Levernier y Laffaye",
+      "year": 2019,
+      "doi": "10.1519/JSC.0000000000002230",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28945641/",
+      "kind": "Intervención controlada",
+      "topics": [
+        "RFD",
+        "fuerza",
+        "suspensiones"
+      ],
+      "access": "Resumen PubMed",
+      "design_sample": "14 hombres de nivel nacional/internacional; 4 semanas; trabajo específico frente a escalada.",
+      "finding": "Mejoras de fuerza en un agarre y de RFD en los primeros 200 ms.",
+      "limitations": "Muestra pequeña y élite; no asumir la misma respuesta en otra población ni derivar cambios tendinosos no medidos.",
+      "application": "RFD merece seguimiento específico, separado del máximo y sin copiar una dosis de élite.",
+      "confidence": "limitada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S41",
+      "title": "Rate of force development and maximal force: reliability and difference between non-climbers, skilled and international climbers",
+      "authors": "Levernier y Laffaye",
+      "year": 2021,
+      "doi": "10.1080/14763141.2019.1584236",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31038051/",
+      "kind": "Fiabilidad y comparación transversal",
+      "topics": [
+        "RFD",
+        "evaluación",
+        "fuerza"
+      ],
+      "access": "Resumen PubMed/editorial",
+      "design_sample": "31 participantes: 12 internacionales, 10 entrenados, 9 no escaladores. Online 2019; volumen 2021.",
+      "finding": "Fiabilidad dependiente de métrica y grupo; CV de RFD 7,77–28,34%, frente a 2,90–9,99% para fuerza máxima.",
+      "limitations": "No valida cualquier sensor ni todos los intervalos. Diferencias entre niveles no prueban causalidad.",
+      "application": "Predefinir ventana y procesamiento; exigir repetibilidad antes de interpretar cambios de RFD.",
+      "confidence": "limitada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S42",
+      "title": "Measuring critical force in sport climbers: a validation study of the 4 min all-out test on finger flexors",
+      "authors": "Baláš, Gajdošík, Javorský, Berta y Feldmann",
+      "year": 2024,
+      "doi": "10.1007/s00421-024-05490-7",
+      "url": "https://link.springer.com/article/10.1007/s00421-024-05490-7",
+      "kind": "Estudio de validación",
+      "topics": [
+        "fuerza crítica",
+        "resistencia",
+        "evaluación"
+      ],
+      "access": "Texto completo y corrección consultados",
+      "design_sample": "12 escaladores; all-out 4 min y pruebas de verificación.",
+      "finding": "CF calculada con media de las últimas contracciones no predijo bien la máxima intensidad sostenible; la fuerza final se relacionó mejor.",
+      "limitations": "Muestra pequeña; depende del cálculo. Corrección de nombres publicada 12/12/2024, no de resultados.",
+      "application": "No asumir que la CF all-out es un umbral fisiológico preciso para prescribir zonas.",
+      "confidence": "limitada",
+      "checked_on": "2026-10-16",
+      "supporting_urls": [
+        "https://link.springer.com/article/10.1007/s00421-024-05658-1"
+      ]
+    },
+    {
+      "id": "S43",
+      "title": "Five weeks of dynamic finger flexor strength training on bouldering performance and climbing-specific strength tests. A randomized controlled trial",
+      "authors": "Saeterbakken, Bratland, Andersen y Stien",
+      "year": 2024,
+      "doi": "10.3389/fphys.2024.1461820",
+      "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2024.1461820/full",
+      "kind": "Ensayo aleatorizado",
+      "topics": [
+        "RFD",
+        "fuerza",
+        "tablas",
+        "acondicionamiento"
+      ],
+      "access": "Texto completo consultado",
+      "design_sample": "37 voluntarios; 31 completaron; 5 semanas; fuerza dinámica de dedos y control.",
+      "finding": "Superioridad para fuerza dinámica; no para rendimiento de búlder, RFD o fuerza isométrica.",
+      "limitations": "Intervención corta; carga de escalada no controlada directamente.",
+      "application": "Ejemplo de adaptación específica: mejorar fuerza de una tarea no garantiza transferencia a escalar.",
+      "confidence": "limitada",
+      "checked_on": "2026-10-16"
+    },
+    {
+      "id": "S44",
+      "title": "The validity and utility of the all-out test for forearm flexor critical force",
+      "authors": "Boklaschuk, MacDougall y MacInnis",
+      "year": 2026,
+      "doi": "10.1007/s00421-026-06291-w",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42287394/",
+      "kind": "Estudio de validación",
+      "topics": [
+        "fuerza crítica",
+        "resistencia",
+        "evaluación"
+      ],
+      "access": "Resumen PubMed/editorial; Crossmark consultado",
+      "design_sample": "26 participantes; dos all-out de 4 min y pruebas de fuerza constante. Online 13/06/2026; volumen septiembre.",
+      "finding": "Buena repetibilidad, pero CF all-out mayor que CF de fuerza constante: 122 frente a 98 N; los autores cuestionan su uso para prescripción.",
+      "limitations": "No son métodos intercambiables; no identifica una zona universal ni invalida toda medida de resistencia.",
+      "application": "No usar CF all-out para fijar intensidades sostenibles automáticamente; separar seguimiento de validez fisiológica.",
+      "confidence": "limitada",
+      "checked_on": "2026-10-16",
+      "supporting_urls": [
+        "https://crossmark.crossref.org/dialog/?doi=10.1007%2Fs00421-026-06291-w"
+      ]
+    },
+    {
+      "id": "S45",
+      "title": "Upper body rate of force development and maximal strength discriminates performance levels in sport climbing",
+      "authors": "Stien et al.",
+      "year": 2021,
+      "doi": "10.1371/journal.pone.0249353",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0249353",
+      "kind": "Comparación transversal",
+      "topics": [
+        "RFD",
+        "tracción",
+        "evaluación"
+      ],
+      "access": "Resumen editorial",
+      "design_sample": "57 hombres; tirón isométrico sobre agarre específico; distintas ventanas RFD.",
+      "finding": "Fuerza máxima y determinadas métricas RFD distinguieron niveles de rendimiento.",
+      "limitations": "Es tracción del tren superior, no una medición aislada de velocidad de cierre de dedos; no prueba eficacia de entrenamiento.",
+      "application": "Separar RFD de tracción y de dedos; especificar tarea y ventana.",
+      "confidence": "limitada",
+      "checked_on": "2026-10-16"
+    }
+  ]
+}

@@ -50,11 +50,22 @@
 
   const blockMeta = {
     1: { kicker: "Bloque 1 · completado", title: "Base y adaptación al MoonBoard.", chip: "Completado con tus primeras 9 sesiones" },
-    2: { kicker: "Bloque 2 · cinco semanas", title: "Consolidar 6C, abrir 6C+.", chip: "4 semanas de carga + 1 descarga" },
-    3: { kicker: "Bloque 3 · puente hacia cuerda", title: "Enlazar fuerza y continuidad.", chip: "3–4 semanas según respuesta" },
-    4: { kicker: "Bloque 4 · resistencia de potencia", title: "Fuerza cuando ya hay fatiga.", chip: "4 semanas específicas" },
+    2: { kicker: "Bloque 2 · fuerza y continuidad", title: "Fuerza con calidad, continuidad controlada.", chip: "Descarga: 19–25 de octubre" },
+    3: { kicker: "Bloque 3 · puente hacia cuerda", title: "Enlazar fuerza y continuidad.", chip: "3 semanas de progresión + revisión reducida" },
+    4: { kicker: "Bloque 4 · resistencia de potencia", title: "Fuerza cuando ya hay fatiga.", chip: "Según demanda de la vía y tolerancia" },
     5: { kicker: "Bloque 5 · rendimiento en vía", title: "Convertir el entrenamiento en encadenamientos.", chip: "3–6 semanas según proyecto" },
   };
+
+  // Las fichas y las sesiones del calendario comparten las mismas prescripciones JSON.
+  for (const block of plan.blocks.filter((item) => item.number > 1)) {
+    const panel = $(`#block-panel-${block.number}`);
+    const cards = ["A", "B", "C"].map((code) => {
+      const dose = block.templates[code];
+      return `<article class="session-card ${code === "A" ? "strength" : code === "B" ? "volume" : "rock"}"><div class="session-index">${code}</div><div><p class="session-meta">${escapeHtml(dose.type)}</p><h2>${escapeHtml(dose.title)}</h2><p>${escapeHtml(dose.intent)}</p><ol>${dose.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ol><p class="dose">${escapeHtml(dose.dose)}</p><p><strong>Descanso:</strong> ${escapeHtml(dose.rest)}</p><p class="chart-caption">${escapeHtml(dose.record)}</p></div></article>`;
+    }).join("");
+    const reduced = block.deload_templates ? `<aside class="bridge-session"><h2>Descarga: dosis reducidas</h2>${["A", "B", "C"].map((code) => `<p><strong>${code}:</strong> ${escapeHtml(block.deload_templates[code].dose)}</p>`).join("")}<p>Sin EMOM, enlazados exigentes ni carga extra. Consulta el día para el detalle; el sensor, si se concreta, sustituye trabajo.</p></aside>` : "";
+    panel.innerHTML = `<div class="block-status"><div><h2>${escapeHtml(block.name)}</h2><p>${escapeHtml(block.basis)}</p></div></div><div class="weekly-plan">${cards}</div>${reduced}<div class="load-block"><h2>Progresión ajustable</h2><div class="week-track">${block.weeks.map((week) => `<article class="${week.deload ? "deload" : ""}"><span>Semana ${week.number}</span><strong>${escapeHtml(week.title)}</strong><p>${escapeHtml(week.focus)}</p></article>`).join("")}</div></div><p class="block-gate">${escapeHtml(block.gate)}</p><aside class="bridge-session"><h2>${escapeHtml(plan.conditioning.title)}</h2><p><strong>${escapeHtml(plan.conditioning.dose)}</strong></p><ul>${plan.conditioning.steps.map((step) => `<li>${escapeHtml(step)}</li>`).join("")}</ul><p>${escapeHtml(plan.conditioning.note)}</p></aside><p class="chart-caption">Dosis prácticas revisables. La fecha no confirma un cambio de bloque. <a href="../investigacion/index.html">Consultar biblioteca del entrenador</a>.</p>`;
+  }
 
   function activateBlock(number, moveFocus = false) {
     const selected = String(number);
@@ -297,7 +308,7 @@
   const eventResult = (event) => getManualSessions().find((item) => item.planId === event.id);
   const eventState = (event) => eventResult(event) ? "Registrada" : event.date < today ? "Sin registrar" : event.provisional ? "Prevista · revisar entrada" : event.optional ? "Opcional" : "Planificada";
   const blockForDate = (date) => plan.blocks.find((block) => date >= block.start_date && date <= block.end_date);
-  const weekForDate = (date, block) => Math.floor((dateObject(date) - dateObject(block.start_date)) / 604800000) + 1;
+  const weekForDate = (date, block) => block.weeks.find((week) => week.start_date <= date && date <= week.end_date)?.number ?? Math.floor((dateObject(date) - dateObject(block.start_date)) / 604800000) + 1;
 
   const blockByNumber = (number) => plan.blocks.find((block) => block.number === Number(number));
   const blockStatus = (block) => block.kind === "history" ? "Histórico" : block.kind === "reconstructed" ? "Cronología reconstruida" : "Previsión ajustable";
@@ -314,20 +325,9 @@
   }
 
   function prescription(event) {
-    const base = blockByNumber(event.block).templates[event.code];
-    const result = { ...base, steps: [...base.steps] };
-    if (event.bridge) {
-      result.title = "Técnica + dosis puente";
-      result.dose = "3 rondas de 2 problemas a 25° · 6A–6A+";
-      result.rest = "15–30 s de transición; 4–5 min entre rondas";
-      result.steps = ["Calentamiento progresivo.", "Completar 3 rondas de 2 problemas diferentes seguidos, entre 6A y 6A+ a 25°.", "Limitar el volumen normal restante a 8–12 problemas.", "Mantener técnica y margen. No convertir la continuidad en intentos máximos."];
-    }
-    if (event.deload) {
-      result.title = `${base.title} · descarga`;
-      result.dose = "50–60% del volumen habitual, conservando algo de intensidad";
-      result.steps = ["Mantener el calentamiento progresivo.", "Reducir el volumen total al 50–60% del habitual; no añadir la dosis puente.", "Conservar algo de intensidad con descansos completos.", "Registrar respuesta y revisar los criterios antes de pasar al bloque 3."];
-    }
-    return result;
+    const block = blockByNumber(event.block);
+    const base = event.prescription || (event.deload ? block.deload_templates?.[event.code] : null) || block.templates[event.code];
+    return { ...base, steps: [...base.steps] };
   }
 
   function renderUpcoming() {
@@ -472,7 +472,7 @@
   $("#current-position").textContent = `${position} · ${fmtDate(currentBlock.start_date)} — ${fmtDate(currentBlock.end_date)}. Fechas reconstruidas; el bloque actual cambia tras revisar resultados.`;
   $("#schedule-note").textContent = plan.scheduling_note;
   if (plan.google_calendar.status === "created" && plan.google_calendar.url) { $("#google-calendar-link").hidden = false; $("#google-calendar-link").href = plan.google_calendar.url; }
-  $("#calendar-sync-state").textContent = plan.google_calendar.status === "created" ? "Programado en Google Calendar" : "Google Calendar: pendiente de completar";
+  $("#calendar-sync-state").textContent = plan.google_calendar.status === "created" ? `Google Calendar actualizado · ${plan.google_calendar.updated_date || plan.google_calendar.created_date}` : "Google Calendar: actualización pendiente";
   const lastDate = sessionsDesc[0]?.date;
   $("#data-notice").innerHTML = `<strong>MoonBoard: datos hasta ${lastDate ? fmtDate(lastDate) : "sin fecha"}.</strong> ${window.MOON_DATA.import_status === "complete" ? "Histórico actualizado desde el Logbook por USB." : "Pendiente incorporar las sesiones posteriores del móvil. Las métricas reflejan únicamente el histórico importado."}`;
 

@@ -1,0 +1,22 @@
+{
+  "template_only": true,
+  "status": "not_measured",
+  "date": null,
+  "protocol_id": null,
+  "protocol_version": null,
+  "device": {"brand": null, "model": null, "firmware": null, "app_version": null, "units_displayed": null, "sampling_hz": null, "zero_check": null},
+  "setup": {"edge_mm": null, "edge_material": null, "grip": null, "elbow_position": null, "shoulder_position": null, "feet_support": null, "anchor_description": null},
+  "body_mass_kg": null,
+  "warmup": null,
+  "prior_training_and_recovery": null,
+  "trials": [],
+  "metric_definition": null,
+  "force_N": null,
+  "relative_force_percent_bodyweight": null,
+  "raw_curve_file_private": null,
+  "invalid_trials_reasons": [],
+  "symptoms_reported": null,
+  "comparison_protocol_compatible": null,
+  "interpretation": "Sin medición. No usar esta plantilla como resultado.",
+  "next_review": null
+}

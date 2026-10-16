@@ -1,13 +1,13 @@
 {
-  "version": 2,
-  "source": "PLAN_ENTRENAMIENTO.md",
+  "version": 3,
+  "source": "Revisión del entrenador del 16/10/2026; prescripciones canónicas en data/plan.json",
   "block": 2,
   "title": "Recorrido completo · bloques 1–5",
   "start_date": "2026-08-17",
-  "end_date": "2027-01-14",
+  "end_date": "2027-01-17",
   "timezone": "Europe/Madrid",
   "calendar_name": "entrenemiento",
-  "scheduling_note": "Inicio real: primera sesión MoonBoard del 17/08/2026. Bloque 1 hasta el 17/09 según el histórico inicial; bloque 2 reconstruido del 18/09 al 22/10 (cinco semanas). Bloques 3–5 previstos, sujetos a revisión. Martes A, jueves B y domingo C; sin hora fijada. El calendario no reinicia el entrenamiento ni confirma cambios de bloque por sí solo.",
+  "scheduling_note": "Bloque actual: 2. Descarga del 19 al 25/10, tras la sesión A real del 16/10. La cuarta semana reconstruida se extiende hasta el 18/10. Martes A, jueves B y domingo C, sin hora; ajustar según recuperación. Bloques 3–5 previstos desde el 26/10, sujetos a revisión: ninguna fecha confirma el cambio.",
   "events": [
     {
       "id": "b2-20261015-b",
@@ -19,16 +19,31 @@
       "deload": false,
       "bridge": true,
       "provisional": false,
-      "optional": false
+      "optional": false,
+      "prescription": {
+        "type": "MoonBoard 25°",
+        "title": "Técnica + dosis puente (programación anterior)",
+        "angle": 25,
+        "intent": "Acumular movimientos limpios y acabar con margen.",
+        "dose": "3 rondas de 2 problemas a 25° · 6A–6A+",
+        "rest": "15–30 s de transición; 4–5 min entre rondas",
+        "steps": [
+          "Calentamiento progresivo.",
+          "3 rondas de 2 problemas diferentes a 25°.",
+          "15–30 s de transición y 4–5 min entre rondas.",
+          "Limitar el volumen normal restante a 8–12 problemas."
+        ],
+        "record": "Registrar completados, intentos, calidad técnica, RPE y sensaciones."
+      }
     },
     {
       "id": "b2-20261018-c",
       "date": "2026-10-18",
-      "week": 5,
+      "week": 4,
       "code": "C",
       "block": 2,
-      "focus": "50–60% del volumen habitual. Conservar algo de intensidad.",
-      "deload": true,
+      "focus": "Extensión de la semana reconstruida hasta el 18/10. Sesión A real del 16/10; descarga la semana siguiente.",
+      "deload": false,
       "bridge": false,
       "provisional": false,
       "optional": false
@@ -39,7 +54,7 @@
       "week": 5,
       "code": "A",
       "block": 2,
-      "focus": "50–60% del volumen habitual. Conservar algo de intensidad.",
+      "focus": "19–25/10: reducir carga real. Sensor opcional en sustitución de A; decidir el siguiente bloque con continuidad y recuperación.",
       "deload": true,
       "bridge": false,
       "provisional": false,
@@ -51,7 +66,7 @@
       "week": 5,
       "code": "B",
       "block": 2,
-      "focus": "50–60% del volumen habitual. Conservar algo de intensidad.",
+      "focus": "19–25/10: reducir carga real. Sensor opcional en sustitución de A; decidir el siguiente bloque con continuidad y recuperación.",
       "deload": true,
       "bridge": false,
       "provisional": false,
@@ -60,13 +75,13 @@
     {
       "id": "b3-20261025-c",
       "date": "2026-10-25",
-      "week": 1,
+      "week": 5,
       "code": "C",
-      "block": 3,
-      "focus": "Entrada: 6C a 40° cerca del 70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres problemas enlazados con técnica en las dos primeras series.",
-      "deload": false,
+      "block": 2,
+      "focus": "19–25/10: reducir carga real. Sensor opcional en sustitución de A; decidir el siguiente bloque con continuidad y recuperación.",
+      "deload": true,
       "bridge": false,
-      "provisional": true,
+      "provisional": false,
       "optional": false
     },
     {
@@ -75,7 +90,7 @@
       "week": 1,
       "code": "A",
       "block": 3,
-      "focus": "Entrada: 6C a 40° cerca del 70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres problemas enlazados con técnica en las dos primeras series.",
+      "focus": "Entrada tras revisión de continuidad y recuperación. Empezar con dos problemas enlazados; progresar solo conservando técnica y tolerancia, sin exigir un grado de tabla.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -87,7 +102,7 @@
       "week": 1,
       "code": "B",
       "block": 3,
-      "focus": "Entrada: 6C a 40° cerca del 70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres problemas enlazados con técnica en las dos primeras series.",
+      "focus": "Entrada tras revisión de continuidad y recuperación. Empezar con dos problemas enlazados; progresar solo conservando técnica y tolerancia, sin exigir un grado de tabla.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -96,10 +111,10 @@
     {
       "id": "b3-20261101-c",
       "date": "2026-11-01",
-      "week": 2,
+      "week": 1,
       "code": "C",
       "block": 3,
-      "focus": "Entrada: 6C a 40° cerca del 70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres problemas enlazados con técnica en las dos primeras series.",
+      "focus": "Entrada tras revisión de continuidad y recuperación. Empezar con dos problemas enlazados; progresar solo conservando técnica y tolerancia, sin exigir un grado de tabla.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -111,7 +126,7 @@
       "week": 2,
       "code": "A",
       "block": 3,
-      "focus": "Entrada: 6C a 40° cerca del 70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres problemas enlazados con técnica en las dos primeras series.",
+      "focus": "Entrada tras revisión de continuidad y recuperación. Empezar con dos problemas enlazados; progresar solo conservando técnica y tolerancia, sin exigir un grado de tabla.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -123,7 +138,7 @@
       "week": 2,
       "code": "B",
       "block": 3,
-      "focus": "Entrada: 6C a 40° cerca del 70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres problemas enlazados con técnica en las dos primeras series.",
+      "focus": "Entrada tras revisión de continuidad y recuperación. Empezar con dos problemas enlazados; progresar solo conservando técnica y tolerancia, sin exigir un grado de tabla.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -132,10 +147,10 @@
     {
       "id": "b3-20261108-c",
       "date": "2026-11-08",
-      "week": 3,
+      "week": 2,
       "code": "C",
       "block": 3,
-      "focus": "Entrada: 6C a 40° cerca del 70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres problemas enlazados con técnica en las dos primeras series.",
+      "focus": "Entrada tras revisión de continuidad y recuperación. Empezar con dos problemas enlazados; progresar solo conservando técnica y tolerancia, sin exigir un grado de tabla.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -147,7 +162,7 @@
       "week": 3,
       "code": "A",
       "block": 3,
-      "focus": "Entrada: 6C a 40° cerca del 70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres problemas enlazados con técnica en las dos primeras series.",
+      "focus": "Entrada tras revisión de continuidad y recuperación. Empezar con dos problemas enlazados; progresar solo conservando técnica y tolerancia, sin exigir un grado de tabla.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -159,7 +174,7 @@
       "week": 3,
       "code": "B",
       "block": 3,
-      "focus": "Entrada: 6C a 40° cerca del 70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres problemas enlazados con técnica en las dos primeras series.",
+      "focus": "Entrada tras revisión de continuidad y recuperación. Empezar con dos problemas enlazados; progresar solo conservando técnica y tolerancia, sin exigir un grado de tabla.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -168,10 +183,10 @@
     {
       "id": "b3-20261115-c",
       "date": "2026-11-15",
-      "week": 4,
+      "week": 3,
       "code": "C",
       "block": 3,
-      "focus": "Entrada: 6C a 40° cerca del 70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres problemas enlazados con técnica en las dos primeras series.",
+      "focus": "Entrada tras revisión de continuidad y recuperación. Empezar con dos problemas enlazados; progresar solo conservando técnica y tolerancia, sin exigir un grado de tabla.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -183,8 +198,8 @@
       "week": 4,
       "code": "A",
       "block": 3,
-      "focus": "Entrada: 6C a 40° cerca del 70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres problemas enlazados con técnica en las dos primeras series.",
-      "deload": false,
+      "focus": "Semana de menor carga; revisar respuesta y transferencia antes de confirmar otra fase.",
+      "deload": true,
       "bridge": false,
       "provisional": true,
       "optional": false
@@ -195,8 +210,8 @@
       "week": 4,
       "code": "B",
       "block": 3,
-      "focus": "Entrada: 6C a 40° cerca del 70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres problemas enlazados con técnica en las dos primeras series.",
-      "deload": false,
+      "focus": "Semana de menor carga; revisar respuesta y transferencia antes de confirmar otra fase.",
+      "deload": true,
       "bridge": false,
       "provisional": true,
       "optional": false
@@ -204,11 +219,11 @@
     {
       "id": "b4-20261122-c",
       "date": "2026-11-22",
-      "week": 1,
+      "week": 4,
       "code": "C",
-      "block": 4,
-      "focus": "Entrada: 6C+ consistente o 7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35 movimientos y transferirlo a roca.",
-      "deload": false,
+      "block": 3,
+      "focus": "Semana de menor carga; revisar respuesta y transferencia antes de confirmar otra fase.",
+      "deload": true,
       "bridge": false,
       "provisional": true,
       "optional": false
@@ -219,7 +234,7 @@
       "week": 1,
       "code": "A",
       "block": 4,
-      "focus": "Entrada: 6C+ consistente o 7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35 movimientos y transferirlo a roca.",
+      "focus": "Entrada según demanda de la vía y tolerancia a enlaces; sin requisito de 6C+/7A. Salida: mejorar secciones o pegues útiles en cuerda con ritmo y recuperación.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -231,7 +246,7 @@
       "week": 1,
       "code": "B",
       "block": 4,
-      "focus": "Entrada: 6C+ consistente o 7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35 movimientos y transferirlo a roca.",
+      "focus": "Entrada según demanda de la vía y tolerancia a enlaces; sin requisito de 6C+/7A. Salida: mejorar secciones o pegues útiles en cuerda con ritmo y recuperación.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -240,10 +255,10 @@
     {
       "id": "b4-20261129-c",
       "date": "2026-11-29",
-      "week": 2,
+      "week": 1,
       "code": "C",
       "block": 4,
-      "focus": "Entrada: 6C+ consistente o 7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35 movimientos y transferirlo a roca.",
+      "focus": "Entrada según demanda de la vía y tolerancia a enlaces; sin requisito de 6C+/7A. Salida: mejorar secciones o pegues útiles en cuerda con ritmo y recuperación.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -255,7 +270,7 @@
       "week": 2,
       "code": "A",
       "block": 4,
-      "focus": "Entrada: 6C+ consistente o 7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35 movimientos y transferirlo a roca.",
+      "focus": "Entrada según demanda de la vía y tolerancia a enlaces; sin requisito de 6C+/7A. Salida: mejorar secciones o pegues útiles en cuerda con ritmo y recuperación.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -267,7 +282,7 @@
       "week": 2,
       "code": "B",
       "block": 4,
-      "focus": "Entrada: 6C+ consistente o 7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35 movimientos y transferirlo a roca.",
+      "focus": "Entrada según demanda de la vía y tolerancia a enlaces; sin requisito de 6C+/7A. Salida: mejorar secciones o pegues útiles en cuerda con ritmo y recuperación.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -276,10 +291,10 @@
     {
       "id": "b4-20261206-c",
       "date": "2026-12-06",
-      "week": 3,
+      "week": 2,
       "code": "C",
       "block": 4,
-      "focus": "Entrada: 6C+ consistente o 7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35 movimientos y transferirlo a roca.",
+      "focus": "Entrada según demanda de la vía y tolerancia a enlaces; sin requisito de 6C+/7A. Salida: mejorar secciones o pegues útiles en cuerda con ritmo y recuperación.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -291,7 +306,7 @@
       "week": 3,
       "code": "A",
       "block": 4,
-      "focus": "Entrada: 6C+ consistente o 7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35 movimientos y transferirlo a roca.",
+      "focus": "Entrada según demanda de la vía y tolerancia a enlaces; sin requisito de 6C+/7A. Salida: mejorar secciones o pegues útiles en cuerda con ritmo y recuperación.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -303,7 +318,7 @@
       "week": 3,
       "code": "B",
       "block": 4,
-      "focus": "Entrada: 6C+ consistente o 7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35 movimientos y transferirlo a roca.",
+      "focus": "Entrada según demanda de la vía y tolerancia a enlaces; sin requisito de 6C+/7A. Salida: mejorar secciones o pegues útiles en cuerda con ritmo y recuperación.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -312,10 +327,10 @@
     {
       "id": "b4-20261213-c",
       "date": "2026-12-13",
-      "week": 4,
+      "week": 3,
       "code": "C",
       "block": 4,
-      "focus": "Entrada: 6C+ consistente o 7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35 movimientos y transferirlo a roca.",
+      "focus": "Entrada según demanda de la vía y tolerancia a enlaces; sin requisito de 6C+/7A. Salida: mejorar secciones o pegues útiles en cuerda con ritmo y recuperación.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -327,8 +342,8 @@
       "week": 4,
       "code": "A",
       "block": 4,
-      "focus": "Entrada: 6C+ consistente o 7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35 movimientos y transferirlo a roca.",
-      "deload": false,
+      "focus": "Semana de menor carga; revisar respuesta y transferencia antes de confirmar otra fase.",
+      "deload": true,
       "bridge": false,
       "provisional": true,
       "optional": false
@@ -339,8 +354,8 @@
       "week": 4,
       "code": "B",
       "block": 4,
-      "focus": "Entrada: 6C+ consistente o 7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35 movimientos y transferirlo a roca.",
-      "deload": false,
+      "focus": "Semana de menor carga; revisar respuesta y transferencia antes de confirmar otra fase.",
+      "deload": true,
       "bridge": false,
       "provisional": true,
       "optional": false
@@ -348,11 +363,11 @@
     {
       "id": "b5-20261220-c",
       "date": "2026-12-20",
-      "week": 1,
+      "week": 4,
       "code": "C",
-      "block": 5,
-      "focus": "El rendimiento en vía manda. Reducir o eliminar MoonBoard si resta calidad en roca.",
-      "deload": false,
+      "block": 4,
+      "focus": "Semana de menor carga; revisar respuesta y transferencia antes de confirmar otra fase.",
+      "deload": true,
       "bridge": false,
       "provisional": true,
       "optional": false
@@ -363,7 +378,7 @@
       "week": 1,
       "code": "A",
       "block": 5,
-      "focus": "El rendimiento en vía manda. Reducir o eliminar MoonBoard si resta calidad en roca.",
+      "focus": "El rendimiento en la vía objetivo organiza la semana; ajustar o retirar tabla si resta recuperación. Fechas de encadenamiento por concretar.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -375,7 +390,7 @@
       "week": 1,
       "code": "B",
       "block": 5,
-      "focus": "El rendimiento en vía manda. Reducir o eliminar MoonBoard si resta calidad en roca.",
+      "focus": "El rendimiento en la vía objetivo organiza la semana; ajustar o retirar tabla si resta recuperación. Fechas de encadenamiento por concretar.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -384,10 +399,10 @@
     {
       "id": "b5-20261227-c",
       "date": "2026-12-27",
-      "week": 2,
+      "week": 1,
       "code": "C",
       "block": 5,
-      "focus": "El rendimiento en vía manda. Reducir o eliminar MoonBoard si resta calidad en roca.",
+      "focus": "El rendimiento en la vía objetivo organiza la semana; ajustar o retirar tabla si resta recuperación. Fechas de encadenamiento por concretar.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -399,7 +414,7 @@
       "week": 2,
       "code": "A",
       "block": 5,
-      "focus": "El rendimiento en vía manda. Reducir o eliminar MoonBoard si resta calidad en roca.",
+      "focus": "El rendimiento en la vía objetivo organiza la semana; ajustar o retirar tabla si resta recuperación. Fechas de encadenamiento por concretar.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -411,7 +426,7 @@
       "week": 2,
       "code": "B",
       "block": 5,
-      "focus": "El rendimiento en vía manda. Reducir o eliminar MoonBoard si resta calidad en roca.",
+      "focus": "El rendimiento en la vía objetivo organiza la semana; ajustar o retirar tabla si resta recuperación. Fechas de encadenamiento por concretar.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -420,10 +435,10 @@
     {
       "id": "b5-20270103-c",
       "date": "2027-01-03",
-      "week": 3,
+      "week": 2,
       "code": "C",
       "block": 5,
-      "focus": "El rendimiento en vía manda. Reducir o eliminar MoonBoard si resta calidad en roca.",
+      "focus": "El rendimiento en la vía objetivo organiza la semana; ajustar o retirar tabla si resta recuperación. Fechas de encadenamiento por concretar.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -435,7 +450,7 @@
       "week": 3,
       "code": "A",
       "block": 5,
-      "focus": "El rendimiento en vía manda. Reducir o eliminar MoonBoard si resta calidad en roca.",
+      "focus": "El rendimiento en la vía objetivo organiza la semana; ajustar o retirar tabla si resta recuperación. Fechas de encadenamiento por concretar.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -447,7 +462,7 @@
       "week": 3,
       "code": "B",
       "block": 5,
-      "focus": "El rendimiento en vía manda. Reducir o eliminar MoonBoard si resta calidad en roca.",
+      "focus": "El rendimiento en la vía objetivo organiza la semana; ajustar o retirar tabla si resta recuperación. Fechas de encadenamiento por concretar.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -456,10 +471,10 @@
     {
       "id": "b5-20270110-c",
       "date": "2027-01-10",
-      "week": 4,
+      "week": 3,
       "code": "C",
       "block": 5,
-      "focus": "El rendimiento en vía manda. Reducir o eliminar MoonBoard si resta calidad en roca.",
+      "focus": "El rendimiento en la vía objetivo organiza la semana; ajustar o retirar tabla si resta recuperación. Fechas de encadenamiento por concretar.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -471,7 +486,7 @@
       "week": 4,
       "code": "A",
       "block": 5,
-      "focus": "El rendimiento en vía manda. Reducir o eliminar MoonBoard si resta calidad en roca.",
+      "focus": "El rendimiento en la vía objetivo organiza la semana; ajustar o retirar tabla si resta recuperación. Fechas de encadenamiento por concretar.",
       "deload": false,
       "bridge": false,
       "provisional": true,
@@ -483,25 +498,38 @@
       "week": 4,
       "code": "B",
       "block": 5,
-      "focus": "El rendimiento en vía manda. Reducir o eliminar MoonBoard si resta calidad en roca.",
+      "focus": "El rendimiento en la vía objetivo organiza la semana; ajustar o retirar tabla si resta recuperación. Fechas de encadenamiento por concretar.",
       "deload": false,
       "bridge": false,
       "provisional": true,
       "optional": true
+    },
+    {
+      "id": "b5-20270117-c",
+      "date": "2027-01-17",
+      "week": 4,
+      "code": "C",
+      "block": 5,
+      "focus": "El rendimiento en la vía objetivo organiza la semana; ajustar o retirar tabla si resta recuperación. Fechas de encadenamiento por concretar.",
+      "deload": false,
+      "bridge": false,
+      "provisional": true,
+      "optional": false
     }
   ],
   "google_calendar": {
     "status": "created",
     "url": "https://calendar.google.com/calendar/u/0/r?cid=60f7e51e90d69302772b3cd67cca82afb6a3a017d97ff6084d71ed3d9cba2cb9%40group.calendar.google.com",
     "created_date": "2026-10-15",
-    "event_count": 40,
-    "updated_date": "2026-10-15",
-    "scope": "sessions_only"
+    "event_count": 41,
+    "updated_date": "2026-10-16",
+    "scope": "sessions_only",
+    "verified_date": "2026-10-16"
   },
   "review": {
     "entry": "Sesión A del 16/10 importada por USB: 5/8 en 6C y BLUEFF 6C+ al primer intento a 40°. CODEX y QWB 1 pasan de proyectos a encadenados. La fuerza muestra progreso; pendiente revisar continuidad y respuesta a la descarga antes de decidir el bloque 3.",
-    "next_gate": "Comparar calidad y consistencia en una cartera estable a 40°, teniendo en cuenta presas disponibles, problemas conocidos y nuevos, junto con continuidad y recuperación. El antiguo 70% es orientativo y no decide el cambio por sí solo.",
-    "later_gate": "6C+ consistente o 7A máximo a 40° para priorizar resistencia de potencia.",
+    "next_gate": "Revisar fuerza y aprendizaje en una cartera disponible y comparable, continuidad registrada y recuperación. Sin corte obligatorio de porcentaje o grado.",
+    "later_gate": "Entrada según demanda de la vía y tolerancia a enlaces; sin requisito de 6C+/7A. Salida: mejorar secciones o pegues útiles en cuerda con ritmo y recuperación.",
     "assessment": {
       "date": "2026-10-16",
       "decision": "Progreso en el trabajo a 40°; revisar la continuidad antes de decidir el paso al bloque 3.",
@@ -529,7 +557,7 @@
         }
       ],
       "interpretation": "La sesión aporta evidencia de progreso en problemas concretos y un 6C+ a 40° al primer intento. El 70% del plan es una referencia operativa, no un test validado ni un requisito universal sobre cualquier selección de 6C. Faltan juegos de presas, según el usuario, y la selección disponible es limitada. La popularidad por sí sola no determina la dificultad; hoy también se encadenan CODEX y QWB 1 con menos repeticiones globales. No se cambia de bloque automáticamente.",
-      "next_review": "Después de la descarga, comparar una cartera estable del mismo montaje y ángulo, separar repeticiones, primeros encadenes y problemas sin registro previo, y valorar continuidad y recuperación. Mantener el bloque 2 actual. Las fechas se revisarán la semana siguiente, como acordó el usuario; test de sensor pendiente."
+      "next_review": "Descarga del 19 al 25/10. Si se concreta sensor, sustituye A; no es requisito obligatorio de paso. Revisar cartera comparable, continuidad y recuperación antes de confirmar B3 previsto desde el 26/10."
     },
     "context": {
       "reported_on": "2026-10-16",
@@ -537,7 +565,17 @@
       "source": "Relato del usuario; no verificado como inventario físico.",
       "emom": "10 problemas a 25°, 5 min de descanso, 10 a 40°, 5 min y aproximadamente 5 a 25° antes de terminar por fatiga. 30–40 s de trabajo y 20–30 s de descanso por minuto.",
       "agreed_adjustment": "Sesión B de carga: inicialmente 2 series de 6 problemas conocidos a 25°, con 5 min entre series y técnica estable. No añadir este EMOM exigente en descarga.",
-      "calendar": "No desplazar fechas ni pasar de bloque en esta actualización; revisar la semana siguiente."
+      "calendar": "Actualización autorizada el 16/10: descarga 19–25/10; B3–B5 recalculados como previsión. B2 sigue actual."
+    },
+    "implementation": {
+      "date": "2026-10-16",
+      "decision": "Aplicada revisión del entrenador: dosis con techo, B2 EMOM 2×6, B3 enlaces 3×2, progresión por respuesta y descarga acordada.",
+      "evidence_refs": [
+        "S05",
+        "S43",
+        "S44"
+      ],
+      "basis": "Adaptación práctica individual; no protocolo validado de cinco bloques."
     }
   },
   "blocks": [
@@ -556,31 +594,41 @@
           "number": 1,
           "title": "Base y adaptación",
           "focus": "Base completada en el plan original.",
-          "deload": false
+          "deload": false,
+          "start_date": "2026-08-17",
+          "end_date": "2026-08-23"
         },
         {
           "number": 2,
           "title": "Base y adaptación",
           "focus": "Base completada en el plan original.",
-          "deload": false
+          "deload": false,
+          "start_date": "2026-08-24",
+          "end_date": "2026-08-30"
         },
         {
           "number": 3,
           "title": "Base y adaptación",
           "focus": "Base completada en el plan original.",
-          "deload": false
+          "deload": false,
+          "start_date": "2026-08-31",
+          "end_date": "2026-09-06"
         },
         {
           "number": 4,
           "title": "Base y adaptación",
           "focus": "Base completada en el plan original.",
-          "deload": false
+          "deload": false,
+          "start_date": "2026-09-07",
+          "end_date": "2026-09-13"
         },
         {
           "number": 5,
           "title": "Base y adaptación",
           "focus": "Base completada en el plan original.",
-          "deload": false
+          "deload": false,
+          "start_date": "2026-09-14",
+          "end_date": "2026-09-17"
         }
       ]
     },
@@ -588,56 +636,58 @@
       "number": 2,
       "name": "Fuerza y transferencia a cuerda",
       "start_date": "2026-09-18",
-      "end_date": "2026-10-22",
+      "end_date": "2026-10-25",
       "kind": "reconstructed",
       "color_id": "10",
-      "basis": "Cinco semanas desde el día siguiente al cierre documentado del bloque 1. Fecha de transición reconstruida, no confirmada por el Logbook.",
-      "gate": "6C a 40° cerca del 70% de éxito durante dos sesiones de fuerza y dosis puente sin caída técnica marcada.",
+      "basis": "Cronología reconstruida desde el 18/09; semana 4 extendida hasta el 18/10 y descarga acordada del 19 al 25/10. Bloque actual, pendiente revisión.",
+      "gate": "Revisar fuerza y aprendizaje en una cartera disponible y comparable, continuidad registrada y recuperación. Sin corte obligatorio de porcentaje o grado.",
       "templates": {
         "A": {
+          "title": "Fuerza y calidad",
           "type": "MoonBoard 40°",
-          "title": "Fuerza y potencia",
           "angle": 40,
-          "intent": "Intentos de máxima calidad.",
-          "dose": "14–20 intentos duros totales",
-          "rest": "3–5 min entre intentos duros",
+          "dose": "12–16 intentos de trabajo como máximo · 3–5 problemas disponibles",
+          "rest": "3–5 min entre intentos; ampliar si no recuperas calidad",
           "steps": [
-            "15–20 min de calentamiento progresivo y 3–5 problemas fáciles a 25°.",
-            "3 problemas 6B+ controlados, con 1–2 intentos por problema.",
-            "4–6 problemas 6C y 2–3 problemas 6C+ de estilos distintos.",
-            "Terminar si la potencia o la precisión caen claramente."
+            "Calentar 15–20 min de forma progresiva, con problemas cómodos a 25° y entrada gradual a 40°; el calentamiento no cuenta como trabajo duro.",
+            "Usar una cartera conocida para comparar y elegir 3–5 problemas de trabajo: 6C/6C+ si encajan con las presas y el esfuerzo; sin obligación de probar ambos grados.",
+            "Hacer pocos intentos de calidad por problema, con un máximo total de 12–16; no completar una cuota si ya cae la ejecución.",
+            "Si un inicio no permite practicar movimientos, cambiar la tarea o trabajar una sección adecuada sin forzar; no añadir EMOM al final.",
+            "Detener o reducir ante dolor focal o pérdida clara de precisión/potencia; registrar lo realizado."
           ],
-          "record": "Anotar problemas, grado, ángulo, intentos, encadenes, RPE y sensaciones."
+          "intent": "Practicar movimientos exigentes y observar progreso comparable sin agotar la sesión.",
+          "record": "Anotar trabajo realizado, intentos/series, tiempos y descansos reales, calidad, RPE y molestias cuando se conozcan; no inventar datos ausentes."
         },
         "B": {
+          "title": "EMOM reducido y técnica",
           "type": "MoonBoard 25°",
-          "title": "Volumen técnico",
           "angle": 25,
-          "intent": "Acumular movimientos limpios y acabar con margen.",
-          "dose": "12–18 problemas de 5+ a 6B",
-          "rest": "60–90 s entre bloques; hasta 3 min para recuperar técnica",
+          "dose": "2 series de 6 problemas conocidos · uno al inicio de cada minuto",
+          "rest": "Descansar el resto del minuto y 5 min entre series",
           "steps": [
-            "Calentamiento progresivo.",
-            "Elegir 12–18 problemas entre 5+ y 6B.",
-            "Priorizar pies silenciosos, cadera, precisión y respiración.",
-            "Objetivo: 80–90% completado y margen al terminar."
+            "Calentar progresivamente y escoger problemas conocidos a 25° que permitan mantener precisión; el grado orienta, no obliga.",
+            "Completar inicialmente 2 series de 6 problemas, uno por minuto; registrar segundos de escalada y pausa real.",
+            "Si tardas 30–40 s, solo quedan 20–30 s de pausa. Si pierdes técnica, usar problemas más fáciles, terminar antes o ampliar el intervalo.",
+            "Descansar 5 min entre series. No añadir tercera ronda ni enlazados exigentes al acabar.",
+            "Progresar solo tras tolerar la dosis, cambiando cantidad o dificultad, no ambas. Esta dosis no se hace en descarga."
           ],
-          "record": "Registrar completados, intentos, calidad técnica, RPE y sensaciones."
+          "intent": "Continuidad intermitente controlada; terminar con técnica y margen.",
+          "record": "Anotar trabajo realizado, intentos/series, tiempos y descansos reales, calidad, RPE y molestias cuando se conozcan; no inventar datos ausentes."
         },
         "C": {
+          "title": "Proyecto y técnica en roca",
           "type": "Roca con cuerda",
-          "title": "Aplicación en roca",
           "angle": null,
-          "intent": "Convertir la fuerza en rendimiento específico de deportiva.",
-          "dose": "2 vías de calentamiento + 3–5 pegues de calidad",
-          "rest": "Descanso completo entre pegues",
+          "dose": "Calentamiento progresivo + 2–3 pegues útiles inicialmente",
+          "rest": "Recuperación completa según vía y esfuerzo",
           "steps": [
-            "2 vías progresivas de calentamiento.",
-            "3–5 pegues de calidad al proyecto con una intención clara.",
-            "Anotar secuencia, reposos, chapajes y punto de caída.",
-            "Añadir una vía cómoda solo si se mantiene la calidad."
+            "Calentar con vías progresivas sin fatigar el trabajo principal.",
+            "Elegir una vía/proyecto y un objetivo por pegue: secuencia, reposo, chapaje o enlace; 7b+/7c orientativos según vía, sin obligación de grado.",
+            "Comenzar con 2–3 pegues útiles; terminar antes si la calidad o recuperación no permiten seguir.",
+            "Registrar duración/sección, reposos y causa de caída. Si llegas fatigado de la tabla, reducir dificultad/volumen o descansar."
           ],
-          "record": "Anotar vía, grado, estilo, pegues y aprendizaje de la sesión."
+          "intent": "Transferir desde ahora a cuerda, sin convertir los pegues en una cuota.",
+          "record": "Anotar trabajo realizado, intentos/series, tiempos y descansos reales, calidad, RPE y molestias cuando se conozcan; no inventar datos ausentes."
         }
       },
       "weeks": [
@@ -645,223 +695,393 @@
           "number": 1,
           "title": "Calibrar",
           "focus": "Elegir cartera de 6C y registrar calidad real.",
-          "deload": false
+          "deload": false,
+          "start_date": "2026-09-18",
+          "end_date": "2026-09-24"
         },
         {
           "number": 2,
           "title": "Construir",
           "focus": "Añadir exposición a 6C+ y la primera dosis puente.",
-          "deload": false
+          "deload": false,
+          "start_date": "2026-09-25",
+          "end_date": "2026-10-01"
         },
         {
           "number": 3,
           "title": "Consolidar",
           "focus": "Repetir 6C en los estilos débiles.",
-          "deload": false
+          "deload": false,
+          "start_date": "2026-10-02",
+          "end_date": "2026-10-08"
         },
         {
           "number": 4,
-          "title": "Comprobar",
-          "focus": "Comprobar el máximo en fresco, sin volumen extra.",
-          "deload": false
+          "title": "Revisar y ajustar",
+          "focus": "Extensión de la semana reconstruida hasta el 18/10. Sesión A real del 16/10; descarga la semana siguiente.",
+          "deload": false,
+          "start_date": "2026-10-09",
+          "end_date": "2026-10-18"
         },
         {
           "number": 5,
-          "title": "Descargar",
-          "focus": "50–60% del volumen habitual. Conservar algo de intensidad.",
-          "deload": true
+          "title": "Descarga y revisión",
+          "focus": "19–25/10: reducir carga real. Sensor opcional en sustitución de A; decidir el siguiente bloque con continuidad y recuperación.",
+          "deload": true,
+          "start_date": "2026-10-19",
+          "end_date": "2026-10-25"
         }
-      ]
+      ],
+      "deload_templates": {
+        "A": {
+          "title": "Fuerza reducida / referencia opcional",
+          "type": "MoonBoard 40°",
+          "angle": 40,
+          "dose": "6–8 intentos de trabajo como máximo; menos si no recuperas",
+          "rest": "Descansos completos de 3–5 min o más",
+          "steps": [
+            "Mantener calentamiento progresivo y elegir problemas controlados; sin buscar máximos nuevos.",
+            "Reducir aproximadamente a la mitad del volumen de trabajo realmente tolerado; el máximo es 6–8 intentos, no una obligación.",
+            "Si se concreta el primer test de sensor, sustituir este trabajo por familiarización y medición acordadas; no sumar test y sesión completa.",
+            "Confirmar modelo, montaje y protocolo antes del test; no añadir batería de RFD/CF, campus o suspensiones extra.",
+            "Parar ante molestias o caída de calidad y registrar respuesta."
+          ],
+          "intent": "Asimilar carga; el test, si se realiza, sustituye entrenamiento y solo establece referencia.",
+          "record": "Anotar trabajo realizado, intentos/series, tiempos y descansos reales, calidad, RPE y molestias cuando se conozcan; no inventar datos ausentes."
+        },
+        "B": {
+          "title": "Técnica cómoda · descarga",
+          "type": "MoonBoard 25°",
+          "angle": 25,
+          "dose": "6–8 problemas cómodos como máximo",
+          "rest": "90 s–3 min entre problemas, o más si hace falta",
+          "steps": [
+            "Calentar y elegir problemas conocidos y fáciles para ti.",
+            "Hacer hasta 6–8 problemas cómodos, reduciendo más si representa más de la mitad de tu volumen habitual.",
+            "Cuidar pies, postura y precisión; sin EMOM, enlazados ni trabajo al fallo.",
+            "No estrenar acondicionamiento exigente; registrar recuperación."
+          ],
+          "intent": "Moverse con calidad y recuperar, sin una sesión de resistencia encubierta.",
+          "record": "Anotar trabajo realizado, intentos/series, tiempos y descansos reales, calidad, RPE y molestias cuando se conozcan; no inventar datos ausentes."
+        },
+        "C": {
+          "title": "Cuerda reducida · descarga",
+          "type": "Roca con cuerda",
+          "angle": null,
+          "dose": "Calentamiento + 1–2 pegues cómodos/ensayos breves, o descanso",
+          "rest": "Descansos completos, sin acumular fatiga",
+          "steps": [
+            "Valorar recuperación antes de salir; descansar si no hay margen.",
+            "Calentar de forma progresiva y priorizar vías cómodas, lectura y reposos.",
+            "Como máximo 1–2 pegues o ensayos breves submáximos; sin perseguir fallos repetidos.",
+            "Revisar sensaciones y registros antes de confirmar el siguiente bloque."
+          ],
+          "intent": "Reducir claramente carga y conservar gesto; adaptar al volumen real, no cumplir una cuota.",
+          "record": "Anotar trabajo realizado, intentos/series, tiempos y descansos reales, calidad, RPE y molestias cuando se conozcan; no inventar datos ausentes."
+        }
+      }
     },
     {
       "number": 3,
       "name": "Puente hacia cuerda",
-      "start_date": "2026-10-23",
-      "end_date": "2026-11-19",
+      "start_date": "2026-10-26",
+      "end_date": "2026-11-22",
       "kind": "projected",
       "color_id": "5",
-      "basis": "Previsión de 4 semanas dentro del rango de 3–4 del plan; revisar la entrada según resultados.",
-      "gate": "Entrada: 6C a 40° cerca del 70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres problemas enlazados con técnica en las dos primeras series.",
+      "basis": "Previsión de cuatro semanas; confirmar entrada y adaptar fechas, dosis y descarga según recuperación y proyecto.",
+      "gate": "Entrada tras revisión de continuidad y recuperación. Empezar con dos problemas enlazados; progresar solo conservando técnica y tolerancia, sin exigir un grado de tabla.",
       "templates": {
         "A": {
-          "title": "Fuerza mantenida",
+          "title": "Fuerza mantenida con techo de carga",
           "type": "MoonBoard 40°",
           "angle": 40,
-          "dose": "4–6 problemas 6C/6C+ · 2–4 intentos por problema",
-          "rest": "3–5 min entre intentos",
+          "dose": "8–12 intentos de trabajo como máximo · 3–5 problemas",
+          "rest": "3–5 min entre intentos; recuperación completa",
           "steps": [
-            "Calentamiento progresivo.",
-            "Elegir 4–6 problemas 6C/6C+.",
-            "Realizar 2–4 intentos de calidad por problema.",
-            "Terminar si cae claramente la calidad."
+            "Calentar progresivamente y usar referencias conocidas del mismo montaje.",
+            "Elegir 3–5 problemas adecuados alrededor de 6C/6C+; adaptar a presas, estilo y calidad.",
+            "Limitar el conjunto a 8–12 intentos de trabajo, aunque queden problemas pendientes. No multiplicar el máximo por cada problema.",
+            "Acabar antes de perder precisión/potencia; ajustar si afecta al día de continuidad o roca."
           ],
-          "intent": "Aplicar la dosis del bloque manteniendo calidad.",
-          "record": "Registrar problemas o vías, intentos, encadenes, duración, RPE y sensaciones cuando se conozcan."
+          "intent": "Mantener exposición a fuerza mientras aumenta la continuidad, reduciendo volumen respecto a B2.",
+          "record": "Anotar trabajo realizado, intentos/series, tiempos y descansos reales, calidad, RPE y molestias cuando se conozcan; no inventar datos ausentes."
         },
         "B": {
-          "title": "Puente de continuidad",
+          "title": "Enlazados de entrada gradual",
           "type": "MoonBoard 25°",
           "angle": 25,
-          "dose": "3–4 series · mismo problema ×2–3 o 3 diferentes",
-          "rest": "5–6 min entre series",
+          "dose": "Inicio: 3 series de 2 problemas seguidos",
+          "rest": "Transición controlada de 15–30 s; 5–6 min entre series",
           "steps": [
-            "Calentamiento progresivo.",
-            "Elegir una opción: repetir el mismo problema 2–3 veces o enlazar 3 problemas diferentes.",
-            "Completar 3–4 series.",
-            "Mantener técnica y comprobar la calidad de las dos primeras series."
+            "Calentar y elegir problemas conocidos que permitan dos seguidos con técnica; 6A–6A+ solo como orientación inicial.",
+            "Repetir un problema dos veces o enlazar dos diferentes; bajar de forma controlada y usar lo justo para recolocarte.",
+            "Hacer 3 series con 5–6 min entre series. Registrar tiempos y calidad de cada una.",
+            "Solo tras completar la dosis en exposiciones comparables y recuperar bien, valorar 3 problemas por serie; no subir también dificultad.",
+            "Esta sesión sustituye al EMOM. Reducir dificultad o serie si cae la técnica; no empezar por un 4×4."
           ],
-          "intent": "Aplicar la dosis del bloque manteniendo calidad.",
-          "record": "Registrar problemas o vías, intentos, encadenes, duración, RPE y sensaciones cuando se conozcan."
+          "intent": "Aumentar movimientos consecutivos sin perder fuerza, técnica ni recuperación.",
+          "record": "Anotar trabajo realizado, intentos/series, tiempos y descansos reales, calidad, RPE y molestias cuando se conozcan; no inventar datos ausentes."
         },
         "C": {
-          "title": "Continuidad en vía",
+          "title": "Continuidad aplicada a la vía",
           "type": "Roca con cuerda",
           "angle": null,
-          "dose": "3–4 pegues útiles · vías de 20–30 movimientos",
+          "dose": "2–4 pegues útiles según longitud y respuesta",
           "rest": "Recuperación completa entre pegues",
           "steps": [
-            "Calentamiento progresivo.",
-            "Elegir vías de 20–30 movimientos.",
-            "Practicar ritmo, respiración y uso real de reposos.",
-            "Limitar la sesión a 3–4 pegues útiles."
+            "Calentar progresivamente y elegir una vía que represente el siguiente objetivo.",
+            "Practicar ritmo, respiración, chapajes y reposos; los 20–30 movimientos son orientativos, adaptar a la vía.",
+            "Hacer inicialmente 2–4 pegues útiles, terminando antes si cae la calidad.",
+            "Registrar secciones enlazadas y qué limita el siguiente avance."
           ],
-          "intent": "Aplicar la dosis del bloque manteniendo calidad.",
-          "record": "Registrar problemas o vías, intentos, encadenes, duración, RPE y sensaciones cuando se conozcan."
+          "intent": "Comprobar transferencia real del trabajo de continuidad.",
+          "record": "Anotar trabajo realizado, intentos/series, tiempos y descansos reales, calidad, RPE y molestias cuando se conozcan; no inventar datos ausentes."
         }
       },
       "weeks": [
         {
           "number": 1,
-          "title": "Puente hacia cuerda",
-          "focus": "Entrada: 6C a 40° cerca del 70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres problemas enlazados con técnica en las dos primeras series.",
-          "deload": false
+          "title": "Entrada gradual",
+          "focus": "Entrada tras revisión de continuidad y recuperación. Empezar con dos problemas enlazados; progresar solo conservando técnica y tolerancia, sin exigir un grado de tabla.",
+          "deload": false,
+          "start_date": "2026-10-26",
+          "end_date": "2026-11-01"
         },
         {
           "number": 2,
-          "title": "Puente hacia cuerda",
-          "focus": "Entrada: 6C a 40° cerca del 70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres problemas enlazados con técnica en las dos primeras series.",
-          "deload": false
+          "title": "Repetir con calidad",
+          "focus": "Entrada tras revisión de continuidad y recuperación. Empezar con dos problemas enlazados; progresar solo conservando técnica y tolerancia, sin exigir un grado de tabla.",
+          "deload": false,
+          "start_date": "2026-11-02",
+          "end_date": "2026-11-08"
         },
         {
           "number": 3,
-          "title": "Puente hacia cuerda",
-          "focus": "Entrada: 6C a 40° cerca del 70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres problemas enlazados con técnica en las dos primeras series.",
-          "deload": false
+          "title": "Progresar una variable",
+          "focus": "Entrada tras revisión de continuidad y recuperación. Empezar con dos problemas enlazados; progresar solo conservando técnica y tolerancia, sin exigir un grado de tabla.",
+          "deload": false,
+          "start_date": "2026-11-09",
+          "end_date": "2026-11-15"
         },
         {
           "number": 4,
-          "title": "Puente hacia cuerda",
-          "focus": "Entrada: 6C a 40° cerca del 70% en dos sesiones de fuerza y dosis puente tolerada. Salida: tres problemas enlazados con técnica en las dos primeras series.",
-          "deload": false
+          "title": "Reducir y revisar",
+          "focus": "Semana de menor carga; revisar respuesta y transferencia antes de confirmar otra fase.",
+          "deload": true,
+          "start_date": "2026-11-16",
+          "end_date": "2026-11-22"
         }
-      ]
+      ],
+      "deload_templates": {
+        "A": {
+          "title": "Fuerza reducida / referencia opcional",
+          "type": "MoonBoard 40°",
+          "angle": 40,
+          "dose": "4–6 intentos de trabajo como máximo",
+          "rest": "Descansos completos de 3–5 min o más",
+          "steps": [
+            "Mantener calentamiento progresivo y elegir problemas controlados; sin buscar máximos nuevos.",
+            "Reducir aproximadamente a la mitad del volumen realmente tolerado; máximo 4–6 intentos de trabajo.",
+            "Si hay una evaluación con sensor acordada, sustituir este trabajo por la medición; no sumar test y sesión completa.",
+            "Mantener protocolo comparable; no añadir batería de RFD/CF, campus o suspensiones extra.",
+            "Parar ante molestias o caída de calidad y registrar respuesta."
+          ],
+          "intent": "Asimilar carga; el test, si se realiza, sustituye entrenamiento y solo establece referencia.",
+          "record": "Anotar trabajo realizado, intentos/series, tiempos y descansos reales, calidad, RPE y molestias cuando se conozcan; no inventar datos ausentes."
+        },
+        "B": {
+          "title": "Técnica cómoda · descarga",
+          "type": "MoonBoard 25°",
+          "angle": 25,
+          "dose": "6–8 problemas cómodos como máximo",
+          "rest": "90 s–3 min entre problemas, o más si hace falta",
+          "steps": [
+            "Calentar y elegir problemas conocidos y fáciles para ti.",
+            "Hacer hasta 6–8 problemas cómodos, reduciendo más si representa más de la mitad de tu volumen habitual.",
+            "Cuidar pies, postura y precisión; sin EMOM, enlazados ni trabajo al fallo.",
+            "No estrenar acondicionamiento exigente; registrar recuperación."
+          ],
+          "intent": "Moverse con calidad y recuperar, sin una sesión de resistencia encubierta.",
+          "record": "Anotar trabajo realizado, intentos/series, tiempos y descansos reales, calidad, RPE y molestias cuando se conozcan; no inventar datos ausentes."
+        },
+        "C": {
+          "title": "Cuerda reducida · descarga",
+          "type": "Roca con cuerda",
+          "angle": null,
+          "dose": "Calentamiento + 1–2 pegues cómodos/ensayos breves, o descanso",
+          "rest": "Descansos completos, sin acumular fatiga",
+          "steps": [
+            "Valorar recuperación antes de salir; descansar si no hay margen.",
+            "Calentar de forma progresiva y priorizar vías cómodas, lectura y reposos.",
+            "Como máximo 1–2 pegues o ensayos breves submáximos; sin perseguir fallos repetidos.",
+            "Revisar sensaciones y registros antes de confirmar el siguiente bloque."
+          ],
+          "intent": "Reducir claramente carga y conservar gesto; adaptar al volumen real, no cumplir una cuota.",
+          "record": "Anotar trabajo realizado, intentos/series, tiempos y descansos reales, calidad, RPE y molestias cuando se conozcan; no inventar datos ausentes."
+        }
+      }
     },
     {
       "number": 4,
       "name": "Resistencia de potencia",
-      "start_date": "2026-11-20",
-      "end_date": "2026-12-17",
+      "start_date": "2026-11-23",
+      "end_date": "2026-12-20",
       "kind": "projected",
       "color_id": "6",
-      "basis": "Previsión de 4 semanas, como indica el plan; condicionada a los criterios de entrada.",
-      "gate": "Entrada: 6C+ consistente o 7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35 movimientos y transferirlo a roca.",
+      "basis": "Previsión de cuatro semanas; confirmar entrada y adaptar fechas, dosis y descarga según recuperación y proyecto.",
+      "gate": "Entrada según demanda de la vía y tolerancia a enlaces; sin requisito de 6C+/7A. Salida: mejorar secciones o pegues útiles en cuerda con ritmo y recuperación.",
       "templates": {
         "A": {
-          "title": "Fuerza con poco volumen",
+          "title": "Fuerza con volumen reducido",
           "type": "MoonBoard 40°",
           "angle": 40,
-          "dose": "3–5 problemas duros · 10–14 intentos totales",
-          "rest": "Descansos completos para mantener potencia",
+          "dose": "6–10 intentos de trabajo como máximo · 3–4 problemas",
+          "rest": "Descansos completos de 3–5 min o más según recuperación",
           "steps": [
-            "Calentamiento progresivo.",
-            "Elegir 3–5 problemas duros.",
-            "Limitar el total a 10–14 intentos.",
-            "Finalizar antes de que la potencia caiga claramente."
+            "Calentar y elegir 3–4 problemas exigentes pero practicables.",
+            "Limitar a 6–10 intentos totales; priorizar la ejecución y no agotar la fuerza.",
+            "Reducir más si la carga de enlaces o de roca afecta la recuperación."
           ],
-          "intent": "Aplicar la dosis del bloque manteniendo calidad.",
-          "record": "Registrar problemas o vías, intentos, encadenes, duración, RPE y sensaciones cuando se conozcan."
+          "intent": "Conservar fuerza mientras la vía y las secuencias largas ganan prioridad.",
+          "record": "Anotar trabajo realizado, intentos/series, tiempos y descansos reales, calidad, RPE y molestias cuando se conozcan; no inventar datos ausentes."
         },
         "B": {
-          "title": "Resistencia de potencia",
+          "title": "Secuencias según la vía",
           "type": "MoonBoard 25°",
           "angle": 25,
-          "dose": "2–3 series · 3–5 problemas · 20–35 movimientos",
+          "dose": "Inicio: 2 series de 3 problemas · progresión individual",
           "rest": "6–10 min entre series",
           "steps": [
-            "Calentamiento progresivo.",
-            "Enlazar 3–5 problemas, normalmente 6A–6B según longitud.",
-            "Acumular aproximadamente 20–35 movimientos por serie.",
-            "Completar 2–3 series conservando secuencia y ritmo."
+            "Calentar y escoger problemas conocidos suficientemente fáciles para el conjunto.",
+            "Empezar con 2 series de 3 problemas; adaptar duración y agarres al tramo de vía, sin exigir un grado de MoonBoard.",
+            "Los 20–35 movimientos son una referencia de longitud, no una cuota. Ajustar a la vía y mantener técnica.",
+            "Si se tolera en sesiones comparables, añadir una serie o un problema por serie; nunca ambas cosas a la vez.",
+            "No sumar EMOM. Parar si cambia la técnica o la fatiga impide practicar el objetivo."
           ],
-          "intent": "Aplicar la dosis del bloque manteniendo calidad.",
-          "record": "Registrar problemas o vías, intentos, encadenes, duración, RPE y sensaciones cuando se conozcan."
+          "intent": "Producir movimientos útiles bajo fatiga controlada, con transferencia comprobable.",
+          "record": "Anotar trabajo realizado, intentos/series, tiempos y descansos reales, calidad, RPE y molestias cuando se conozcan; no inventar datos ausentes."
         },
         "C": {
-          "title": "Proyecto bajo fatiga controlada",
+          "title": "Proyecto y secciones específicas",
           "type": "Roca con cuerda",
           "angle": null,
-          "dose": "Una vía objetivo y una vía submáxima",
+          "dose": "2–4 pegues útiles inicialmente · según vía y recuperación",
           "rest": "Descanso completo entre pegues",
           "steps": [
-            "Calentamiento progresivo.",
-            "Trabajar una vía objetivo y una submáxima.",
-            "Ensayar el tramo decisivo bajo fatiga controlada.",
-            "Anotar si el fallo procede de secuencia, fuerza, ritmo o recuperación."
+            "Calentar y escoger proyecto y secciones decisivas.",
+            "Alternar ensayo técnico y enlaces según el limitante; no buscar fatiga extra por obligación.",
+            "Registrar ritmo, reposos, sección alcanzada y si el fallo procede de secuencia, fuerza o recuperación.",
+            "Ajustar el total según longitud, condiciones y respuesta, conservando pegues de calidad."
           ],
-          "intent": "Aplicar la dosis del bloque manteniendo calidad.",
-          "record": "Registrar problemas o vías, intentos, encadenes, duración, RPE y sensaciones cuando se conozcan."
+          "intent": "Medir progreso en la vía, no solo completar enlaces de tabla.",
+          "record": "Anotar trabajo realizado, intentos/series, tiempos y descansos reales, calidad, RPE y molestias cuando se conozcan; no inventar datos ausentes."
         }
       },
       "weeks": [
         {
           "number": 1,
-          "title": "Resistencia de potencia",
-          "focus": "Entrada: 6C+ consistente o 7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35 movimientos y transferirlo a roca.",
-          "deload": false
+          "title": "Entrada gradual",
+          "focus": "Entrada según demanda de la vía y tolerancia a enlaces; sin requisito de 6C+/7A. Salida: mejorar secciones o pegues útiles en cuerda con ritmo y recuperación.",
+          "deload": false,
+          "start_date": "2026-11-23",
+          "end_date": "2026-11-29"
         },
         {
           "number": 2,
-          "title": "Resistencia de potencia",
-          "focus": "Entrada: 6C+ consistente o 7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35 movimientos y transferirlo a roca.",
-          "deload": false
+          "title": "Repetir con calidad",
+          "focus": "Entrada según demanda de la vía y tolerancia a enlaces; sin requisito de 6C+/7A. Salida: mejorar secciones o pegues útiles en cuerda con ritmo y recuperación.",
+          "deload": false,
+          "start_date": "2026-11-30",
+          "end_date": "2026-12-06"
         },
         {
           "number": 3,
-          "title": "Resistencia de potencia",
-          "focus": "Entrada: 6C+ consistente o 7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35 movimientos y transferirlo a roca.",
-          "deload": false
+          "title": "Progresar una variable",
+          "focus": "Entrada según demanda de la vía y tolerancia a enlaces; sin requisito de 6C+/7A. Salida: mejorar secciones o pegues útiles en cuerda con ritmo y recuperación.",
+          "deload": false,
+          "start_date": "2026-12-07",
+          "end_date": "2026-12-13"
         },
         {
           "number": 4,
-          "title": "Resistencia de potencia",
-          "focus": "Entrada: 6C+ consistente o 7A máximo a 40°. Salida: conservar secuencia y ritmo durante 25–35 movimientos y transferirlo a roca.",
-          "deload": false
+          "title": "Reducir y revisar",
+          "focus": "Semana de menor carga; revisar respuesta y transferencia antes de confirmar otra fase.",
+          "deload": true,
+          "start_date": "2026-12-14",
+          "end_date": "2026-12-20"
         }
-      ]
+      ],
+      "deload_templates": {
+        "A": {
+          "title": "Fuerza reducida / referencia opcional",
+          "type": "MoonBoard 40°",
+          "angle": 40,
+          "dose": "4–6 intentos de trabajo como máximo",
+          "rest": "Descansos completos de 3–5 min o más",
+          "steps": [
+            "Mantener calentamiento progresivo y elegir problemas controlados; sin buscar máximos nuevos.",
+            "Reducir aproximadamente a la mitad del volumen realmente tolerado; máximo 4–6 intentos de trabajo.",
+            "Si hay una evaluación con sensor acordada, sustituir este trabajo por la medición; no sumar test y sesión completa.",
+            "Mantener protocolo comparable; no añadir batería de RFD/CF, campus o suspensiones extra.",
+            "Parar ante molestias o caída de calidad y registrar respuesta."
+          ],
+          "intent": "Asimilar carga; el test, si se realiza, sustituye entrenamiento y solo establece referencia.",
+          "record": "Anotar trabajo realizado, intentos/series, tiempos y descansos reales, calidad, RPE y molestias cuando se conozcan; no inventar datos ausentes."
+        },
+        "B": {
+          "title": "Técnica cómoda · descarga",
+          "type": "MoonBoard 25°",
+          "angle": 25,
+          "dose": "6–8 problemas cómodos como máximo",
+          "rest": "90 s–3 min entre problemas, o más si hace falta",
+          "steps": [
+            "Calentar y elegir problemas conocidos y fáciles para ti.",
+            "Hacer hasta 6–8 problemas cómodos, reduciendo más si representa más de la mitad de tu volumen habitual.",
+            "Cuidar pies, postura y precisión; sin EMOM, enlazados ni trabajo al fallo.",
+            "No estrenar acondicionamiento exigente; registrar recuperación."
+          ],
+          "intent": "Moverse con calidad y recuperar, sin una sesión de resistencia encubierta.",
+          "record": "Anotar trabajo realizado, intentos/series, tiempos y descansos reales, calidad, RPE y molestias cuando se conozcan; no inventar datos ausentes."
+        },
+        "C": {
+          "title": "Cuerda reducida · descarga",
+          "type": "Roca con cuerda",
+          "angle": null,
+          "dose": "Calentamiento + 1–2 pegues cómodos/ensayos breves, o descanso",
+          "rest": "Descansos completos, sin acumular fatiga",
+          "steps": [
+            "Valorar recuperación antes de salir; descansar si no hay margen.",
+            "Calentar de forma progresiva y priorizar vías cómodas, lectura y reposos.",
+            "Como máximo 1–2 pegues o ensayos breves submáximos; sin perseguir fallos repetidos.",
+            "Revisar sensaciones y registros antes de confirmar el siguiente bloque."
+          ],
+          "intent": "Reducir claramente carga y conservar gesto; adaptar al volumen real, no cumplir una cuota.",
+          "record": "Anotar trabajo realizado, intentos/series, tiempos y descansos reales, calidad, RPE y molestias cuando se conozcan; no inventar datos ausentes."
+        }
+      }
     },
     {
       "number": 5,
       "name": "Específico de vía",
-      "start_date": "2026-12-18",
-      "end_date": "2027-01-14",
+      "start_date": "2026-12-21",
+      "end_date": "2027-01-17",
       "kind": "projected",
       "color_id": "3",
-      "basis": "Previsión de 4 semanas dentro del rango de 3–6 del plan; ajustable al proyecto.",
-      "gate": "El rendimiento en vía manda. Reducir o eliminar MoonBoard si resta calidad en roca.",
+      "basis": "Previsión de cuatro semanas; confirmar entrada y adaptar fechas, dosis y descarga según recuperación y proyecto.",
+      "gate": "El rendimiento en la vía objetivo organiza la semana; ajustar o retirar tabla si resta recuperación. Fechas de encadenamiento por concretar.",
       "templates": {
         "A": {
           "title": "Mantenimiento de fuerza",
           "type": "MoonBoard 40°",
           "angle": 40,
-          "dose": "3–4 problemas duros · 6–10 intentos de alta calidad",
+          "dose": "6–8 intentos de trabajo como máximo · 3–4 problemas",
           "rest": "Descanso completo; separado de la roca importante",
           "steps": [
-            "Calentamiento progresivo.",
-            "Elegir 3–4 problemas duros.",
-            "Limitar a 6–10 intentos de alta calidad.",
-            "Reducir la sesión si perjudica el día de roca."
+            "Calentar progresivamente.",
+            "Elegir 3–4 problemas exigentes y conocidos; 6–8 intentos totales como máximo.",
+            "Separar de la roca importante y retirar volumen si perjudica los pegues."
           ],
-          "intent": "Aplicar la dosis del bloque manteniendo calidad.",
+          "intent": "Mantener fuerza con la mínima carga que permita llegar recuperado a roca.",
           "record": "Registrar problemas o vías, intentos, encadenes, duración, RPE y sensaciones cuando se conozcan."
         },
         "B": {
@@ -871,18 +1091,18 @@
           "dose": "Opcional: continuidad o potencia según la vía",
           "rest": "Conservar recuperación para roca",
           "steps": [
-            "Elegir continuidad si la vía es larga.",
-            "Elegir potencia si el límite está en una sección corta.",
-            "Reducir o eliminar esta sesión si empeora el rendimiento en roca."
+            "Elegir una única tarea de continuidad o potencia según la vía.",
+            "Usar una dosis previamente tolerada, sin añadir una sesión máxima ni sumar métodos.",
+            "Omitir si resta calidad en roca; registrar motivo y respuesta."
           ],
-          "intent": "Aplicar la dosis del bloque manteniendo calidad.",
+          "intent": "Sesión opcional que se omite si no aporta al proyecto o compromete la recuperación.",
           "record": "Registrar problemas o vías, intentos, encadenes, duración, RPE y sensaciones cuando se conozcan."
         },
         "C": {
           "title": "Pegues de encadenamiento",
           "type": "Roca con cuerda",
           "angle": null,
-          "dose": "Roca prioritaria · pegues con recuperación completa",
+          "dose": "2–4 pegues útiles como referencia inicial; ajustar a la vía",
           "rest": "Recuperación completa; descargar antes de días clave",
           "steps": [
             "Definir beta, chapajes y reposos.",
@@ -890,7 +1110,7 @@
             "Descargar antes de los días clave.",
             "Registrar el rendimiento y lo aprendido en la vía."
           ],
-          "intent": "Aplicar la dosis del bloque manteniendo calidad.",
+          "intent": "Encadenar con recuperación, táctica y secuencia definidas; la cuota no manda.",
           "record": "Registrar problemas o vías, intentos, encadenes, duración, RPE y sensaciones cuando se conozcan."
         }
       },
@@ -898,26 +1118,34 @@
         {
           "number": 1,
           "title": "Específico de vía",
-          "focus": "El rendimiento en vía manda. Reducir o eliminar MoonBoard si resta calidad en roca.",
-          "deload": false
+          "focus": "El rendimiento en la vía objetivo organiza la semana; ajustar o retirar tabla si resta recuperación. Fechas de encadenamiento por concretar.",
+          "deload": false,
+          "start_date": "2026-12-21",
+          "end_date": "2026-12-27"
         },
         {
           "number": 2,
           "title": "Específico de vía",
-          "focus": "El rendimiento en vía manda. Reducir o eliminar MoonBoard si resta calidad en roca.",
-          "deload": false
+          "focus": "El rendimiento en la vía objetivo organiza la semana; ajustar o retirar tabla si resta recuperación. Fechas de encadenamiento por concretar.",
+          "deload": false,
+          "start_date": "2026-12-28",
+          "end_date": "2027-01-03"
         },
         {
           "number": 3,
           "title": "Específico de vía",
-          "focus": "El rendimiento en vía manda. Reducir o eliminar MoonBoard si resta calidad en roca.",
-          "deload": false
+          "focus": "El rendimiento en la vía objetivo organiza la semana; ajustar o retirar tabla si resta recuperación. Fechas de encadenamiento por concretar.",
+          "deload": false,
+          "start_date": "2027-01-04",
+          "end_date": "2027-01-10"
         },
         {
           "number": 4,
           "title": "Específico de vía",
-          "focus": "El rendimiento en vía manda. Reducir o eliminar MoonBoard si resta calidad en roca.",
-          "deload": false
+          "focus": "El rendimiento en la vía objetivo organiza la semana; ajustar o retirar tabla si resta recuperación. Fechas de encadenamiento por concretar.",
+          "deload": false,
+          "start_date": "2027-01-11",
+          "end_date": "2027-01-17"
         }
       ]
     }
@@ -939,5 +1167,17 @@
     "b2-20261019-w5-a": "b3-20261117-a",
     "b2-20261019-w5-b": "b3-20261119-b",
     "b2-20261019-w5-c": "b4-20261122-c"
+  },
+  "adjusted_on": "2026-10-16",
+  "transition_policy": "Decidir por progreso comparable, continuidad tolerada y recuperación, sin porcentaje o grado de MoonBoard obligatorio. Todas las dosis son puntos de partida ajustables.",
+  "conditioning": {
+    "title": "Acondicionamiento complementario opcional",
+    "dose": "Tras la descarga, 10–15 min al final de B si recuperas bien",
+    "steps": [
+      "Solo ejercicios conocidos y tolerados: elegir 2–3 patrones entre piernas/cadera, empuje, control escapular o tronco.",
+      "Inicialmente 1–2 series suaves, con varias repeticiones en reserva; no añadir tracción máxima a la carga de tabla.",
+      "Confirmar experiencia, material y molestias antes de concretar ejercicios y cargas. Omitir si resta calidad a roca."
+    ],
+    "note": "Sin nuevo día duro ni nuevas sesiones de calendario; no iniciar durante la descarga."
   }
 }

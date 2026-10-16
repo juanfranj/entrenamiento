@@ -1,0 +1,1630 @@
+[
+  {
+    "id": "S01",
+    "error": "HTTPError"
+  },
+  {
+    "id": "S02",
+    "doi": "10.1519/JSC.0000000000004286",
+    "title": [
+      "Strength Training in Climbing: A Systematic Review"
+    ],
+    "authors": [
+      {
+        "given": "Kaja",
+        "family": "Langer"
+      },
+      {
+        "given": "Christian",
+        "family": "Simon"
+      },
+      {
+        "given": "Josef",
+        "family": "Wiemeyer"
+      }
+    ],
+    "container": [
+      "Journal of Strength &amp; Conditioning Research"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          1
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2022,
+          6,
+          1
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S03",
+    "error": "HTTPError"
+  },
+  {
+    "id": "S04",
+    "doi": "10.1016/j.jshs.2024.100974",
+    "title": [
+      "Sport climbing performance determinants and functional testing methods: A systematic review"
+    ],
+    "authors": [
+      {
+        "given": "Sara",
+        "family": "Faggian"
+      },
+      {
+        "given": "Nicola",
+        "family": "Borasio"
+      },
+      {
+        "given": "Marco",
+        "family": "Vecchiato"
+      },
+      {
+        "given": "Hannes",
+        "family": "Gatterer"
+      },
+      {
+        "given": "Martin",
+        "family": "Burtscher"
+      },
+      {
+        "given": "Francesca",
+        "family": "Battista"
+      },
+      {
+        "given": "Hannes",
+        "family": "Brunner"
+      },
+      {
+        "given": "Giulia",
+        "family": "Quinto"
+      },
+      {
+        "given": "Federica",
+        "family": "Duregon"
+      },
+      {
+        "given": "Andrea",
+        "family": "Ermolao"
+      },
+      {
+        "given": "Daniel",
+        "family": "Neunhaeuserer"
+      }
+    ],
+    "container": [
+      "Journal of Sport and Health Science"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          12
+        ]
+      ]
+    },
+    "published_online": null,
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S05",
+    "doi": "10.3389/fspor.2025.1650198",
+    "title": [
+      "Reliability of finger strength assessment methods in climbing: a systematic review"
+    ],
+    "authors": [
+      {
+        "given": "Jorge",
+        "family": "Pérez-Cordero"
+      },
+      {
+        "given": "Daniel",
+        "family": "Jerez-Mayorga"
+      },
+      {
+        "given": "Ángela",
+        "family": "Rodríguez-Perea"
+      },
+      {
+        "given": "Diego",
+        "family": "Soto García"
+      }
+    ],
+    "container": [
+      "Frontiers in Sports and Active Living"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          1
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          1
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S06",
+    "doi": "10.1038/s41598-021-92898-2",
+    "title": [
+      "Hangboard training in advanced climbers: A randomized controlled trial"
+    ],
+    "authors": [
+      {
+        "given": "Saskia",
+        "family": "Mundry"
+      },
+      {
+        "given": "Gino",
+        "family": "Steinmetz"
+      },
+      {
+        "given": "Elizabeth J.",
+        "family": "Atkinson"
+      },
+      {
+        "given": "Arndt F.",
+        "family": "Schilling"
+      },
+      {
+        "given": "Volker R.",
+        "family": "Schöffl"
+      },
+      {
+        "given": "Dominik",
+        "family": "Saul"
+      }
+    ],
+    "container": [
+      "Scientific Reports"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          29
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2021,
+          6,
+          29
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S07",
+    "doi": "10.3389/fspor.2022.888158",
+    "title": [
+      "The Effects of 10 Weeks Hangboard Training on Climbing Specific Maximal Strength, Explosive Strength, and Finger Endurance"
+    ],
+    "authors": [
+      {
+        "given": "Espen",
+        "family": "Hermans"
+      },
+      {
+        "given": "Atle H.",
+        "family": "Saeterbakken"
+      },
+      {
+        "given": "Vegard",
+        "family": "Vereide"
+      },
+      {
+        "given": "Ivar S. O.",
+        "family": "Nord"
+      },
+      {
+        "given": "Nicolay",
+        "family": "Stien"
+      },
+      {
+        "given": "Vidar",
+        "family": "Andersen"
+      }
+    ],
+    "container": [
+      "Frontiers in Sports and Active Living"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          27
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          27
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S08",
+    "doi": "10.3389/fspor.2022.862782",
+    "title": [
+      "Effects of Different Hangboard Training Intensities on Finger Grip Strength, Stamina, and Endurance"
+    ],
+    "authors": [
+      {
+        "given": "Marine",
+        "family": "Devise"
+      },
+      {
+        "given": "Clément",
+        "family": "Lechaptois"
+      },
+      {
+        "given": "Eric",
+        "family": "Berton"
+      },
+      {
+        "given": "Laurent",
+        "family": "Vigouroux"
+      }
+    ],
+    "container": [
+      "Frontiers in Sports and Active Living"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          12
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2022,
+          4,
+          12
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S09",
+    "doi": "10.2478/hukin-2018-0057",
+    "title": [
+      "Comparison of the Effects of Three Hangboard Strength and Endurance Training Programs on Grip Endurance in Sport Climbers"
+    ],
+    "authors": [
+      {
+        "given": "Eva",
+        "family": "López-Rivera"
+      },
+      {
+        "given": "Juan José",
+        "family": "González-Badillo"
+      }
+    ],
+    "container": [
+      "Journal of Human Kinetics"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2019,
+          3,
+          1
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2019,
+          3,
+          27
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S10",
+    "doi": "10.1186/s40798-024-00793-7",
+    "title": [
+      "Effects of Different Loading Programs on Finger Strength in Rock Climbers"
+    ],
+    "authors": [
+      {
+        "given": "Natalie K.",
+        "family": "Gilmore"
+      },
+      {
+        "given": "Peter",
+        "family": "Klimek"
+      },
+      {
+        "given": "Emil",
+        "family": "Abrahamsson"
+      },
+      {
+        "given": "Keith",
+        "family": "Baar"
+      }
+    ],
+    "container": [
+      "Sports Medicine - Open"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          19
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2024,
+          11,
+          19
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S12",
+    "doi": "10.1371/journal.pone.0306300",
+    "title": [
+      "The effects of five weeks of climbing training, on and off the wall, on climbing specific strength, performance, and training experience in female climbers—A randomized controlled trial"
+    ],
+    "authors": [
+      {
+        "given": "Kaja",
+        "family": "Langer"
+      },
+      {
+        "given": "Vidar",
+        "family": "Andersen"
+      },
+      {
+        "given": "Nicolay",
+        "family": "Stien"
+      }
+    ],
+    "container": [
+      "PLOS ONE"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          8
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          8
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S13",
+    "doi": "10.3389/fspor.2022.838358",
+    "title": [
+      "Validity and Reliability of a Commercial Force Sensor for the Measurement of Upper Body Strength in Sport Climbing"
+    ],
+    "authors": [
+      {
+        "given": "Berit K.",
+        "family": "Labott"
+      },
+      {
+        "given": "Steffen",
+        "family": "Held"
+      },
+      {
+        "given": "Tim",
+        "family": "Wiedenmann"
+      },
+      {
+        "given": "Ludwig",
+        "family": "Rappelt"
+      },
+      {
+        "given": "Pamela",
+        "family": "Wicker"
+      },
+      {
+        "given": "Lars",
+        "family": "Donath"
+      }
+    ],
+    "container": [
+      "Frontiers in Sports and Active Living"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          22
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2022,
+          7,
+          22
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S14",
+    "doi": "10.3390/s21248399",
+    "title": [
+      "The Validity and Reliability of Two Commercially Available Load Sensors for Clinical Strength Assessment"
+    ],
+    "authors": [
+      {
+        "given": "Kohle",
+        "family": "Merry"
+      },
+      {
+        "given": "Christopher",
+        "family": "Napier"
+      },
+      {
+        "given": "Vivian",
+        "family": "Chung"
+      },
+      {
+        "given": "Brett C.",
+        "family": "Hannigan"
+      },
+      {
+        "given": "Megan",
+        "family": "MacPherson"
+      },
+      {
+        "given": "Carlo",
+        "family": "Menon"
+      },
+      {
+        "given": "Alex",
+        "family": "Scott"
+      }
+    ],
+    "container": [
+      "Sensors"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          16
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2021,
+          12,
+          16
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S15",
+    "doi": "10.1123/ijspp.2020-0637",
+    "title": [
+      "An All-Out Test to Determine Finger Flexor Critical Force in Rock Climbers"
+    ],
+    "authors": [
+      {
+        "given": "David",
+        "family": "Giles"
+      },
+      {
+        "given": "Cam",
+        "family": "Hartley"
+      },
+      {
+        "given": "Hamish",
+        "family": "Maslen"
+      },
+      {
+        "given": "Josh",
+        "family": "Hadley"
+      },
+      {
+        "given": "Nicola",
+        "family": "Taylor"
+      },
+      {
+        "given": "Ollie",
+        "family": "Torr"
+      },
+      {
+        "given": "Joel",
+        "family": "Chidley"
+      },
+      {
+        "given": "Tom",
+        "family": "Randall"
+      },
+      {
+        "given": "Simon",
+        "family": "Fryer"
+      }
+    ],
+    "container": [
+      "International Journal of Sports Physiology and Performance"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2021,
+          7,
+          1
+        ]
+      ]
+    },
+    "published_online": null,
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S16",
+    "doi": "10.1007/s00421-025-05802-5",
+    "title": [
+      "Climbing performance in males: the importance of climbing-specific finger strength"
+    ],
+    "authors": [
+      {
+        "given": "B. F.",
+        "family": "Buraas"
+      },
+      {
+        "given": "M. F.",
+        "family": "Brobakken"
+      },
+      {
+        "given": "E.",
+        "family": "Wang"
+      }
+    ],
+    "container": [
+      "European Journal of Applied Physiology"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          5
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          5
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S17",
+    "doi": "10.3390/bioengineering11010085",
+    "title": [
+      "Pull-Up Performance Is Affected Differently by the Muscle Contraction Regimens Practiced during Training among Climbers"
+    ],
+    "authors": [
+      {
+        "given": "Laurent",
+        "family": "Vigouroux"
+      },
+      {
+        "given": "Marine",
+        "family": "Devise"
+      }
+    ],
+    "container": [
+      "Bioengineering"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          17
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          17
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S18",
+    "doi": "10.3389/fspor.2023.1269870",
+    "title": [
+      "Risk factors and injury prevention strategies for overuse injuries in adult climbers: a systematic review"
+    ],
+    "authors": [
+      {
+        "given": "Andrew",
+        "family": "Quarmby"
+      },
+      {
+        "given": "Martin",
+        "family": "Zhang"
+      },
+      {
+        "given": "Moritz",
+        "family": "Geisler"
+      },
+      {
+        "given": "Tomas",
+        "family": "Javorsky"
+      },
+      {
+        "given": "Hendrik",
+        "family": "Mugele"
+      },
+      {
+        "given": "Michael",
+        "family": "Cassel"
+      },
+      {
+        "given": "Justin",
+        "family": "Lawley"
+      }
+    ],
+    "container": [
+      "Frontiers in Sports and Active Living"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          12
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          12
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S19",
+    "doi": "10.3389/fspor.2024.1251047",
+    "title": [
+      "Recovery markers in elite climbers after the national boulder climbing championship"
+    ],
+    "authors": [
+      {
+        "given": "Arthur Fernandes",
+        "family": "Gáspari"
+      },
+      {
+        "given": "Mayni Gabriele",
+        "family": "Zaminiani"
+      },
+      {
+        "given": "Manoela de Carvalho",
+        "family": "Vilarinho"
+      },
+      {
+        "given": "Danilo",
+        "family": "Caruso"
+      },
+      {
+        "given": "Patricia dos Santos",
+        "family": "Guimarães"
+      },
+      {
+        "given": "Rafael Perlotti",
+        "family": "Piunti"
+      },
+      {
+        "given": "Alex",
+        "family": "Itaborahy"
+      },
+      {
+        "given": "Antonio Carlos",
+        "family": "de Moraes"
+      }
+    ],
+    "container": [
+      "Frontiers in Sports and Active Living"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          9
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          9
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S20",
+    "doi": "10.1249/MSS.0000000000003992",
+    "title": [
+      "Low-Load Blood-Flow Restricted Resistance Training Improves Finger Flexor Muscle Function in Experienced Climbers: A Randomized Controlled Trial"
+    ],
+    "authors": [
+      {
+        "given": "TITOUAN P.",
+        "family": "PERRIN"
+      },
+      {
+        "given": "HUGO",
+        "family": "RANDY"
+      },
+      {
+        "given": "PYRÈNE",
+        "family": "SANTAL"
+      },
+      {
+        "given": "XAVIER",
+        "family": "HUGUES"
+      },
+      {
+        "given": "NICOLAS",
+        "family": "TOURETTE"
+      },
+      {
+        "given": "MARIE",
+        "family": "COUDURIER"
+      },
+      {
+        "given": "MICHEL",
+        "family": "GUINOT"
+      },
+      {
+        "given": "VIOLAINE",
+        "family": "CAHOUET"
+      },
+      {
+        "given": "FRANCK",
+        "family": "QUAINE"
+      },
+      {
+        "given": "STÉPHANE",
+        "family": "DOUTRELEAU"
+      },
+      {
+        "given": "LAURENT",
+        "family": "VIGOUROUX"
+      },
+      {
+        "given": "HUGO A.",
+        "family": "KERHERVE"
+      },
+      {
+        "given": "MATHIEU",
+        "family": "MARILLIER"
+      },
+      {
+        "given": "JULIEN V.",
+        "family": "BRUGNIAUX"
+      }
+    ],
+    "container": [
+      "Medicine &amp; Science in Sports &amp; Exercise"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          26
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          26
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S21",
+    "doi": "10.1002/ejsc.70146",
+    "title": [
+      "The Effect of Blood Flow Restriction Training on Rock Climbing Performance, Forearm Blood Oxygenation and Cardiovascular Responses"
+    ],
+    "authors": [
+      {
+        "given": "Ben J.",
+        "family": "Mckellar"
+      },
+      {
+        "given": "Jamie F.",
+        "family": "Burr"
+      }
+    ],
+    "container": [
+      "European Journal of Sport Science"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          21
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          21
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S22",
+    "doi": "10.3390/sports14080313",
+    "title": [
+      "The Effects of Plyometric Training on Selected Neuromuscular Outcomes in Trained-to-Highly Trained Male Boulder Climbers: A Preliminary Exploratory Trial"
+    ],
+    "authors": [
+      {
+        "given": "Guillermo",
+        "family": "Cortés-Roco"
+      },
+      {
+        "given": "Verónica",
+        "family": "Low-Barría"
+      },
+      {
+        "given": "Rodrigo",
+        "family": "Yáñez-Sepúlveda"
+      },
+      {
+        "given": "Jorge",
+        "family": "Pérez-Contreras"
+      },
+      {
+        "given": "Yeny",
+        "family": "Concha-Cisternas"
+      },
+      {
+        "given": "Juan",
+        "family": "Hurtado-Almonacid"
+      },
+      {
+        "given": "Exal",
+        "family": "Garcia-Carrillo"
+      }
+    ],
+    "container": [
+      "Sports"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          23
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          23
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S23",
+    "doi": "10.1249/MSS.0000000000003897",
+    "title": [
+      "American College of Sports Medicine Position Stand. Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews"
+    ],
+    "authors": [
+      {
+        "given": "BRAD S.",
+        "family": "CURRIER"
+      },
+      {
+        "given": "ALYSHA C.",
+        "family": "D’SOUZA"
+      },
+      {
+        "given": "MARIA A. FIATARONE",
+        "family": "SINGH"
+      },
+      {
+        "given": "CAROLINE V.",
+        "family": "LOWISZ"
+      },
+      {
+        "given": "ERIC S.",
+        "family": "RAWSON"
+      },
+      {
+        "given": "BRAD J.",
+        "family": "SCHOENFELD"
+      },
+      {
+        "given": "ABBIE E.",
+        "family": "SMITH-RYAN"
+      },
+      {
+        "given": "JEREMY P.",
+        "family": "STEEN"
+      },
+      {
+        "given": "GWENDOLYN A.",
+        "family": "THOMAS"
+      },
+      {
+        "given": "N. TRAVIS",
+        "family": "TRIPLETT"
+      },
+      {
+        "given": "TYRONE A.",
+        "family": "WASHINGTON"
+      },
+      {
+        "given": "TIMOTHY J.",
+        "family": "WERNER"
+      },
+      {
+        "given": "STUART M.",
+        "family": "PHILLIPS"
+      }
+    ],
+    "container": [
+      "Medicine &amp; Science in Sports &amp; Exercise"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          5
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          5
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S24",
+    "doi": "10.1136/bjsports-2020-102025",
+    "title": [
+      "Sleep and the athlete: narrative review and 2021 expert consensus recommendations"
+    ],
+    "authors": [
+      {
+        "given": "Neil P",
+        "family": "Walsh"
+      },
+      {
+        "given": "Shona L",
+        "family": "Halson"
+      },
+      {
+        "given": "Charli",
+        "family": "Sargent"
+      },
+      {
+        "given": "Gregory D",
+        "family": "Roach"
+      },
+      {
+        "given": "Mathieu",
+        "family": "Nédélec"
+      },
+      {
+        "given": "Luke",
+        "family": "Gupta"
+      },
+      {
+        "given": "Jonathan",
+        "family": "Leeder"
+      },
+      {
+        "given": "Hugh H",
+        "family": "Fullagar"
+      },
+      {
+        "given": "Aaron J",
+        "family": "Coutts"
+      },
+      {
+        "given": "Ben J",
+        "family": "Edwards"
+      },
+      {
+        "given": "Samuel A",
+        "family": "Pullinger"
+      },
+      {
+        "given": "Colin M",
+        "family": "Robertson"
+      },
+      {
+        "given": "Jatin G",
+        "family": "Burniston"
+      },
+      {
+        "given": "Michele",
+        "family": "Lastella"
+      },
+      {
+        "given": "Yann",
+        "family": "Le Meur"
+      },
+      {
+        "given": "Christophe",
+        "family": "Hausswirth"
+      },
+      {
+        "given": "Amy M",
+        "family": "Bender"
+      },
+      {
+        "given": "Michael A",
+        "family": "Grandner"
+      },
+      {
+        "given": "Charles H",
+        "family": "Samuels"
+      }
+    ],
+    "container": [
+      "British Journal of Sports Medicine"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          3
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          3
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S25",
+    "doi": "10.1136/bjsports-2023-106994",
+    "title": [
+      "2023 International Olympic Committee’s (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs)"
+    ],
+    "authors": [
+      {
+        "given": "Margo",
+        "family": "Mountjoy"
+      },
+      {
+        "given": "Kathryn E",
+        "family": "Ackerman"
+      },
+      {
+        "given": "David M",
+        "family": "Bailey"
+      },
+      {
+        "given": "Louise M",
+        "family": "Burke"
+      },
+      {
+        "given": "Naama",
+        "family": "Constantini"
+      },
+      {
+        "given": "Anthony C",
+        "family": "Hackney"
+      },
+      {
+        "given": "Ida Aliisa",
+        "family": "Heikura"
+      },
+      {
+        "given": "Anna",
+        "family": "Melin"
+      },
+      {
+        "given": "Anne Marte",
+        "family": "Pensgaard"
+      },
+      {
+        "given": "Trent",
+        "family": "Stellingwerff"
+      },
+      {
+        "given": "Jorunn Kaiander",
+        "family": "Sundgot-Borgen"
+      },
+      {
+        "given": "Monica Klungland",
+        "family": "Torstveit"
+      },
+      {
+        "given": "Astrid Uhrenholdt",
+        "family": "Jacobsen"
+      },
+      {
+        "given": "Evert",
+        "family": "Verhagen"
+      },
+      {
+        "given": "Richard",
+        "family": "Budgett"
+      },
+      {
+        "given": "Lars",
+        "family": "Engebretsen"
+      },
+      {
+        "given": "Uğur",
+        "family": "Erdener"
+      }
+    ],
+    "container": [
+      "British Journal of Sports Medicine"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          9
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          26
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S34",
+    "doi": "10.3389/fphys.2026.1712130",
+    "title": [
+      "Acute motor–cognitive responses to a bouldering fatigue protocol in indoor recreational climbers"
+    ],
+    "authors": [
+      {
+        "given": "Bartosz",
+        "family": "Wilczyński"
+      },
+      {
+        "given": "Mateusz",
+        "family": "Nowosad"
+      },
+      {
+        "given": "Łukasz",
+        "family": "Poniatowski"
+      },
+      {
+        "given": "Solene",
+        "family": "Gerwann"
+      },
+      {
+        "given": "Katarzyna",
+        "family": "Zorena"
+      }
+    ],
+    "container": [
+      "Frontiers in Physiology"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          5
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          5
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S35",
+    "doi": "10.1016/j.psychsport.2024.102763",
+    "title": [
+      "The psychology of rock climbing: A systematic review"
+    ],
+    "authors": [
+      {
+        "given": "Kevin",
+        "family": "Mangan"
+      },
+      {
+        "given": "Kathryn",
+        "family": "Andrews"
+      },
+      {
+        "given": "Brad",
+        "family": "Miles"
+      },
+      {
+        "given": "Nick",
+        "family": "Draper"
+      }
+    ],
+    "container": [
+      "Psychology of Sport and Exercise"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "published_online": null,
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S36",
+    "doi": "10.1155/2024/5584962",
+    "title": [
+      "Development of Specific Motor Skills through System Wall Bouldering Training: A Pilot Study"
+    ],
+    "authors": [
+      {
+        "given": "Nicolay",
+        "family": "Stien"
+      },
+      {
+        "given": "Kaja",
+        "family": "Langer"
+      },
+      {
+        "given": "Vidar",
+        "family": "Andersen"
+      },
+      {
+        "given": "Gunn Helene",
+        "family": "Engelsrud"
+      },
+      {
+        "given": "Elias",
+        "family": "Olsen"
+      },
+      {
+        "given": "Atle Hole",
+        "family": "Saeterbakken"
+      }
+    ],
+    "container": [
+      "Translational Sports Medicine"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          1
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          8
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S37",
+    "doi": "10.1519/JSC.0000000000005157",
+    "title": [
+      "Relative Energy Deficiency in Sport in Rock Climbers: A Narrative Review"
+    ],
+    "authors": [
+      {
+        "given": "Kenneth",
+        "family": "Tan"
+      },
+      {
+        "given": "Volker",
+        "family": "Schöffl"
+      }
+    ],
+    "container": [
+      "Journal of Strength &amp; Conditioning Research"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          28
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          28
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S38",
+    "doi": "10.3389/fspor.2026.1799533",
+    "title": [
+      "Nutrition prescription for climbing athletes on rock or artificial surfaces: are we guessing?"
+    ],
+    "authors": [
+      {
+        "given": "Lanae",
+        "family": "Joubert"
+      },
+      {
+        "given": "Marisa",
+        "family": "Michael"
+      },
+      {
+        "given": "Camryn",
+        "family": "Nugent"
+      },
+      {
+        "given": "Anna",
+        "family": "Chmielewska"
+      }
+    ],
+    "container": [
+      "Frontiers in Sports and Active Living"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          31
+        ]
+      ]
+    },
+    "published_online": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          31
+        ]
+      ]
+    },
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  },
+  {
+    "id": "S39",
+    "doi": "10.1123/ijspp.2019-0864",
+    "title": [
+      "Acute:Chronic Workload Ratio: Conceptual Issues and Fundamental Pitfalls"
+    ],
+    "authors": [
+      {
+        "given": "Franco M.",
+        "family": "Impellizzeri"
+      },
+      {
+        "given": "Matthew S.",
+        "family": "Tenan"
+      },
+      {
+        "given": "Tom",
+        "family": "Kempton"
+      },
+      {
+        "given": "Andrew",
+        "family": "Novak"
+      },
+      {
+        "given": "Aaron J.",
+        "family": "Coutts"
+      }
+    ],
+    "container": [
+      "International Journal of Sports Physiology and Performance"
+    ],
+    "published": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          1
+        ]
+      ]
+    },
+    "published_online": null,
+    "relation": {},
+    "update_to": [],
+    "checked_on": "2026-10-16"
+  }
+]
