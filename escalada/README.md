@@ -4,11 +4,11 @@ Panel local de seguimiento del entrenamiento de escalada de Juanfran. Integra el
 
 ## Estado del proyecto
 
-- Versión: 2.0.0.
+- Versión: 2.3.0.
 - Bloque terminado: 1 — Base.
 - Bloque actual: 2 — Fuerza.
-- Datos importados: 16 sesiones, 261 problemas y 355 intentos registrados.
-- MoonBoard consultado por USB el 15/10/2026, actualizado hasta el 13/10/2026. Las 7 sesiones nuevas conservan todos sus problemas e intentos.
+- Datos importados: 17 sesiones, 278 entradas de problemas y 381 intentos registrados.
+- MoonBoard consultado por USB el 16/10/2026. Última sesión: 17 problemas, 11 completados y 26 intentos; incluye seis entradas a 25° y once a 40°.
 - Cuerda verificada en 8a.nu el 15/10/2026: Námaste (7c, Archidona, 14/10) y Moya Boom (7b+, Mijas, segundo intento, 23/09).
 - Test de fuerza con sensor pendiente, sin mediciones.
 - Funcionamiento: aplicación web estática y local; no necesita instalación ni conexión a internet.
@@ -34,7 +34,7 @@ Panel local de seguimiento del entrenamiento de escalada de Juanfran. Integra el
 - Diagnóstico de la última sesión importada.
 - Hoja de ruta interactiva de cinco bloques, con criterios de entrada y salida.
 - Historial detallado de sesiones.
-- Buscador y filtros sobre los 261 problemas registrados.
+- Buscador y filtros sobre las 278 entradas de problemas registradas.
 - Registro manual de roca, Tindeq y otras sesiones.
 - Exportación e importación de copias de seguridad.
 - Diseño adaptable a ordenador y móvil, navegación por teclado y estados accesibles.

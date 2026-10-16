@@ -499,37 +499,45 @@
     "scope": "sessions_only"
   },
   "review": {
-    "entry": "El recorrido comienza el 17/08/2026. El bloque 2 se sitúa desde el 18/09 tras el cierre documentado del bloque 1: el 15/10 corresponde a su semana 4. La transición se ha reconstruido; los criterios de rendimiento siguen guiando cualquier cambio.",
-    "next_gate": "6C a 40° cerca del 70% de éxito durante dos sesiones de fuerza y dosis puente sin caída técnica marcada.",
+    "entry": "Sesión A del 16/10 importada por USB: 5/8 en 6C y BLUEFF 6C+ al primer intento a 40°. CODEX y QWB 1 pasan de proyectos a encadenados. La fuerza muestra progreso; pendiente revisar continuidad y respuesta a la descarga antes de decidir el bloque 3.",
+    "next_gate": "Comparar calidad y consistencia en una cartera estable a 40°, teniendo en cuenta presas disponibles, problemas conocidos y nuevos, junto con continuidad y recuperación. El antiguo 70% es orientativo y no decide el cambio por sí solo.",
     "later_gate": "6C+ consistente o 7A máximo a 40° para priorizar resistencia de potencia.",
     "assessment": {
-      "date": "2026-10-15",
-      "decision": "Mantener el bloque 2 abierto y revisar sus objetivos en la próxima revisión.",
-      "scope": "7 sesiones nuevas (19/09–13/10): 120 entradas de problemas. Las repeticiones cuentan como entradas; no son problemas únicos.",
+      "date": "2026-10-16",
+      "decision": "Progreso en el trabajo a 40°; revisar la continuidad antes de decidir el paso al bloque 3.",
+      "scope": "Sesión A del 16/10: 17 entradas, 11 completadas y 26 intentos. Seis entradas a 25° y once a 40°. Calentamiento y trabajo principal se muestran por separado; los porcentajes incluyen repeticiones.",
       "evidence": [
         {
-          "title": "6B+ a 40°",
-          "value": "18/23 · 78%",
-          "detail": "Última sesión, 13/10: 4/4. Buena base en este grado."
+          "title": "6C a 40° · hoy",
+          "value": "5/8 · 63%",
+          "detail": "CODEX y QWB 1 al segundo intento, BLUEMOON y BROKEN WINGED ANGEL en Session Flash, y CLAN WAR al segundo intento."
         },
         {
-          "title": "6C a 40°",
-          "value": "4/12 · 33%",
-          "detail": "Últimas exposiciones: 01/10, 1/4 (25%); 06/10, 1/2 (50%). No cumplen dos sesiones alrededor del 70%. Se completaron 3 de 8 problemas distintos en el periodo."
+          "title": "6C+ a 40° · hoy",
+          "value": "BLUEFF · 1 intento",
+          "detail": "BLUEFF figura como 6C+/V5 y Flashed a 40°. Es la única entrada de 6C+ registrada hoy; se conservan los grados originales del Logbook."
         },
         {
-          "title": "6C+ a 40°",
-          "value": "0/1 reciente",
-          "detail": "Exposición reciente muy escasa. Ya hubo encadenes el 27/08 y el 17/09, pero no acreditan consistencia actual."
+          "title": "Referencia comparable",
+          "value": "5/5 conocidos",
+          "detail": "Los cinco 6C con registro previo se completan; los tres 6C sin registro previo quedan como proyectos. CODEX y QWB 1 tenían intentos fallidos previos y hoy se encadenan. Conocido significa registrado anteriormente, no necesariamente encadenado."
         },
         {
-          "title": "Dosis puente",
-          "value": "Sin verificar",
-          "detail": "El Logbook no documenta enlaces, pausas entre problemas ni calidad técnica de las rondas."
+          "title": "Continuidad",
+          "value": "Pendiente de verificar",
+          "detail": "El usuario describe un EMOM de 30–40 s de escalada y 20–30 s de descanso, distinto de problemas enlazados. Ajuste conversado: 2 series de 6 a 25°, 5 min entre series; fuera de descarga."
         }
       ],
-      "interpretation": "La evidencia disponible no permite dar por completado el bloque 2. No demuestra pérdida de fuerza: las sesiones tienen muestras pequeñas y no registran intención, fatiga ni RPE. Námaste 7c confirma rendimiento en cuerda, pero no sustituye los criterios específicos del bloque.",
-      "next_review": "Revisar el rendimiento en 6C a 40° y la calidad de la dosis puente; decidir juntos si se amplía el bloque 2 o se confirma el paso al 3. El test de sensor sigue pendiente y no se usa como requisito inventado de cambio de bloque."
+      "interpretation": "La sesión aporta evidencia de progreso en problemas concretos y un 6C+ a 40° al primer intento. El 70% del plan es una referencia operativa, no un test validado ni un requisito universal sobre cualquier selección de 6C. Faltan juegos de presas, según el usuario, y la selección disponible es limitada. La popularidad por sí sola no determina la dificultad; hoy también se encadenan CODEX y QWB 1 con menos repeticiones globales. No se cambia de bloque automáticamente.",
+      "next_review": "Después de la descarga, comparar una cartera estable del mismo montaje y ángulo, separar repeticiones, primeros encadenes y problemas sin registro previo, y valorar continuidad y recuperación. Mantener el bloque 2 actual. Las fechas se revisarán la semana siguiente, como acordó el usuario; test de sensor pendiente."
+    },
+    "context": {
+      "reported_on": "2026-10-16",
+      "holds": "Faltan juegos de presas; el usuario espera recibirlos en unos dos meses. No se conoce qué juegos faltan.",
+      "source": "Relato del usuario; no verificado como inventario físico.",
+      "emom": "10 problemas a 25°, 5 min de descanso, 10 a 40°, 5 min y aproximadamente 5 a 25° antes de terminar por fatiga. 30–40 s de trabajo y 20–30 s de descanso por minuto.",
+      "agreed_adjustment": "Sesión B de carga: inicialmente 2 series de 6 problemas conocidos a 25°, con 5 min entre series y técnica estable. No añadir este EMOM exigente en descarga.",
+      "calendar": "No desplazar fechas ni pasar de bloque en esta actualización; revisar la semana siguiente."
     }
   },
   "blocks": [

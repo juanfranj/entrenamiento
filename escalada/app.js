@@ -163,10 +163,10 @@
       if (record.kind === "moon") {
         const session = record.session;
         const hard = session.problems.filter((problem) => problem.angle === 40).length;
-        title = "MoonBoard · Logbook";
+        title = session.training_type ? `MoonBoard · ${session.training_type}` : "MoonBoard · Logbook";
         summary = `${session.completed_reported}/${session.problems_reported} completados · ${session.tries_reported} intentos · ${hard} registros a 40°`;
-        const problemRows = session.problems.map((problem) => `<tr><td>${escapeHtml(problem.name)}</td><td>${problem.angle}°</td><td>${escapeHtml(problem.font_grade)}</td><td>${escapeHtml(problem.result)}</td><td>${problem.tries ?? "—"}</td></tr>`).join("");
-        detail = `<p>Fuente: Logbook de MoonBoard. La sesión puede incluir calentamiento a 25° y trabajo a 40°. No se clasifica automáticamente como una sesión de fuerza del plan.</p><div class="table-wrap"><table><thead><tr><th>Problema</th><th>Ángulo</th><th>Grado</th><th>Resultado</th><th>Intentos</th></tr></thead><tbody>${problemRows}</tbody></table></div>`;
+        const problemRows = session.problems.map((problem) => `<tr><td>${escapeHtml(problem.name)}</td><td>${problem.angle}°</td><td>${escapeHtml(problem.font_grade)}</td><td>${escapeHtml(problem.result)}</td><td>${problem.tries ?? "—"}</td><td>${problem.repeats == null ? "—" : new Intl.NumberFormat("es-ES").format(problem.repeats)}</td></tr>`).join("");
+        detail = `<p>Fuente: Logbook de MoonBoard. La sesión puede incluir calentamiento a 25° y trabajo a 40°. ${session.training_type ? "La sesión A ha sido confirmada por el usuario." : "Su función dentro del plan no se deduce automáticamente."} Repeticiones globales: valor mostrado por la app al consultar, no un indicador directo de dificultad.</p><div class="table-wrap"><table><thead><tr><th>Problema</th><th>Ángulo</th><th>Grado</th><th>Resultado</th><th>Intentos</th><th>Repeticiones globales</th></tr></thead><tbody>${problemRows}</tbody></table></div>`;
       } else if (record.kind === "rock") {
         const ascent = record.ascent;
         title = `${ascent.name} · ${ascent.grade}`;
@@ -347,7 +347,7 @@
 
   function historyForDate(key) {
     return [
-      ...sessionsDesc.filter((session) => session.date === key).map((session) => ({ title: "MoonBoard", text: `${session.completed_reported}/${session.problems_reported} completados · ${session.tries_reported} intentos. Fuente: Logbook.` })),
+      ...sessionsDesc.filter((session) => session.date === key).map((session) => ({ title: "MoonBoard", text: `${session.completed_reported}/${session.problems_reported} completados · ${session.tries_reported} intentos. Fuente: Logbook.${session.training_type ? ` ${session.training_type}.` : ""}` })),
       ...(window.ROCK_DATA?.ascents || []).filter((ascent) => ascent.date === key).map((ascent) => ({ title: `${ascent.name} · ${ascent.grade}`, text: `${ascent.crag} · ${ascent.style}. Fuente: 8a.nu.` })),
       ...getManualSessions().filter((item) => item.date === key).map((item) => ({ title: item.type, text: item.notes || "Diario personal." })),
     ];
@@ -407,7 +407,7 @@
     }).join("");
     const exposures = sessionsDesc.map((session) => ({ date: session.date, entries: session.problems.filter((problem) => problem.angle === 40 && problem.font_grade === "6C") })).filter((session) => session.entries.length).slice(0, 2);
     const evidence = exposures.map((session) => `${fmtDate(session.date)}: ${session.entries.filter((problem) => problem.completed).length}/${session.entries.length}`).join("; ");
-    $("#gate-status").textContent = `Últimas exposiciones a 6C a 40°: ${evidence || "sin datos"}. No confirman todavía el criterio de dos sesiones de fuerza con ≈ 70% de éxito. La calidad de la dosis puente sigue sin registrar.`;
+    $("#gate-status").textContent = `Últimas exposiciones a 6C a 40°: ${evidence || "sin datos"}. Son muestras distintas; el porcentaje no decide el cambio de bloque por sí solo. Comparar problemas del mismo montaje y ángulo, separando repeticiones y primeros encadenes. La continuidad sigue pendiente de una revisión registrada.`;
   }
 
   function selectPlannedSession(id) {

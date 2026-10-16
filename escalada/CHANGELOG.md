@@ -1,5 +1,12 @@
 # Historial de cambios
 
+## 2.3.0 — 16/10/2026
+
+- Importada por USB la sesión del 16/10: 17 problemas, 11 completados y 26 intentos; historial total de 17 sesiones y 278 entradas.
+- Revisión del bloque 2 actualizada: progreso en CODEX y QWB 1, BLUEFF 6C+ al primer intento a 40°, contexto de presas disponibles y criterios orientativos.
+- Detalle del historial con repeticiones globales de la app y sesión A confirmada por el usuario.
+- Excel, CSV y datos de la web actualizados. El bloque actual y las fechas del calendario se conservan para la revisión acordada.
+
 ## 2.2.0 — 15/10/2026
 
 - Reconstruido el recorrido desde la primera sesión MoonBoard del 17/08: cinco bloques consecutivos, colores, semanas y navegación por bloque.

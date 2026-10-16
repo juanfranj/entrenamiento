@@ -2,13 +2,13 @@
 
 Objetivo principal: mejorar el rendimiento en escalada deportiva con cuerda, manteniendo dos sesiones semanales de MoonBoard y una sesión de roca durante la fase actual.
 
-## Seguimiento al 15/10/2026
+## Seguimiento al 16/10/2026
 
 - Námaste, 7c, Archidona: proyecto encadenado el 14/10/2026, confirmado en 8a.nu.
 - Moya Boom, 7b+, Mijas: encadenada al segundo intento el 23/09/2026, según 8a.nu.
 - Test de fuerza con sensor: pendiente. No hay mediciones disponibles.
-- Histórico MoonBoard actualizado por USB hasta el 13/10/2026: 16 sesiones, 261 problemas, 196 completados y 355 intentos.
-- Últimas exposiciones a 6C a 40°: 06/10, 1 de 2; 01/10, 1 de 4. No confirman todavía el criterio de cambio de bloque. No se interpreta el menor grado de la última sesión como pérdida de fuerza: el Logbook no registra su intención ni el RPE.
+- Histórico MoonBoard actualizado por USB hasta el 16/10/2026: 17 sesiones, 278 entradas de problemas, 207 completadas y 381 intentos.
+- Última sesión A confirmada por el usuario, 16/10: a 40°, 5/8 en 6C y BLUEFF 6C+ al primer intento. CODEX y QWB 1 pasan de proyectos previos a encadenados. No se compara directamente un porcentaje entre selecciones diferentes de problemas.
 
 
 ## Calendario vivo desde la primera sesión
@@ -27,18 +27,19 @@ Al 15/10 esta cronología sitúa el bloque 2 en su **semana 4 de 5**. La descarg
 
 La web muestra todos los bloques, sus periodos, sus colores y la semana del día seleccionado. Google Calendar contiene únicamente las sesiones, no eventos que abarquen la duración de un bloque. Martes A, jueves B y domingo C siguen siendo la distribución propuesta, sin horas fijadas. El histórico real no se transforma en sesiones prescritas inventadas.
 
-## Revisión del bloque 2 al 15/10/2026
+## Revisión del bloque 2 al 16/10/2026
 
-Se revisaron las siete sesiones nuevas del 19/09 al 13/10: 120 entradas y 164 intentos registrados. Los porcentajes cuentan entradas, incluidas repeticiones.
+Sesión importada íntegramente del Logbook: 17 problemas, 11 completados y 26 intentos. Seis entradas a 25° (4 completadas, 10 intentos) y once a 40° (7 completadas, 16 intentos). El usuario confirma su función como sesión A de fuerza; no se infiere esa función a partir del ángulo.
 
-- **6B+ a 40°:** 18/23 entradas completadas (78%); el 13/10 fueron 4/4.
-- **6C a 40°:** 4/12 entradas completadas (33%); 3 de 8 problemas distintos. Las últimas exposiciones fueron el 01/10, 1/4, y el 06/10, 1/2: no confirman dos sesiones alrededor del 70%.
-- **6C+ a 40°:** 0/1 en el periodo nuevo. Sí constan encadenes anteriores el 27/08 y el 17/09; falta consistencia reciente, no capacidad demostrada para hacer alguno.
-- **Dosis puente:** no puede verificarse con el Logbook; faltan enlaces, pausas y calidad técnica de las rondas.
+- **6C a 40°:** 5/8. CODEX y QWB 1 al segundo intento, BLUEMOON y BROKEN WINGED ANGEL en Session Flash, CLAN WAR al segundo intento.
+- **6C+ a 40°:** BLUEFF, Flashed. Es la única entrada de 6C+ registrada hoy. Se conservan los grados originales del Logbook.
+- **Comparación con el histórico:** los cinco 6C con registro previo se completan; los tres sin registro previo quedan como proyectos. CODEX y QWB 1 tenían intentos fallidos y ahora se encadenan. Conocido no significa previamente encadenado.
+- **Contexto:** faltan juegos de presas, según el usuario, y la selección disponible de 6C es limitada. El número de repeticiones globales no determina por sí solo la dificultad.
+- **Continuidad:** el usuario describe un EMOM con 30–40 s de escalada y 20–30 s de descanso, distinto de problemas enlazados. Ajuste conversado para carga: dos series de seis problemas conocidos a 25°, con cinco minutos entre series y técnica estable. No añadir este EMOM exigente durante la descarga.
 
-La decisión es **mantener abierto el bloque 2 y revisar**, sin concluir pérdida de fuerza ni reiniciar el ciclo. Námaste 7c demuestra rendimiento en cuerda, pero no sustituye los criterios específicos. El test de sensor está pendiente y no se añade como requisito de paso.
+La sesión aporta progreso en el rendimiento específico a 40°; no es una medición de fuerza máxima. El antiguo objetivo del 70% es una referencia operativa, no un test validado ni una condición universal sobre cualquier grupo de 6C. Compararemos una cartera estable del mismo montaje y ángulo, separando repeticiones y primeros encadenes, junto con continuidad y recuperación.
 
-En la próxima revisión se contrastarán el 6C a 40° y la dosis puente para decidir juntos si se amplía el bloque 2 o se confirma el 3. El plan es un documento vivo.
+Se mantiene el bloque 2 actual. La revisión de fechas y la decisión sobre el bloque 3 quedan para la semana siguiente, como acordó el usuario. El test con sensor sigue pendiente y no se añade como requisito obligatorio de paso.
 
 ## Hoja de ruta completa
 
@@ -104,7 +105,7 @@ Objetivo: convertir la fuerza en rendimiento específico de deportiva.
 
 ## Cambio de fase
 
-Pasar al bloque 3 cuando el 6C a 40° ronde el 70% de éxito durante dos sesiones de fuerza y la dosis puente se complete sin una caída técnica marcada. El 6C+ consistente o el 7A a 40° marca la entrada al bloque 4, con mayor prioridad para la resistencia de potencia.
+Revisar el paso al bloque 3 con fuerza consistente en una cartera comparable a 40° y continuidad tolerada sin caída técnica marcada. El 70% inicial es orientativo y debe interpretarse según los problemas y presas disponibles. El 6C+ consistente o el 7A a 40° marca la entrada al bloque 4, con mayor prioridad para la resistencia de potencia.
 
 ## Progresión de continuidad
 
@@ -139,7 +140,7 @@ Duración orientativa: tres o cuatro semanas.
 - Practicar ritmo, respiración y uso real de reposos.
 - Limitar la sesión a tres o cuatro pegues útiles.
 
-Entrada: alrededor de 70% de éxito en 6C a 40° durante dos sesiones y dosis puente tolerada sin deterioro técnico marcado.
+Entrada: fuerza consistente en una cartera comparable a 40° y continuidad tolerada sin deterioro técnico marcado. El 70% inicial es una referencia orientativa, no un test universal.
 
 Salida: completar tres problemas enlazados manteniendo técnica en las dos primeras series.
 
